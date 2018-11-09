@@ -1,0 +1,4287 @@
+﻿<?xml version="1.0"?>
+<class>
+	<word id="0">
+		<jap>﻿にんげん</jap>
+		<eng>human</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="1">
+		<jap>じんるい</jap>
+		<eng>humanity</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="2">
+		<jap>ひと</jap>
+		<eng>person</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="3">
+		<jap>おとこ</jap>
+		<eng>male</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="4">
+		<jap>おとこのひと</jap>
+		<eng>man</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="5">
+		<jap>おとのこ</jap>
+		<eng>boy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="6">
+		<jap>おんな</jap>
+		<eng>female</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="7">
+		<jap>おんなのひと</jap>
+		<eng>woman</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="8">
+		<jap>おんなのこ</jap>
+		<eng>girl</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="9">
+		<jap>あかちゃん</jap>
+		<eng>baby</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="10">
+		<jap>しょうじょ</jap>
+		<eng>girl</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="11">
+		<jap>しょうねん</jap>
+		<eng>boy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="12">
+		<jap>いしゃ</jap>
+		<eng>doctor</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="13">
+		<jap>かんごし</jap>
+		<eng>nurse</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="14">
+		<jap>かんごふ</jap>
+		<eng>female nurse</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="15">
+		<jap>しかい、はいしゃ</jap>
+		<eng>dentist</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="16">
+		<jap>せいじか</jap>
+		<eng>politician</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="17">
+		<jap>べんごし</jap>
+		<eng>lawyer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="18">
+		<jap>しょうぼうし</jap>
+		<eng>firefighter</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="19">
+		<jap>けいさつかん</jap>
+		<eng>police officer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="20">
+		<jap>へいし</jap>
+		<eng>soldier</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="21">
+		<jap>けんちくか</jap>
+		<eng>architect</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="22">
+		<jap>せんせい</jap>
+		<eng>teacher</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="23">
+		<jap>きょうし</jap>
+		<eng>academic teacher</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="24">
+		<jap>かしゅ</jap>
+		<eng>singer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="25">
+		<jap>エンジニア</jap>
+		<eng>engineer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="26">
+		<jap>かかと</jap>
+		<eng>heel</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="27">
+		<jap>すね</jap>
+		<eng>shin</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="28">
+		<jap>ひざ</jap>
+		<eng>knee</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="29">
+		<jap>もも</jap>
+		<eng>thigh</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="30">
+		<jap>あたま</jap>
+		<eng>head</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="31">
+		<jap>かお</jap>
+		<eng>face</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="32">
+		<jap>くち</jap>
+		<eng>mouth</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="33">
+		<jap>くちびる</jap>
+		<eng>lips</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="34">
+		<jap>は</jap>
+		<eng>tooth</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="35">
+		<jap>はな</jap>
+		<eng>nose</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="36">
+		<jap>め</jap>
+		<eng>eye</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="37">
+		<jap>かみ</jap>
+		<eng>hair</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="38">
+		<jap>みみ</jap>
+		<eng>ear</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="39">
+		<jap>い</jap>
+		<eng>stomach</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="40">
+		<jap>うで</jap>
+		<eng>arm</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="41">
+		<jap>ひじ</jap>
+		<eng>elbow</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="42">
+		<jap>かた</jap>
+		<eng>shoulder</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="43">
+		<jap>つめ</jap>
+		<eng>nail</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="44">
+		<jap>て</jap>
+		<eng>hand</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="45">
+		<jap>てくび</jap>
+		<eng>wrist</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="46">
+		<jap>てのひら</jap>
+		<eng>palm of hand</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="47">
+		<jap>しり</jap>
+		<eng>buttocks</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="48">
+		<jap>おなか</jap>
+		<eng>abdomen</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="49">
+		<jap>かんぞう</jap>
+		<eng>liver</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="50">
+		<jap>きも</jap>
+		<eng>liver</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="51">
+		<jap>きんにく</jap>
+		<eng>muscle</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="52">
+		<jap>くび</jap>
+		<eng>neck</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="53">
+		<jap>しんぞう</jap>
+		<eng>heart</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="54">
+		<jap>せなか</jap>
+		<eng>back</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="55">
+		<jap>ち</jap>
+		<eng>blood</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="56">
+		<jap>にく</jap>
+		<eng>meat</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="57">
+		<jap>はだ</jap>
+		<eng>skin</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="58">
+		<jap>ひふ</jap>
+		<eng>skin</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="59">
+		<jap>ほね</jap>
+		<eng>bone</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="60">
+		<jap>むね</jap>
+		<eng>chest</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="61">
+		<jap>げり</jap>
+		<eng>diarrhea</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="62">
+		<jap>びょうき</jap>
+		<eng>illness</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="63">
+		<jap>かぞく</jap>
+		<eng>family</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="64">
+		<jap>りょうしん</jap>
+		<eng>parents</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="65">
+		<jap>つま</jap>
+		<eng>wife</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="66">
+		<jap>おっと</jap>
+		<eng>husband</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="67">
+		<jap>おとうと</jap>
+		<eng>younger brother</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="68">
+		<jap>いもうと</jap>
+		<eng>younger sister</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="69">
+		<jap>しまい</jap>
+		<eng>sisters</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="70">
+		<jap>まご</jap>
+		<eng>grandchild</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="71">
+		<jap>いとこ</jap>
+		<eng>cousin</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="72">
+		<jap>めい</jap>
+		<eng>niece</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="73">
+		<jap>おい</jap>
+		<eng>nephew</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="74">
+		<jap>いきもの</jap>
+		<eng>living creatures</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="75">
+		<jap>ばけもの</jap>
+		<eng>monster</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="76">
+		<jap>どうぶつ</jap>
+		<eng>animal</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="77">
+		<jap>チーター</jap>
+		<eng>cheetah</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="78">
+		<jap>いぬ</jap>
+		<eng>dog</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="79">
+		<jap>ねこ</jap>
+		<eng>cat</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="80">
+		<jap>うし</jap>
+		<eng>cow</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="81">
+		<jap>ぶた</jap>
+		<eng>pig</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="82">
+		<jap>うま</jap>
+		<eng>horse</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="83">
+		<jap>ひつじ</jap>
+		<eng>sheep</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="84">
+		<jap>さる</jap>
+		<eng>monkey</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="85">
+		<jap>とら</jap>
+		<eng>tiger</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="86">
+		<jap>オオカミ</jap>
+		<eng>wolf</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="87">
+		<jap>うさぎ</jap>
+		<eng>rabbit</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="88">
+		<jap>りゅう、たつ</jap>
+		<eng>dragon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="89">
+		<jap>しか</jap>
+		<eng>deer</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="90">
+		<jap>かえる</jap>
+		<eng>frog</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="91">
+		<jap>がま</jap>
+		<eng>toad</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="92">
+		<jap>しし</jap>
+		<eng>lion</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="93">
+		<jap>キリン</jap>
+		<eng>giraffe</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="94">
+		<jap>ぞう</jap>
+		<eng>elephant</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="95">
+		<jap>とり</jap>
+		<eng>bird</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="96">
+		<jap>にわとり</jap>
+		<eng>chicken</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="97">
+		<jap>すずめ</jap>
+		<eng>sparrow</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="98">
+		<jap>わし</jap>
+		<eng>eagle</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="99">
+		<jap>さかな</jap>
+		<eng>fish</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="100">
+		<jap>いわし</jap>
+		<eng>sardine</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="101">
+		<jap>まぐろ</jap>
+		<eng>tuna</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="102">
+		<jap>かつお</jap>
+		<eng>bonito</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="103">
+		<jap>さんま</jap>
+		<eng>pike</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="104">
+		<jap>あじ</jap>
+		<eng>horse mackerel</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="105">
+		<jap>さば</jap>
+		<eng>mackerel</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="106">
+		<jap>イカ</jap>
+		<eng>squid</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="107">
+		<jap>タコ</jap>
+		<eng>octopus</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="108">
+		<jap>むし</jap>
+		<eng>insect</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="109">
+		<jap>ちょう</jap>
+		<eng>butterfly</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="110">
+		<jap>ガ</jap>
+		<eng>moth</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="111">
+		<jap>せみ</jap>
+		<eng>cicada</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="112">
+		<jap>トンボ</jap>
+		<eng>dragonfly</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="113">
+		<jap>バッタ</jap>
+		<eng>grasshopper</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="114">
+		<jap>クモ</jap>
+		<eng>spider</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="115">
+		<jap>ホタル</jap>
+		<eng>firefly</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="116">
+		<jap>ハエ</jap>
+		<eng>housefly</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="117">
+		<jap>ゴキブリ</jap>
+		<eng>cockroach</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="118">
+		<jap>カタツムリ</jap>
+		<eng>snail</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="119">
+		<jap>ナメクジ</jap>
+		<eng>slug</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="120">
+		<jap>ミミズ</jap>
+		<eng>earthworm</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="121">
+		<jap>かい</jap>
+		<eng>shellfish</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="122">
+		<jap>かいがら</jap>
+		<eng>shell</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="123">
+		<jap>トカゲ</jap>
+		<eng>lizard</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="124">
+		<jap>へび</jap>
+		<eng>snake</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="125">
+		<jap>しょくぶつ</jap>
+		<eng>plants</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="126">
+		<jap>はな</jap>
+		<eng>flower</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="127">
+		<jap>み</jap>
+		<eng>fruit</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="128">
+		<jap>き</jap>
+		<eng>tree</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="129">
+		<jap>は、はっぱ</jap>
+		<eng>leaf</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="130">
+		<jap>ね、ねっこ</jap>
+		<eng>root</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="131">
+		<jap>くき</jap>
+		<eng>stem</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="132">
+		<jap>きのこ</jap>
+		<eng>mushroom</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="133">
+		<jap>きく</jap>
+		<eng>chrysanthemum</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="134">
+		<jap>さくら</jap>
+		<eng>cherry blossom</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="135">
+		<jap>やさい</jap>
+		<eng>vegetable</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="136">
+		<jap>くだもの</jap>
+		<eng>fruit for eating</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="137">
+		<jap>だいこん</jap>
+		<eng>Japanese white radish</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="138">
+		<jap>にんじん</jap>
+		<eng>carrot</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="139">
+		<jap>リンゴ</jap>
+		<eng>apple</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="140">
+		<jap>ミカン</jap>
+		<eng>mandarin orange</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="141">
+		<jap>バナナ</jap>
+		<jap>かんしょう</jap>
+		<eng>banana</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="142">
+		<jap>ナシ</jap>
+		<eng>pear</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="143">
+		<jap>クリ</jap>
+		<eng>chestnut tree</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="144">
+		<jap>モモ</jap>
+		<eng>peach</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="145">
+		<jap>トマト</jap>
+		<jap>ばんか</jap>
+		<eng>tomato</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="146">
+		<jap>スイカ</jap>
+		<eng>watermelon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="147">
+		<jap>たべもの</jap>
+		<eng>food</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="148">
+		<jap>ひるごはん</jap>
+		<eng>lunch</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="149">
+		<jap>ばんごはん</jap>
+		<eng>supper</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="150">
+		<jap>ごはん</jap>
+		<eng>cooked rice or meal</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="151">
+		<jap>みそ</jap>
+		<eng>miso</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="152">
+		<jap>りょうり</jap>
+		<eng>cooking</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="153">
+		<jap>サラダ</jap>
+		<eng>salad</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="154">
+		<jap>デザート</jap>
+		<eng>dessert</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="155">
+		<jap>パン</jap>
+		<eng>bread</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="156">
+		<jap>サンドイッチ</jap>
+		<eng>sandwich</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="157">
+		<jap>おやつ</jap>
+		<eng>snack</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="158">
+		<jap>アイスクリーム</jap>
+		<eng>ice cream</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="159">
+		<jap>ちゃ</jap>
+		<eng>tea</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="160">
+		<jap>おちゃ</jap>
+		<eng>green tea</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="161">
+		<jap>コーヒー</jap>
+		<eng>coffee</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="162">
+		<jap>ぎゅうにゅう</jap>
+		<eng>milk</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="163">
+		<jap>みず</jap>
+		<eng>water</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="164">
+		<jap>ビール</jap>
+		<eng>beer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="165">
+		<jap>ワイン</jap>
+		<eng>wine</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="166">
+		<jap>さとう</jap>
+		<eng>sugar</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="167">
+		<jap>しお</jap>
+		<eng>salt</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="168">
+		<jap>しょうゆ</jap>
+		<eng>soy sauce</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="169">
+		<jap>じかん</jap>
+		<eng>time</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="170">
+		<jap>とき</jap>
+		<jap>じ</jap>
+		<eng>~hours</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="171">
+		<jap>こよみ</jap>
+		<jap>カレンダー</jap>
+		<eng>calendar</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="172">
+		<jap>ふん</jap>
+		<eng>minute</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="173">
+		<jap>びょう</jap>
+		<eng>second</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="174">
+		<jap>ひ</jap>
+		<jap>にち</jap>
+		<eng>day</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="175">
+		<jap>つき</jap>
+		<jap>がつ</jap>
+		<eng>month</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="176">
+		<jap>とし</jap>
+		<jap>ねん</jap>
+		<eng>year</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="177">
+		<jap>きのう</jap>
+		<jap>さくじつ</jap>
+		<eng>yesterday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="178">
+		<jap>きょう</jap>
+		<eng>today</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="179">
+		<jap>あした</jap>
+		<jap>あす</jap>
+		<jap>みょうにち</jap>
+		<eng>tomorrow</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="180">
+		<jap>あさ</jap>
+		<eng>morning</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="181">
+		<jap>ひる</jap>
+		<eng>afternoon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="182">
+		<jap>ゆうがた</jap>
+		<eng>evening</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="183">
+		<jap>ばん</jap>
+		<eng>evening</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="184">
+		<jap>ようび</jap>
+		<eng>~day</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="185">
+		<jap>しゅう</jap>
+		<eng>week</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="186">
+		<jap>いっしゅうかん</jap>
+		<eng>one week</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="187">
+		<jap>にちようび</jap>
+		<eng>Sunday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="188">
+		<jap>げつようび</jap>
+		<eng>Monday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="189">
+		<jap>かようび</jap>
+		<eng>Tuesday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="190">
+		<jap>すいようび</jap>
+		<eng>Wednesday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="191">
+		<jap>もくようび</jap>
+		<eng>Thursday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="192">
+		<jap>きんようび</jap>
+		<eng>Friday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="193">
+		<jap>どようび</jap>
+		<eng>Saturday</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="194">
+		<jap>たいよう</jap>
+		<eng>sun</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="195">
+		<jap>つき</jap>
+		<eng>moon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="196">
+		<jap>ほし</jap>
+		<eng>star</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="197">
+		<jap>てんき</jap>
+		<eng>weather</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="198">
+		<jap>はれ</jap>
+		<eng>clear weather</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="199">
+		<jap>あめ</jap>
+		<eng>rain</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="200">
+		<jap>くもり</jap>
+		<eng>cloudy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="201">
+		<jap>ゆき</jap>
+		<eng>snow</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="202">
+		<jap>かぜ</jap>
+		<eng>wind</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="203">
+		<jap>たいふう</jap>
+		<eng>typhoon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="204">
+		<jap>あらし</jap>
+		<eng>storm</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="205">
+		<jap>そら</jap>
+		<eng>sky</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="206">
+		<jap>きた</jap>
+		<eng>north</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="207">
+		<jap>ひがし</jap>
+		<eng>east</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="208">
+		<jap>みなみ</jap>
+		<eng>south</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="209">
+		<jap>にし</jap>
+		<eng>west</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="210">
+		<jap>ここ</jap>
+		<eng>here</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="211">
+		<jap>そこ</jap>
+		<eng>there</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="212">
+		<jap>あそこ</jap>
+		<eng>over there</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="213">
+		<jap>みぎ</jap>
+		<eng>right</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="214">
+		<jap>ひだり</jap>
+		<eng>left</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="215">
+		<jap>まえ</jap>
+		<eng>front</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="216">
+		<jap>うしろ</jap>
+		<eng>behind</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="217">
+		<jap>ななめ</jap>
+		<eng>diagonal</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="218">
+		<jap>とおい</jap>
+		<eng>far</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="219">
+		<jap>ゆ</jap>
+		<eng>hot water</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="220">
+		<jap>こおり</jap>
+		<eng>ice</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="221">
+		<jap>ゆげ</jap>
+		<eng>steam</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="222">
+		<jap>ひ</jap>
+		<eng>fire</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="223">
+		<jap>ガス</jap>
+		<eng>gas</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="224">
+		<jap>メートル</jap>
+		<eng>meter</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="225">
+		<jap>リットル</jap>
+		<eng>litre</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="226">
+		<jap>グラム</jap>
+		<eng>gram</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="227">
+		<jap>キロ</jap>
+		<eng>kilo</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="228">
+		<jap>ミリ</jap>
+		<eng>milli</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="229">
+		<jap>インチ</jap>
+		<eng>inch</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="230">
+		<jap>しゃかい</jap>
+		<eng>society</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="231">
+		<jap>かいしゃ</jap>
+		<eng>company</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="232">
+		<jap>かいぎ</jap>
+		<eng>meeting</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="233">
+		<jap>がっこう</jap>
+		<eng>school</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="234">
+		<jap>やくしょ</jap>
+		<eng>local government office</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="235">
+		<jap>みせ</jap>
+		<eng>store</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="236">
+		<jap>ホテル</jap>
+		<eng>hotel</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="237">
+		<jap>こうじょう</jap>
+		<eng>factory</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="238">
+		<jap>こぜに</jap>
+		<eng>small change</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="239">
+		<jap>つりせん</jap>
+		<jap>おつり</jap>
+		<eng>change</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="240">
+		<jap>きって</jap>
+		<eng>stamp</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="241">
+		<jap>つくえ</jap>
+		<eng>desk</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="242">
+		<jap>たたみ</jap>
+		<eng>tatami mat</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="243">
+		<jap>とびら</jap>
+		<eng>door panel</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="244">
+		<jap>ドア</jap>
+		<eng>door</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="245">
+		<jap>まど</jap>
+		<eng>window</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="246">
+		<jap>ふとん</jap>
+		<eng>futon</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="247">
+		<jap>げんかん</jap>
+		<eng>entrance</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="248">
+		<jap>エレベーター</jap>
+		<eng>elevator</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="249">
+		<jap>エスカレーター</jap>
+		<eng>escalator</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="250">
+		<jap>でんき</jap>
+		<eng>electricity</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="251">
+		<jap>かばん</jap>
+		<eng>leather bag</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="252">
+		<jap>ぶんぼうぐ</jap>
+		<eng>quill</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="253">
+		<jap>インク</jap>
+		<eng>ink</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="254">
+		<jap>ペン</jap>
+		<eng>pen</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="255">
+		<jap>ボールペン</jap>
+		<eng>ball-point pen</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="256">
+		<jap>まんねんひつ</jap>
+		<eng>fountain pen</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="257">
+		<jap>えんぴつ</jap>
+		<eng>pencil</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="258">
+		<jap>チョーク</jap>
+		<eng>chalk</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="259">
+		<jap>けしゴム</jap>
+		<eng>eraser</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="260">
+		<jap>えんぴつけずり</jap>
+		<eng>pencil sharpener</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="261">
+		<jap>じょうぎ</jap>
+		<eng>ruler</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="262">
+		<jap>ノート</jap>
+		<eng>notebook</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="263">
+		<jap>にっき</jap>
+		<eng>diary</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="264">
+		<jap>カバー</jap>
+		<eng>book cover</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="265">
+		<jap>ふうとう</jap>
+		<eng>envelope</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="266">
+		<jap>はさみ</jap>
+		<eng>scissors</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="267">
+		<jap>ホッチキス</jap>
+		<eng>stapler</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="268">
+		<jap>ふく</jap>
+		<eng>clothes</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="269">
+		<jap>ようふく</jap>
+		<eng>western clothing</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="270">
+		<jap>きもの</jap>
+		<eng>kimono</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="271">
+		<jap>わふく</jap>
+		<eng>Japanese clothing</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="272">
+		<jap>そで</jap>
+		<eng>sleeve</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="273">
+		<jap>ボタン</jap>
+		<eng>button</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="274">
+		<jap>くつ</jap>
+		<eng>shoe</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="275">
+		<jap>くつした</jap>
+		<eng>sock</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="276">
+		<jap>めがね</jap>
+		<eng>glasses</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="277">
+		<jap>てつどう</jap>
+		<eng>railway</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="278">
+		<jap>えき</jap>
+		<eng>station</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="279">
+		<jap>ひこうき</jap>
+		<eng>airplane</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="280">
+		<jap>くうこう</jap>
+		<jap>ひこうじょう</jap>
+		<eng>airport</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="281">
+		<jap>ベルト</jap>
+		<eng>belt</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="282">
+		<jap>どうろ</jap>
+		<eng>road</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="283">
+		<jap>バスてい</jap>
+		<eng>bus-stop</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="284">
+		<jap>とおり</jap>
+		<eng>avenue</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="285">
+		<jap>でんしゃ</jap>
+		<eng>train</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="286">
+		<jap>くるま</jap>
+		<jap>じどうしゃ</jap>
+		<eng>car</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="287">
+		<jap>かんじ</jap>
+		<eng>Chinese character</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="288">
+		<jap>ひらがな</jap>
+		<eng>hiragana syllabary characters</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="289">
+		<jap>カタカナ</jap>
+		<eng>katakana syllabary characters</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="290">
+		<jap>すうじ</jap>
+		<eng>numbers</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="291">
+		<jap>アルファベット</jap>
+		<eng>alphabet</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="292">
+		<jap>がいこくご</jap>
+		<eng>foreign language</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="293">
+		<jap>ほん</jap>
+		<eng>book</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="294">
+		<jap>かみ</jap>
+		<eng>paper</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="295">
+		<jap>てがみ</jap>
+		<eng>letter</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="296">
+		<jap>しんぶん</jap>
+		<eng>newspaper</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="297">
+		<jap>じしょ</jap>
+		<eng>dictionary</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="298">
+		<jap>パソコン</jap>
+		<eng>personal computer</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="299">
+		<jap>あか</jap>
+		<eng>red</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="300">
+		<jap>きいろ</jap>
+		<eng>yellow</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="301">
+		<jap>みどり</jap>
+		<eng>green</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="302">
+		<jap>あお</jap>
+		<eng>blue</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="303">
+		<jap>しろ</jap>
+		<eng>white</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="304">
+		<jap>くろ</jap>
+		<eng>black</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="305">
+		<jap>ピンク</jap>
+		<eng>pink</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="306">
+		<jap>ちゃいろ</jap>
+		<eng>brown</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="307">
+		<jap>はいいろ</jap>
+		<jap>ねずみいろ</jap>
+		<eng>grey</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="308">
+		<jap>オレンジ</jap>
+		<eng>orange</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="309">
+		<jap>え</jap>
+		<eng>picture</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="310">
+		<jap>おんがく</jap>
+		<eng>music</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="311">
+		<jap>りか</jap>
+		<eng>science</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="312">
+		<jap>さんすう</jap>
+		<eng>arithmetic</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="313">
+		<jap>れきし</jap>
+		<eng>history</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="314">
+		<jap>ちり</jap>
+		<eng>geography</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="315">
+		<jap>たいいく</jap>
+		<eng>physical education</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="316">
+		<jap>スポーツ</jap>
+		<eng>sport</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="317">
+		<jap>システム</jap>
+		<eng>system</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="318">
+		<jap>ひつよう</jap>
+		<eng>necessity</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="319">
+		<jap>べんきょう</jap>
+		<eng>study</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="320">
+		<jap>いらい</jap>
+		<eng>request</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="321">
+		<jap>れい</jap>
+		<jap>ゼロ</jap>
+		<eng>zero</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="322">
+		<jap>いち</jap>
+		<eng>one</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="323">
+		<jap>に</jap>
+		<eng>two</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="324">
+		<jap>さん</jap>
+		<eng>three</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="325">
+		<jap>よん</jap>
+		<jap>し</jap>
+		<eng>four</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="326">
+		<jap>ご</jap>
+		<eng>five</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="327">
+		<jap>ろく</jap>
+		<eng>six</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="328">
+		<jap>なな</jap>
+		<jap>しち</jap>
+		<eng>seven</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="329">
+		<jap>はち</jap>
+		<eng>eight</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="330">
+		<jap>きゅう</jap>
+		<jap>く</jap>
+		<eng>nine</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="331">
+		<jap>じゅう</jap>
+		<eng>ten</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="332">
+		<jap>ひゃく</jap>
+		<eng>hundred</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="333">
+		<jap>せん</jap>
+		<eng>thousand</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="334">
+		<jap>まん</jap>
+		<eng>ten thousand</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="335">
+		<jap>おく</jap>
+		<eng>one hundred million</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="336">
+		<jap>それ</jap>
+		<eng>that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="337">
+		<jap>あれ</jap>
+		<eng>that over there</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="338">
+		<jap>どれ</jap>
+		<eng>which</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="339">
+		<jap>ひみつ</jap>
+		<eng>secret</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="340">
+		<jap>じどう</jap>
+		<eng>automatic</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="341">
+		<jap>ないよう</jap>
+		<eng>content</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="342">
+		<jap>せいしき</jap>
+		<eng>formality</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="343">
+		<jap>けっこん</jap>
+		<eng>marriage</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="344">
+		<jap>げんざい</jap>
+		<eng>now</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="345">
+		<jap>いま</jap>
+		<eng>now</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="346">
+		<jap>かこ</jap>
+		<eng>past</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="347">
+		<jap>みらい</jap>
+		<eng>future</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="348">
+		<jap>いい</jap>
+		<jap>よい</jap>
+		<eng>good</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="349">
+		<jap>すごい</jap>
+		<eng>amazing</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="350">
+		<jap>すばらしい</jap>
+		<eng>wonderful</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="351">
+		<jap>ひくい</jap>
+		<eng>low</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="352">
+		<jap>やすい</jap>
+		<eng>cheap</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="353">
+		<jap>おおきい</jap>
+		<eng>big</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="354">
+		<jap>ちいさい</jap>
+		<eng>small</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="355">
+		<jap>ほそい</jap>
+		<eng>thin</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="356">
+		<jap>ふとい</jap>
+		<eng>thick</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="357">
+		<jap>ふるい</jap>
+		<eng>old</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="358">
+		<jap>あたらしい</jap>
+		<eng>new</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="359">
+		<jap>わかい</jap>
+		<eng>young</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="360">
+		<jap>おもい</jap>
+		<eng>heavy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="361">
+		<jap>むずかしい</jap>
+		<eng>difficult</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="362">
+		<jap>やわらかい</jap>
+		<eng>soft</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="363">
+		<jap>かたい</jap>
+		<eng>hard</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="364">
+		<jap>あつい</jap>
+		<eng>hot</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="365">
+		<jap>つめたい–</jap>
+		<eng>cold</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="366">
+		<jap>さむい</jap>
+		<eng>cold</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="367">
+		<jap>おいしい</jap>
+		<eng>delicious</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="368">
+		<jap>まずい</jap>
+		<eng>tastes awful</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="369">
+		<jap>あまい</jap>
+		<eng>sweet</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="370">
+		<jap>しょっぱい</jap>
+		<eng>salty</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="371">
+		<jap>にがい</jap>
+		<eng>bitter</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="372">
+		<jap>うつくしい</jap>
+		<eng>beautiful</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="373">
+		<jap>うれしい</jap>
+		<eng>happy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="374">
+		<jap>たのしい</jap>
+		<eng>fun</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="375">
+		<jap>かなしい</jap>
+		<eng>sad</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="376">
+		<jap>さびしい</jap>
+		<eng>lonely</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="377">
+		<jap>こわい</jap>
+		<eng>scary</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="378">
+		<jap>いたい</jap>
+		<eng>painful</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="379">
+		<jap>かゆい</jap>
+		<eng>itchy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="380">
+		<jap>くさい</jap>
+		<eng>stinky</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="381">
+		<jap>する</jap>
+		<eng>to do</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="382">
+		<jap>やる</jap>
+		<eng>to do</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="383">
+		<jap>なる</jap>
+		<eng>to become</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="384">
+		<jap>おこる</jap>
+		<eng>to occur</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="385">
+		<jap>あらわれる</jap>
+		<eng>to appear</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="386">
+		<jap>いきる</jap>
+		<eng>to live</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="387">
+		<jap>うむ</jap>
+		<eng>to give birth</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="388">
+		<jap>しぬ</jap>
+		<eng>to die</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="389">
+		<jap>こわれる</jap>
+		<eng>to break</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="390">
+		<jap>いく</jap>
+		<eng>to go</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="391">
+		<jap>くる</jap>
+		<eng>to come</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="392">
+		<jap>かえる</jap>
+		<eng>to return</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="393">
+		<jap>あるく</jap>
+		<eng>to walk</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="394">
+		<jap>およぐ</jap>
+		<eng>to swim</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="395">
+		<jap>うごく</jap>
+		<eng>to move</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="396">
+		<jap>おどる</jap>
+		<eng>to dance</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="397">
+		<jap>ねる</jap>
+		<eng>to sleep</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="398">
+		<jap>うたう</jap>
+		<eng>to sing</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="399">
+		<jap>かむ</jap>
+		<eng>to bite</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="400">
+		<jap>たべる</jap>
+		<eng>to eat</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="401">
+		<jap>のむ</jap>
+		<eng>to drink</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="402">
+		<jap>さわる</jap>
+		<eng>to touch</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="403">
+		<jap>なげる</jap>
+		<eng>to throw</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="404">
+		<jap>もつ</jap>
+		<eng>to hold</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="405">
+		<jap>ける</jap>
+		<eng>to kick</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="406">
+		<jap>すわる</jap>
+		<eng>to sit</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="407">
+		<jap>たつ</jap>
+		<eng>to stand</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="408">
+		<jap>はしる</jap>
+		<eng>to run</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="409">
+		<jap>あく</jap>
+		<eng>to become unoccupied</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="410">
+		<jap>こむ</jap>
+		<eng>to be crowded</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="411">
+		<jap>いる</jap>
+		<eng>to need</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="412">
+		<jap>かわく</jap>
+		<eng>to become dry</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="413">
+		<jap>そなわる</jap>
+		<eng>to be furnished with</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="414">
+		<jap>へる</jap>
+		<eng>to decrease</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="415">
+		<jap>はずれる</jap>
+		<eng>to deviate</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="416">
+		<jap>ふとる</jap>
+		<eng>to grow fat</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="417">
+		<jap>はじまる</jap>
+		<eng>to begin</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="418">
+		<jap>きめる</jap>
+		<eng>to decide</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="419">
+		<jap>みる</jap>
+		<eng>to see</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="420">
+		<jap>かぐ</jap>
+		<eng>to smell</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="421">
+		<jap>いう</jap>
+		<eng>to say</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="422">
+		<jap>はなす</jap>
+		<eng>to speak</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="423">
+		<jap>かたる</jap>
+		<eng>to tell</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="424">
+		<jap>かく</jap>
+		<eng>to write</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="425">
+		<jap>よむ</jap>
+		<eng>to read</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="426">
+		<jap>つかう</jap>
+		<eng>to use</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="427">
+		<jap>つくる</jap>
+		<eng>to make</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="428">
+		<jap>とる</jap>
+		<eng>to take</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="429">
+		<jap>おく</jap>
+		<eng>to put</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="430">
+		<jap>かなしむ</jap>
+		<eng>to be sad</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="431">
+		<jap>なく</jap>
+		<eng>to cry</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="432">
+		<jap>わらう</jap>
+		<eng>to laugh</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="433">
+		<jap>おこる</jap>
+		<eng>to be angry</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="434">
+		<jap>ほめる</jap>
+		<eng>to encourage</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="435">
+		<jap>しかる</jap>
+		<eng>to scold</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="436">
+		<jap>あそぶ</jap>
+		<eng>to play</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="437">
+		<jap>あつまる</jap>
+		<eng>to gather</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="438">
+		<jap>うる</jap>
+		<eng>to sell</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="439">
+		<jap>かう</jap>
+		<eng>to buy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="440">
+		<jap>きる</jap>
+		<eng>to cut</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="441">
+		<jap>しる</jap>
+		<eng>to know</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="442">
+		<jap>つかれる</jap>
+		<eng>to get tired</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="443">
+		<jap>はなす</jap>
+		<eng>to let go of</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="444">
+		<jap>もう</jap>
+		<eng>already</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="445">
+		<jap>ずっと</jap>
+		<eng>always</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="446">
+		<jap>とても</jap>
+		<eng>very</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="447">
+		<jap>こう</jap>
+		<eng>like this</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="448">
+		<jap>そう</jap>
+		<eng>like that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="449">
+		<jap>ああ</jap>
+		<eng>in that other way</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="450">
+		<jap>どう</jap>
+		<eng>how</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="451">
+		<jap>しばしば</jap>
+		<eng>often</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="452">
+		<jap>この</jap>
+		<eng>this</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="453">
+		<jap>その</jap>
+		<eng>that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="454">
+		<jap>あの</jap>
+		<eng>that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="455">
+		<jap>どの</jap>
+		<eng>which</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="456">
+		<jap>はい</jap>
+		<eng>yes</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="457">
+		<jap>いいえ</jap>
+		<eng>no</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="458">
+		<jap>でも</jap>
+		<eng>but</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="459">
+		<jap>それに</jap>
+		<eng>besides</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="460">
+		<jap>た</jap>
+		<eng>informal past-tense</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="461">
+		<jap>たい</jap>
+		<eng>indicates desire to perform verb</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="462">
+		<jap>ます</jap>
+		<eng>formal non-past ending</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="463">
+		<jap>に</jap>
+		<eng>indirect object marker</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="464">
+		<jap>まで</jap>
+		<eng>to</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="465">
+		<jap>から</jap>
+		<eng>from</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="466">
+		<jap>より</jap>
+		<eng>than</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="467">
+		<jap>を</jap>
+		<eng>direct object marker</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="468">
+		<jap>か</jap>
+		<eng>whether</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="469">
+		<jap>そして</jap>
+		<eng>and then</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="470">
+		<jap>それとも</jap>
+		<eng>or</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="471">
+		<jap>ならびに</jap>
+		<eng>as well as</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="472">
+		<jap>なり</jap>
+		<eng>whether or not</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="473">
+		<jap>に</jap>
+		<eng>to somewhere, by someone</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="474">
+		<jap>の</jap>
+		<eng>possession</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="475">
+		<jap>ので</jap>
+		<eng>so</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="476">
+		<jap>や</jap>
+		<eng>and</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="477">
+		<jap>か</jap>
+		<eng>question marker</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="478">
+		<jap>な</jap>
+		<eng>the copula particle used after quasi-adjectives</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="479">
+		<jap>かしら</jap>
+		<eng>I wonder</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="480">
+		<jap>さ</jap>
+		<eng>ness</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="481">
+		<jap>こそ</jap>
+		<eng>emphasis</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="482">
+		<jap>さえ</jap>
+		<eng>even</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="483">
+		<jap>しか</jap>
+		<eng>only</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="484">
+		<jap>すら</jap>
+		<eng>even</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="485">
+		<jap>だって</jap>
+		<eng>however</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="486">
+		<jap>って</jap>
+		<eng>said that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="487">
+		<jap>など</jap>
+		<eng>for example</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="488">
+		<jap>まで</jap>
+		<eng>until</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="489">
+		<jap>わかもの</jap>
+		<eng>youth</eng>
+		<eng>young person</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="490">
+		<jap>でかける</jap>
+		<eng>to go out</eng>
+		<eng>to depart</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="491">
+		<jap>わたくし</jap>
+		<eng>I</eng>
+		<eng>myself</eng>
+		<lvl>Easy</lvl>
+		<note>most formal</note>
+	</word>
+	<word id="492">
+		<jap>わたし</jap>
+		<eng>I</eng>
+		<eng>myself</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="493">
+		<jap>ぼく</jap>
+		<eng>I</eng>
+		<eng>myself</eng>
+		<lvl>Easy</lvl>
+		<note>mainly used by males</note>
+	</word>
+	<word id="494">
+		<jap>おれ</jap>
+		<eng>I</eng>
+		<eng>myself</eng>
+		<lvl>Medium</lvl>
+		<note>mainly used by males [informal]</note>
+	</word>
+	<word id="495">
+		<jap>あたし</jap>
+		<eng>I</eng>
+		<eng>myself</eng>
+		<lvl>Easy</lvl>
+		<note>mainly used by females [softer sounding]</note>
+	</word>
+	<word id="496">
+		<jap>える</jap>
+		<eng>to obtain</eng>
+		<lvl>Medium</lvl>
+		<note>some benefit or knowledge</note>
+	</word>
+	<word id="497">
+		<jap>おる</jap>
+		<eng>to break</eng>
+		<eng>to fold</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="498">
+		<jap>あし</jap>
+		<eng>foot</eng>
+		<eng>leg</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="499">
+		<jap>きる</jap>
+		<eng>to wear</eng>
+		<lvl>Easy</lvl>
+		<note>on the upper body</note>
+	</word>
+	<word id="500">
+		<jap>はく</jap>
+		<eng>to wear</eng>
+		<lvl>Easy</lvl>
+		<note>on the lower body</note>
+	</word>
+	<word id="501">
+		<jap>ひげ</jap>
+		<eng>moustache</eng>
+		<eng>beard</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="502">
+		<jap>ゆび</jap>
+		<eng>finger</eng>
+		<eng>toe</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="503">
+		<jap>こころ</jap>
+		<eng>heart</eng>
+		<lvl>Easy</lvl>
+		<note>as in feelings</note>
+	</word>
+	<word id="504">
+		<jap>こし</jap>
+		<eng>waist</eng>
+		<eng>hip</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="505">
+		<jap>かぜ</jap>
+		<eng>cold</eng>
+		<lvl>Easy</lvl>
+		<note>illness</note>
+	</word>
+	<word id="506">
+		<jap>こども</jap>
+		<eng>children</eng>
+		<eng>child</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="507">
+		<jap>ちち</jap>
+		<eng>father</eng>
+		<lvl>Easy</lvl>
+		<note>"otou-san"</note>
+	</word>
+	<word id="508">
+		<jap>はは</jap>
+		<eng>mother</eng>
+		<lvl>Easy</lvl>
+		<note>"okaa-san"</note>
+	</word>
+	<word id="509">
+		<jap>あに</jap>
+		<eng>older brother</eng>
+		<lvl>Easy</lvl>
+		<note>onī-san</note>
+	</word>
+	<word id="510">
+		<jap>あね</jap>
+		<eng>older sister</eng>
+		<lvl>Easy</lvl>
+		<note>onē-san</note>
+	</word>
+	<word id="511">
+		<jap>きょうだい</jap>
+		<eng>brothers</eng>
+		<eng>siblings</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="512">
+		<jap>そふ</jap>
+		<eng>grandfather</eng>
+		<lvl>Easy</lvl>
+		<note>ojii-san</note>
+	</word>
+	<word id="513">
+		<jap>そぼ</jap>
+		<eng>grandmother</eng>
+		<lvl>Easy</lvl>
+		<note>obaa-san</note>
+	</word>
+	<word id="514">
+		<jap>おじ</jap>
+		<eng>uncle</eng>
+		<lvl>Easy</lvl>
+		<note>oji-san</note>
+	</word>
+	<word id="515">
+		<jap>おば</jap>
+		<eng>aunt</eng>
+		<lvl>Easy</lvl>
+		<note>oba-san</note>
+	</word>
+	<word id="516">
+		<jap>ねずみ</jap>
+		<eng>mouse</eng>
+		<lvl>Easy</lvl>
+		<note>rat</note>
+	</word>
+	<word id="517">
+		<jap>からす</jap>
+		<eng>crow</eng>
+		<eng>raven</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="518">
+		<jap>たか</jap>
+		<eng>hawk</eng>
+		<eng>falcon</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="519">
+		<jap>たい</jap>
+		<eng>red snapper</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="520">
+		<jap>えび</jap>
+		<eng>shrimp</eng>
+		<eng>lobster</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="521">
+		<jap>カ</jap>
+		<eng>mosquito</eng>
+		<eng>gnat</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="522">
+		<jap>くさ</jap>
+		<eng>grass</eng>
+		<lvl>Easy</lvl>
+		<note>Shibafu</note>
+	</word>
+	<word id="523">
+		<jap>こめ</jap>
+		<eng>rice</eng>
+		<lvl>Easy</lvl>
+		<note>uncooked</note>
+	</word>
+	<word id="524">
+		<jap>いね</jap>
+		<eng>rice</eng>
+		<lvl>Easy</lvl>
+		<note>growing in a field</note>
+	</word>
+	<word id="525">
+		<jap>むぎ</jap>
+		<eng>wheat</eng>
+		<eng>barley</eng>
+		<eng>oats</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="526">
+		<jap>いも</jap>
+		<eng>yam</eng>
+		<eng>potato</eng>
+		<eng>taro</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="527">
+		<jap>まめ</jap>
+		<eng>beans</eng>
+		<eng>peas</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="528">
+		<jap>ちょうしょく</jap>
+		<eng>breakfast</eng>
+		<lvl>Easy</lvl>
+		<note>asagohan</note>
+	</word>
+	<word id="529">
+		<jap>のみもの</jap>
+		<eng>drink</eng>
+		<eng>beverage</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="530">
+		<jap>よる</jap>
+		<eng>evening</eng>
+		<eng>night</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="531">
+		<jap>かみなり</jap>
+		<eng>thunder</eng>
+		<eng>lightning</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="532">
+		<jap>うえ</jap>
+		<eng>above</eng>
+		<eng>up</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="533">
+		<jap>した</jap>
+		<eng>below</eng>
+		<eng>down</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="534">
+		<jap>むこう</jap>
+		<eng>the other side</eng>
+		<eng>opposite side</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="535">
+		<jap>てまえ</jap>
+		<eng>nearer</eng>
+		<eng>more in front</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="536">
+		<jap>ちかい</jap>
+		<eng>near</eng>
+		<eng>close</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="537">
+		<jap>くうき</jap>
+		<eng>air</eng>
+		<eng>atmosphere</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="538">
+		<jap>つち</jap>
+		<eng>earth</eng>
+		<eng>ground</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="539">
+		<jap>きんぞく</jap>
+		<eng>metal</eng>
+		<eng>metallic</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="540">
+		<jap>どろ</jap>
+		<eng>mud</eng>
+		<eng>mire</eng>
+		<eng>clay</eng>
+		<eng>plaster</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="541">
+		<jap>けむり</jap>
+		<eng>smoke</eng>
+		<eng>tobacco</eng>
+		<eng>opium</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="542">
+		<jap>てつ</jap>
+		<eng>iron</eng>
+		<lvl>Easy</lvl>
+		<note>Fe</note>
+	</word>
+	<word id="543">
+		<jap>どう</jap>
+		<eng>copper</eng>
+		<lvl>Easy</lvl>
+		<note>Cu</note>
+	</word>
+	<word id="544">
+		<jap>きん</jap>
+		<eng>gold</eng>
+		<eng>money</eng>
+		<lvl>Easy</lvl>
+		<note>Au</note>
+	</word>
+	<word id="545">
+		<jap>ぎん</jap>
+		<eng>silver</eng>
+		<eng>wealth</eng>
+		<lvl>Easy</lvl>
+		<note>Ag</note>
+	</word>
+	<word id="546">
+		<jap>なまり</jap>
+		<eng>lead</eng>
+		<lvl>Easy</lvl>
+		<note>Pb</note>
+	</word>
+	<word id="547">
+		<jap>しお</jap>
+		<eng>salt</eng>
+		<lvl>Easy</lvl>
+		<note>NaCl</note>
+	</word>
+	<word id="548">
+		<jap>センチメートル</jap>
+		<jap>センチ</jap>
+		<eng>centimeter</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="549">
+		<jap>けいざい</jap>
+		<eng>economy</eng>
+		<eng>economics</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="550">
+		<jap>かね</jap>
+		<eng>money</eng>
+		<lvl>Easy</lvl>
+		<note>most commonly o-kane</note>
+	</word>
+	<word id="551">
+		<jap>さつ</jap>
+		<eng>bill</eng>
+		<lvl>Easy</lvl>
+		<note>of money, e.g., a thousand-yen bill</note>
+	</word>
+	<word id="552">
+		<jap>じどうはんばいき</jap>
+		<eng>vending machine</eng>
+		<eng>slot machine</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="553">
+		<jap>きっぷ</jap>
+		<eng>ticket</eng>
+		<lvl>Easy</lvl>
+		<note>public transport, fine</note>
+	</word>
+	<word id="554">
+		<jap>いす</jap>
+		<eng>chair</eng>
+		<lvl>Easy</lvl>
+		<note>position</note>
+	</word>
+	<word id="555">
+		<jap>と</jap>
+		<eng>door</eng>
+		<eng>family</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="556">
+		<jap>いえ</jap>
+		<eng>house</eng>
+		<eng>home</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="557">
+		<jap>くぎ</jap>
+		<eng>nail</eng>
+		<eng>spike</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="558">
+		<jap>ひも</jap>
+		<eng>string</eng>
+		<eng>cord</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="559">
+		<jap>なわ</jap>
+		<eng>rope</eng>
+		<eng>string</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="560">
+		<jap>ふくろ</jap>
+		<eng>pocket</eng>
+		<eng>bag</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="561">
+		<jap>かさ</jap>
+		<eng>umbrella</eng>
+		<eng>parasol</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="562">
+		<jap>かぎ</jap>
+		<eng>door bolt</eng>
+		<eng>key</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="563">
+		<jap>ちょうこく</jap>
+		<eng>sculpture</eng>
+		<eng>engraving</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="564">
+		<jap>ふで</jap>
+		<eng>brush</eng>
+		<lvl>Easy</lvl>
+		<note>for writing or painting</note>
+	</word>
+	<word id="565">
+		<jap>えり</jap>
+		<eng>lapel</eng>
+		<eng>collar</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="566">
+		<jap>チャック</jap>
+		<jap>ファスナー</jap>
+		<jap>ジッパー</jap>
+		<eng>zipper</eng>
+		<eng>zipper fastener</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="567">
+		<jap>みち</jap>
+		<eng>street</eng>
+		<eng>way</eng>
+		<eng>road</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="568">
+		<jap>もじ</jap>
+		<eng>letter</eng>
+		<eng>character</eng>
+		<eng>script</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="569">
+		<jap>じ</jap>
+		<eng>letter</eng>
+		<eng>character</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="570">
+		<jap>ローマ字</jap>
+		<eng>Roman characters</eng>
+		<eng>Latin script</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="571">
+		<jap>にほんご</jap>
+		<jap>こくご</jap>
+		<eng>Japanese</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="572">
+		<jap>えいご</jap>
+		<eng>English</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="573">
+		<jap>ちゅうごくご</jap>
+		<eng>Chinese</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="574">
+		<jap>どいつご</jap>
+		<eng>German</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="575">
+		<jap>すぺいんご</jap>
+		<eng>Spanish</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="576">
+		<jap>ふらんすご</jap>
+		<eng>French</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="577">
+		<jap>ちょうせんご</jap>
+		<jap>かんこくご</jap>
+		<eng>Korean</eng>
+		<eng>South Korean</eng>
+		<lvl>Easy</lvl>
+		<note>language</note>
+	</word>
+	<word id="578">
+		<jap>いろ</jap>
+		<eng>color</eng>
+		<lvl>Easy</lvl>
+		<note>shikisai</note>
+	</word>
+	<word id="579">
+		<jap>むらさき</jap>
+		<eng>purple</eng>
+		<lvl>Easy</lvl>
+		<note>murasakiiro</note>
+	</word>
+	<word id="580">
+		<jap>じょうほう</jap>
+		<eng>information</eng>
+		<eng>news</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="581">
+		<jap>ひとつ</jap>
+		<eng>one</eng>
+		<eng>one thing</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="582">
+		<jap>ふたつ</jap>
+		<eng>two</eng>
+		<eng>two things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="583">
+		<jap>みっつ</jap>
+		<eng>three</eng>
+		<eng>three things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="584">
+		<jap>よっつ</jap>
+		<eng>four</eng>
+		<eng>four things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="585">
+		<jap>いつつ</jap>
+		<eng>five</eng>
+		<eng>five things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="586">
+		<jap>むっつ</jap>
+		<eng>six</eng>
+		<eng>six things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="587">
+		<jap>ななつ</jap>
+		<eng>seven</eng>
+		<eng>seven things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="588">
+		<jap>やっつ</jap>
+		<eng>eight</eng>
+		<eng>eight things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="589">
+		<jap>ここのつ</jap>
+		<eng>nine</eng>
+		<eng>nine things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="590">
+		<jap>とお</jap>
+		<eng>ten</eng>
+		<eng>ten things</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="591">
+		<jap>これ</jap>
+		<eng>this</eng>
+		<eng>it</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="592">
+		<jap>こちら</jap>
+		<jap>こっち</jap>
+		<eng>this</eng>
+		<lvl>Easy</lvl>
+		<note>[direction, thing, person, or place]</note>
+	</word>
+	<word id="593">
+		<jap>そちら</jap>
+		<jap>そっち</jap>
+		<eng>that</eng>
+		<lvl>Easy</lvl>
+		<note>[direction, thing, person, or place]</note>
+	</word>
+	<word id="594">
+		<jap>あちら</jap>
+		<jap>あっち</jap>
+		<eng>that</eng>
+		<lvl>Easy</lvl>
+		<note>direction, thing, person, or place over there</note>
+	</word>
+	<word id="595">
+		<jap>どちら</jap>
+		<jap>どっち</jap>
+		<eng>which</eng>
+		<lvl>Easy</lvl>
+		<note>direction, thing, person, or place</note>
+	</word>
+	<word id="596">
+		<jap>はば</jap>
+		<eng>hem</eng>
+		<eng>piece</eng>
+		<eng>strip</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="597">
+		<jap>わるい</jap>
+		<eng>bad</eng>
+		<eng>inferior</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="598">
+		<jap>かえる</jap>
+		<eng>to change</eng>
+		<eng>to exchange</eng>
+		<eng>to substitute</eng>
+		<eng>to replace</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="599">
+		<jap>たかい</jap>
+		<eng>expensive</eng>
+		<eng>high</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="600">
+		<jap>かるい</jap>
+		<eng>light</eng>
+		<eng>easy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="601">
+		<jap>やさしい</jap>
+		<eng>easy</eng>
+		<eng>simple</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="602">
+		<jap>うまい</jap>
+		<eng>delicious</eng>
+		<eng>appetizing</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="603">
+		<jap>からい</jap>
+		<eng>hot</eng>
+		<eng>spicy</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="604">
+		<jap>さみしい</jap>
+		<eng>sad</eng>
+		<eng>lonely</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="605">
+		<jap>つらい</jap>
+		<eng>painful</eng>
+		<eng>heart-breaking</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="606">
+		<jap>はたらく</jap>
+		<eng>to work</eng>
+		<lvl>Easy</lvl>
+		<note>e.g., at a job</note>
+	</word>
+	<word id="607">
+		<jap>やすむ</jap>
+		<eng>to rest</eng>
+		<eng>to take a break</eng>
+		<eng>to go to bed</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="608">
+		<jap>わかれる</jap>
+		<eng>to split into</eng>
+		<eng>to be divided</eng>
+		<eng>to part</eng>
+		<eng>to separate</eng>
+		<eng>to break up</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="609">
+		<jap>まだ</jap>
+		<eng>still</eng>
+		<eng>yet</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="610">
+		<jap>しかし</jap>
+		<eng>but</eng>
+		<eng>however</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="611">
+		<jap>そして</jap>
+		<eng>and then</eng>
+		<eng>Then…</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="612">
+		<jap>なぜなら</jap>
+		<eng>that is because</eng>
+		<eng>being because</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="613">
+		<jap>う</jap>
+		<jap>よう</jap>
+		<eng>volitional ending</eng>
+		<lvl>Hard</lvl>
+		<note>[う for u-verbs, よう for ru-verbs] ("Let's…" or "I will")</note>
+	</word>
+	<word id="614">
+		<jap>せる</jap>
+		<jap>させる</jap>
+		<eng>causative ending</eng>
+		<lvl>Hard</lvl>
+		<note>[せる for u-verbs, させる for ru-verbs] (to make [someone do something], to allow)</note>
+	</word>
+	<word id="615">
+		<jap>れる</jap>
+		<jap>られる</jap>
+		<eng>passive verb ending</eng>
+		<lvl>Hard</lvl>
+		<note>[れる for u-verbs, られる for ru-verbs] (to be {verbed} [e.g., 食べられる, "to be eaten"])</note>
+	</word>
+	<word id="616">
+		<jap>そうだ</jap>
+		<eng>indicates that it seems the verb occurs</eng>
+		<lvl>Hard</lvl>
+		<note>e.g., "It seems he ate"</note>
+	</word>
+	<word id="617">
+		<jap>だろう</jap>
+		<eng>indicates that it seems the verb occurs</eng>
+		<lvl>Hard</lvl>
+		<note>also used to ask whether the verb occurs</note>
+	</word>
+	<word id="618">
+		<jap>ない</jap>
+		<jap>ん</jap>
+		<eng>informal negative</eng>
+		<lvl>Hard</lvl>
+		<note>ん is a slurred version and sounds a little masculine</note>
+	</word>
+	<word id="619">
+		<jap>ぬ</jap>
+		<eng>archaic informal negative</eng>
+		<lvl>Hard</lvl>
+		<note>"he hath", "thou didst", etc.</note>
+	</word>
+	<word id="620">
+		<jap>が</jap>
+		<eng>subject marker</eng>
+		<eng>but</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="621">
+		<jap>で</jap>
+		<eng>at</eng>
+		<eng>by</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="622">
+		<jap>と</jap>
+		<eng>and</eng>
+		<eng>with</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="623">
+		<jap>の</jap>
+		<eng>possession marker</eng>
+		<eng>of</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="624">
+		<jap>へ</jap>
+		<eng>to</eng>
+		<lvl>Easy</lvl>
+		<note>へ is normally read "he", but when used as this particle its reading changes to "e"</note>
+	</word>
+	<word id="625">
+		<jap>および</jap>
+		<eng>and</eng>
+		<eng>as well as</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="626">
+		<jap>かも</jap>
+		<eng>might be</eng>
+		<eng>possible that</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="627">
+		<jap>だの</jap>
+		<eng>things like (list of things)</eng>
+		<eng>including</eng>
+		<eng>such things as</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="628">
+		<jap>つつ</jap>
+		<eng>ongoing occurrence</eng>
+		<lvl>Hard</lvl>
+		<note>similar to ながら but has different tone, and both actions have equal weight</note>
+	</word>
+	<word id="629">
+		<jap>て</jap>
+		<eng>te form of verb or adjective</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="630">
+		<jap>と</jap>
+		<eng>when</eng>
+		<eng>if</eng>
+		<eng>that</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="631">
+		<jap>ながら</jap>
+		<eng>while</eng>
+		<eng>though</eng>
+		<eng>both</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="632">
+		<jap>また</jap>
+		<eng>also</eng>
+		<eng>again</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="633">
+		<jap>または</jap>
+		<eng>or alternatively</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="634">
+		<jap>も</jap>
+		<eng>also</eng>
+		<eng>too</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="635">
+		<jap>ね</jap>
+		<eng>emphasis and question marker</eng>
+		<eng>equivalent to "right?"</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="636">
+		<jap>っけ</jap>
+		<eng>particle indicating that the speaker is trying to recall some information</eng>
+		<lvl>Hard</lvl>
+		<note>"What class is next -kke?"</note>
+	</word>
+	<word id="637">
+		<jap>くらい</jap>
+		<jap>ぐらい</jap>
+		<eng>approximately</eng>
+		<eng>about</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="638">
+		<jap>だけ</jap>
+		<eng>only</eng>
+		<eng>as much as</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="639">
+		<jap>ったら</jap>
+		<eng>casual topic marker</eng>
+		<lvl>Hard</lvl>
+		<note>colloquial form of to ittara (if you refer to ~; as for ~)</note>
+	</word>
+	<word id="640">
+		<jap>でも</jap>
+		<eng>also</eng>
+		<eng>or</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="641">
+		<jap>どころ</jap>
+		<eng>particle used to indicate that what precedes it is an extreme example and strongly negates it</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="642">
+		<jap>なら</jap>
+		<eng>if</eng>
+		<eng>subject marker</eng>
+		<lvl>Hard</lvl>
+		<note>"if" for verbs, "subject marker" for nouns</note>
+	</word>
+	<word id="643">
+		<jap>なんか</jap>
+		<eng>casual undervalue</eng>
+		<eng>dislike</eng>
+		<eng>lack</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="644">
+		<jap>なんて</jap>
+		<eng>casual undervalue</eng>
+		<eng>dislike</eng>
+		<eng>lack</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="645">
+		<jap>は</jap>
+		<eng>topic marker</eng>
+		<lvl>Medium</lvl>
+		<note>pronunciation: "wa"</note>
+	</word>
+	<word id="646">
+		<jap>ばかり</jap>
+		<jap>ばっかり</jap>
+		<eng>just</eng>
+		<eng>full of</eng>
+		<eng>only</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="647">
+		<jap>も</jap>
+		<eng>too</eng>
+		<eng>also</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="648">
+		<jap>いる</jap>
+		<eng>to exist</eng>
+		<lvl>Medium</lvl>
+		<note>for animate objects</note>
+	</word>
+	<word id="649">
+		<jap>ある</jap>
+		<eng>to exist</eng>
+		<lvl>Medium</lvl>
+		<note>for inanimate objects</note>
+	</word>
+	<word id="650">
+		<jap>とぶ</jap>
+		<eng>to jump</eng>
+		<eng>to fly</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="651">
+		<jap>うつ</jap>
+		<eng>to hit</eng>
+		<eng>to strike</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="652">
+		<jap>なぐる</jap>
+		<eng>to hit</eng>
+		<eng>to strike</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="653">
+		<jap>さす</jap>
+		<eng>to point</eng>
+		<eng>to stab</eng>
+		<eng>to raise</eng>
+		<eng>to extend one's hands</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="654">
+		<jap>みだす</jap>
+		<eng>to disturb</eng>
+		<eng>to disarrange</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="655">
+		<jap>みだれる</jap>
+		<eng>to be disturbed</eng>
+		<eng>to become confused</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="656">
+		<jap>つかえる</jap>
+		<eng>to serve</eng>
+		<eng>to work for</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="657">
+		<jap>すぐれる</jap>
+		<eng>to excel</eng>
+		<eng>to surpass</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="658">
+		<jap>しめる</jap>
+		<eng>to close</eng>
+		<eng>to tie</eng>
+		<eng>to fasten</eng>
+		<eng>to comprise</eng>
+		<eng>to account for</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="659">
+		<jap>ひえる</jap>
+		<eng>to grow cold</eng>
+		<eng>to get chilly</eng>
+		<eng>to cool down</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="660">
+		<jap>さめる</jap>
+		<eng>to wake</eng>
+		<eng>to become sober</eng>
+		<eng>to be disillusioned</eng>
+		<eng>to cool down</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="661">
+		<jap>むく</jap>
+		<eng>to face</eng>
+		<eng>to turn toward</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="662">
+		<jap>たおれる</jap>
+		<eng>to fall</eng>
+		<eng>to collapse</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="663">
+		<jap>かたまる</jap>
+		<eng>to harden</eng>
+		<eng>to solidify</eng>
+		<eng>to become firm</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="664">
+		<jap>うまる</jap>
+		<eng>to be filled</eng>
+		<eng>to be surrounded</eng>
+		<eng>to overflow</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="665">
+		<jap>うもれる</jap>
+		<eng>to be buried</eng>
+		<eng>to be covered</eng>
+		<lvl>Hard</lvl>
+		<note></note>
+	</word>
+	<word id="666">
+		<jap>ます</jap>
+		<eng>to increase</eng>
+		<eng>to grow</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="667">
+		<jap>ふえる</jap>
+		<eng>to increase</eng>
+		<eng>to multiply</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="668">
+		<jap>おわる</jap>
+		<eng>to finish</eng>
+		<eng>to close</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="669">
+		<jap>きく</jap>
+		<eng>to hear</eng>
+		<eng>to listen</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="670">
+		<jap>さわる</jap>
+		<eng>to touch</eng>
+		<eng>to feel</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="671">
+		<jap>なおす</jap>
+		<eng>to fix</eng>
+		<eng>repair</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="672">
+		<jap>すてる</jap>
+		<eng>to discard</eng>
+		<eng>throw away</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="673">
+		<jap>よろこぶ</jap>
+		<eng>to celebrate</eng>
+		<eng>to be jubilant</eng>
+		<eng>to have joy</eng>
+		<eng>to have delight</eng>
+		<eng>to have rapture</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="674">
+		<jap>よろこび</jap>
+		<eng>joy</eng>
+		<eng>delight</eng>
+		<eng>rapture</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="675">
+		<jap>なぐさめる</jap>
+		<eng>to console</eng>
+		<eng>to consolate</eng>
+		<eng>to provide empathy</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="676">
+		<jap>あきる</jap>
+		<eng>to be disinterested</eng>
+		<eng>to be bored</eng>
+		<eng>to be tired of</eng>
+		<eng>to be weary</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="677">
+		<jap>おどろく</jap>
+		<eng>to be astonished</eng>
+		<eng>to be surprised</eng>
+		<eng>to be scared</eng>
+		<lvl>Medium</lvl>
+		<note></note>
+	</word>
+	<word id="678">
+		<jap>あう</jap>
+		<eng>to meet</eng>
+		<eng>to interview</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+	<word id="679">
+		<jap>あける</jap>
+		<eng>to open</eng>
+		<eng>to unwrap</eng>
+		<lvl>Easy</lvl>
+		<note></note>
+	</word>
+</class>
