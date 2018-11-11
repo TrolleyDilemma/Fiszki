@@ -1,6 +1,8 @@
 package com.github.trolleydilemma.core;
 
-import java.util.List;
+import com.github.trolleydilemma.gui.Window;
+
+import javax.swing.*;
 
 /**
  * Entry point
@@ -10,14 +12,16 @@ public class App
 {
     public static void main( String[] args )
     {
-        //Testing XMLUtility
-        List<Word> list = XMLUtility.loadWords("words.xml");
-        list.forEach(x -> {
-            System.out.println(x);
-            System.out.println(x.getEnglish());
-            System.out.println(x.getJapanese());
-            System.out.println(x.getLevel());
-            System.out.println(x.getNote());
-        });
+        System.out.println( "Hello World!" );
+
+        try {
+            UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
+        } catch(Exception e) {
+            throw new RuntimeException(e);
+        }
+
+        SwingUtilities.invokeLater(() -> window = new Window());
     }
+
+    private static Window window;
 }
