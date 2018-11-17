@@ -1,21 +1,36 @@
-package com.github.trolleydilemma.core;
+package com.github.trolleydilemma.core.datastructures;
 
 import java.util.List;
 
 /**
- * Wrapper class for vocabulary
+ * Storage class for vocabulary
  * @author Michal Glogowski
  */
 public class Word {
+    /**
+     * Constructor for Word class
+     * @param id unique id number for identifying word
+     * @param eng list with english meanings
+     * @param jap list with japanese words
+     * @param lvl level of advance
+     */
     public Word(int id, List<String> eng, List<String> jap, String lvl) { this(id,eng,jap,lvl,""); }
 
+    /**
+     * Constructor for Word class
+     * @param id unique id number for identifying word
+     * @param eng list with english meanings
+     * @param jap list with japanese words
+     * @param lvl level of advance
+     * @param note additional information about vocabulary
+     */
     public Word(int id, List<String> eng, List<String> jap, String lvl, String note) {
         this.id = id;
-        english = eng;
-        japanese = jap;
-        level = lvl;
+        this.english = eng;
+        this.japanese = jap;
+        this.level = lvl;
         this.note = note;
-        learned = false;
+        this.learned = false;
     }
 
     @Override
