@@ -1,5 +1,6 @@
-package com.github.trolleydilemma.core;
+package com.github.trolleydilemma.core.util;
 
+import com.github.trolleydilemma.core.datastructures.Word;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
@@ -25,7 +26,7 @@ public class XMLUtility {
      * @param XMLPath path for XML file with vocabulary
      * @return list of all words contained in specified XML file
      */
-    static List<Word> loadWords(String XMLPath) {
+    public static List<Word> loadWords(String XMLPath) {
 
         List<Word> words = new ArrayList<>();
         try {
@@ -54,14 +55,8 @@ public class XMLUtility {
                             eElement.getElementsByTagName("note").item(0).getTextContent()));
                 }
             }
-        }catch( ParserConfigurationException e){
+        } catch( ParserConfigurationException | IOException | SAXException e) {
             e.printStackTrace();
-        }
-        catch( IOException ioexception){
-            ioexception.printStackTrace();
-        }
-        catch( SAXException saxexception){
-            saxexception.printStackTrace();
         }
         return words;
     }
