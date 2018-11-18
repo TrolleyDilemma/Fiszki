@@ -4,7 +4,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
-
+/**
+ * komenarz dokumentacyjny
+ * @Author Blazej Zurawik
+ */
 public class ButtonsPanel extends JPanel {
 
 
@@ -15,39 +18,30 @@ public class ButtonsPanel extends JPanel {
 
     }
 
+
     private void init(){
 
-        setLayout(new FlowLayout());
-        setPreferredSize(new Dimension(1080,720));
+        setLayout(null);
+        setBounds(0,0,1080, 720);
+        setBackground(new Color(103, 130, 106));
+        //setBorder(  );
 
-
+/*
         JPanel buttons = buttons();
-        buttons.setPreferredSize(new Dimension(1065,720));
+        buttons.setBounds(0,0,1065, 720);//setPreferredSize(new Dimension(1065,720));
         add(buttons);
-    }
-
-    private JMenuItem createJMenuItem(String title,  ActionListener al) {
-        JMenuItem jMenuItem;
-        jMenuItem = new JMenuItem(title);
-        jMenuItem.addActionListener(al);
-        return jMenuItem;
-    }
-
-    private JPanel buttons(){
-
-        JPanel panel = new JPanel();
-        panel.setLayout(null);
-        panel.setBackground(new Color(103, 130, 106));
+*/
 
 
         JMenuBar menuBarFlashcards = new JMenuBar();
-        menuBarFlashcards.setBounds(10, 20, 150, 40);
+        menuBarFlashcards.setBounds(50, 40, 150, 40);
         menuBarFlashcards.setLayout(null);
 
             JMenu menuFlashcards = new PaintMenu("Flashcards", new Color(220,220,220));
             menuFlashcards.setFont(new Font("Thoma", Font.BOLD, 18));
             menuFlashcards.setBounds(0, 0, 150, 40);
-            menuFlashcards.setBorder(BorderFactory.createLineBorder(Color.black));
+            //menuFlashcards.setBorder(BorderFactory.createLineBorder(Color.black));
+            menuFlashcards.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuFlashcards.setBorderPainted(true);
             menuFlashcards.setIcon(new ImageIcon("FlashcardIcon.png"));
             menuFlashcards.setIconTextGap(5);
@@ -56,35 +50,37 @@ public class ButtonsPanel extends JPanel {
                 menuFlashcards.add(createJMenuItem("Known", null));
                 menuFlashcards.add(createJMenuItem("Unknown", null));
                 menuBarFlashcards.add(menuFlashcards);
-                panel.add(menuBarFlashcards);
+                add(menuBarFlashcards);
 
 
         JMenuBar menuBarTest = new JMenuBar();
-        menuBarTest.setBounds(180, 20, 150, 40);
+        menuBarTest.setBounds(220, 40, 150, 40);
         menuBarTest.setLayout(null);
 
             JMenu menuTest = new PaintMenu("  Test", new Color(220,220,220));
             menuTest.setFont(new Font("Thoma", Font.BOLD, 18));
             menuTest.setBounds(0, 0, 150, 40);
-            menuTest.setBorder(BorderFactory.createLineBorder(Color.black));
-             menuTest.setBorderPainted(true);
+            //menuTest.setBorder(BorderFactory.createLineBorder(Color.black));
+            menuTest.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
+            menuTest.setBorderPainted(true);
             menuTest.setIcon(new ImageIcon("TestIcon.png"));
             menuTest.setIconTextGap(10);
 
                 menuTest.add(createJMenuItem("Test 1", null));
                 menuTest.add(createJMenuItem("Test 2", null));
                 menuBarTest.add(menuTest);
-                 panel.add(menuBarTest);
+                add(menuBarTest);
 
 
         JMenuBar menuBarList = new JMenuBar();
-        menuBarList.setBounds(350, 20, 150, 40);
+        menuBarList.setBounds(390, 40, 150, 40);
         menuBarList.setLayout(null);
 
             JMenu menuList = new PaintMenu("   List", new Color(220,220,220));
             menuList.setFont(new Font("Thoma", Font.BOLD, 18));
-             menuList.setBounds(0, 0, 150, 40);
-            menuList.setBorder(BorderFactory.createLineBorder(Color.black));
+            menuList.setBounds(0, 0, 150, 40);
+            //menuList.setBorder(BorderFactory.createLineBorder(Color.black));
+            menuList.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuList.setBorderPainted(true);
             menuList.setIcon(new ImageIcon("ListIcon.png"));
             menuList.setIconTextGap(10);
@@ -93,28 +89,43 @@ public class ButtonsPanel extends JPanel {
                 menuList.add(createJMenuItem("Known", null));
                 menuList.add(createJMenuItem("Unknown",null));
                 menuBarList.add(menuList);
-                panel.add(menuBarList);
+                add(menuBarList);
 
 
-        // TODO: Dopisac funkcje, ktora nie podswietla przycisku po starcie aplikacji
-        JButton btnStat = new JButton("Statistics");
-        btnStat.setFont(new Font("Tahoma", Font.BOLD, 18));
-        btnStat.setBounds(520, 20, 150, 40);
-        btnStat.setBorder(BorderFactory.createEmptyBorder());
-        // TODO: kolor ofc...
-        btnStat.setIcon(new ImageIcon("StatisticIcon.png"));
-        btnStat.setIconTextGap(10);
-        panel.add(btnStat);
+        JMenuBar menuBarStatistics = new JMenuBar();
+        menuBarStatistics.setBounds(560, 40, 150, 40);
+        menuBarStatistics.setLayout(null);
+
+            JMenu menuStatistics = new PaintMenu("Statistics", new Color(220,220,220));
+            menuStatistics.setFont(new Font("Thoma", Font.BOLD, 18));
+            menuStatistics.setBounds(0, 0, 150, 40);
+            //menuStatistics.setBorder(BorderFactory.createLineBorder(Color.black));
+            menuStatistics.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
+            menuStatistics.setBorderPainted(true);
+            menuStatistics.setIcon(new ImageIcon("StatisticIcon.png"));
+            menuStatistics.setIconTextGap(10);
+
+                menuBarStatistics.add(menuStatistics);
+                add(menuBarStatistics);
 
 
         ImageIcon icon = new ImageIcon("LogiIcon.png");
         JLabel obrazek = new JLabel(icon);
-        obrazek.setBounds(915,20,125,125);
-        panel.add(obrazek);
+        obrazek.setBounds(910,10,125,125);
+        add(obrazek);
 
-        return panel;
+        flashcardPanel = new FlashcardPanel();
+        add(flashcardPanel);
+
+
     }
 
+    private JMenuItem createJMenuItem(String title,  ActionListener al) {
+        JMenuItem jMenuItem;
+        jMenuItem = new JMenuItem(title);
+        jMenuItem.addActionListener(al);
+        return jMenuItem;
+    }
 
     // TODO: Przeanalizowac kod ponizej
     private class PaintMenu extends JMenu {
@@ -132,4 +143,8 @@ public class ButtonsPanel extends JPanel {
 
         private Color bgColor;
     }
+
+    public JPanel getFlashcardPanel(){return flashcardPanel;}
+
+    private JPanel flashcardPanel;
 }
