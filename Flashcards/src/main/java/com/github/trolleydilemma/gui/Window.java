@@ -26,23 +26,20 @@ public class Window extends JFrame {
         setResizable(false);
 
         contentPane_1 = new JPanel();
-        contentPane_1.setBorder(new EmptyBorder(5,5,5,5));
-        contentPane_1.setBackground(new Color(103, 130,106));
+       // contentPane_1.setBorder(new EmptyBorder(5,5,5,5));
         contentPane_1.setLayout(new BorderLayout());
         add(contentPane_1, BorderLayout.CENTER);
 
-       // statusBar = new StatusBar();
         add(new StatusBar(), BorderLayout.PAGE_END);
 
         add(new MenuBar(), BorderLayout.PAGE_START);
 
-        //trzeba zrobic tymi przeniesieniami...
-        add(new ButtonsPanel(), BorderLayout.CENTER);
-
+        buttonPanel = new ButtonsPanel();
+        add(buttonPanel, BorderLayout.CENTER);
 
     }
 
-    //public StatusBar getStatusBar() {
-    //    return statusBar;
-   // }
+    public ButtonsPanel getButtonPanel() {return buttonPanel;}
+
+    private ButtonsPanel buttonPanel;
 }

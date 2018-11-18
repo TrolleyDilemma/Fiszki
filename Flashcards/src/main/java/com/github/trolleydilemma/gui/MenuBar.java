@@ -41,6 +41,7 @@ public class MenuBar extends JMenuBar {
 
         add(file);
         add(help);
+
     }
 }
 
