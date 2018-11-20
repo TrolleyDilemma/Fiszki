@@ -1,12 +1,16 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.gui.listeners.FlashcardAllActionListener;
+import com.github.trolleydilemma.gui.listeners.FlashcardKnownActionListener;
+import com.github.trolleydilemma.gui.listeners.FlashcardUnknownActionListener;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
 /**
  * komenarz dokumentacyjny
- * @Author Blazej Zurawik
+ * @author Blazej Zurawik, Michal Glogowski
  */
 public class ButtonsPanel extends JPanel {
 
@@ -46,9 +50,9 @@ public class ButtonsPanel extends JPanel {
             menuFlashcards.setIcon(new ImageIcon("FlashcardIcon.png"));
             menuFlashcards.setIconTextGap(5);
 
-                menuFlashcards.add(createJMenuItem("All", null));
-                menuFlashcards.add(createJMenuItem("Known", null));
-                menuFlashcards.add(createJMenuItem("Unknown", null));
+                menuFlashcards.add(createJMenuItem("All", new FlashcardAllActionListener()));
+                menuFlashcards.add(createJMenuItem("Known", new FlashcardKnownActionListener()));
+                menuFlashcards.add(createJMenuItem("Unknown", new FlashcardUnknownActionListener()));
                 menuBarFlashcards.add(menuFlashcards);
                 add(menuBarFlashcards);
 
@@ -114,10 +118,6 @@ public class ButtonsPanel extends JPanel {
         obrazek.setBounds(910,10,125,125);
         add(obrazek);
 
-        flashcardPanel = new FlashcardPanel();
-        add(flashcardPanel);
-
-
     }
 
     private JMenuItem createJMenuItem(String title,  ActionListener al) {
@@ -144,7 +144,8 @@ public class ButtonsPanel extends JPanel {
         private Color bgColor;
     }
 
-    public JPanel getFlashcardPanel(){return flashcardPanel;}
+    public FlashcardPanel getFlashcardPanel(){ return (FlashcardPanel)mainPanel; }
+    public void setFlashcardPanel(FlashcardPanel fp) { mainPanel = fp; }
 
-    private JPanel flashcardPanel;
+    private JPanel mainPanel;
 }

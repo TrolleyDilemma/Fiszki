@@ -4,11 +4,13 @@ import com.github.trolleydilemma.core.datastructures.TestData;
 import com.github.trolleydilemma.core.datastructures.Word;
 import com.github.trolleydilemma.core.enums.VocabularyLevel;
 import com.github.trolleydilemma.core.enums.VocabularyType;
+import com.github.trolleydilemma.core.exceptions.OutOfWordsException;
 import com.github.trolleydilemma.core.util.FileUtility;
 import com.github.trolleydilemma.core.util.XMLUtility;
 import org.json.JSONObject;
 import org.json.JSONStringer;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
@@ -25,8 +27,12 @@ public class Vocabulary {
      */
     public Vocabulary() {
         allVocabulary = XMLUtility.loadWords("words.xml");
-        loadProgress("./config/learned.json");
         random = new Random();
+        learnedJson = new File("./config/learned.json");
+        if(!learnedJson.exists())
+            learnedJson.getParentFile().mkdirs();
+
+        loadProgress();
 
         knownVocabulary = new ArrayList<>();
         unknownVocabulary = new ArrayList<>();
@@ -63,8 +69,9 @@ public class Vocabulary {
      * Used when drawing for "flashcard" panel due to save of additional information (history of draw).
      * @param type type of vocabulary (ALL, KNOWN, UNKNOWN)
      * @return random Word from selected type of collection
+     * @exception OutOfWordsException thrown when list is empty
      */
-    public Word draw(VocabularyType type) {
+    public Word draw(VocabularyType type) throws OutOfWordsException {
         switch(type) {
             case ALL: return internalDraw(allVocabulary,allDrawn,allDrawnListIterator);
             case KNOWN: return internalDraw(knownVocabulary,knownDrawn,knownDrawnListIterator);
@@ -80,20 +87,25 @@ public class Vocabulary {
      * @param drawnVocabulary List to which element will be added
      * @param iterator iterator attached to drawnVocabulary List
      * @return randomly selected Word from vocabulary without drawnVocabulary collection
+     * @exception OutOfWordsException thrown when list is empty
      */
-    private Word internalDraw(List<Word> vocabulary, List<Word> drawnVocabulary, MyListIterator iterator) {
+    private Word internalDraw(List<Word> vocabulary, List<Word> drawnVocabulary, MyListIterator iterator) throws OutOfWordsException {
         List<Word> toDraw = new ArrayList<>();
 
         //Draw from newly created collection (vocabulary - drawnVocabulary)
         Collections.addAll(toDraw, vocabulary.toArray(new Word[0]));
         toDraw.removeAll(drawnVocabulary);
 
-        Word word = toDraw.get(random.nextInt(toDraw.size()));
-        iterator.removeNextElements();
+        Word word;
+        try {
+            word = toDraw.get(random.nextInt(toDraw.size()));
+        } catch (IllegalArgumentException e) {
+            throw new OutOfWordsException();
+        }
 
-        //Add to drawn collection and increment iterator
+        //Add to drawn collection and set iterator on last possible position
         drawnVocabulary.add(word);
-        iterator.increment();
+        iterator.setIteratorOnLastPosition();
         return word;
     }
 
@@ -109,7 +121,7 @@ public class Vocabulary {
                 return (Word)allDrawnListIterator.getObject();
             case KNOWN:
                 knownDrawnListIterator.decrement();
-                return (Word)allDrawnListIterator.getObject();
+                return (Word)knownDrawnListIterator.getObject();
             case UNKNOWN:
                 unknownDrawnListIterator.decrement();
                 return (Word)unknownDrawnListIterator.getObject();
@@ -129,7 +141,7 @@ public class Vocabulary {
                 return (Word)allDrawnListIterator.getObject();
             case KNOWN:
                 knownDrawnListIterator.increment();
-                return (Word)allDrawnListIterator.getObject();
+                return (Word)knownDrawnListIterator.getObject();
             case UNKNOWN:
                 unknownDrawnListIterator.increment();
                 return (Word)unknownDrawnListIterator.getObject();
@@ -190,11 +202,10 @@ public class Vocabulary {
 
     /**
      * Load information about learning state of vocabulary from external file
-     * @param filePath path to the file
      */
-    private void loadProgress(String filePath) {
+    private void loadProgress() {
         try {
-            String jsonContent = FileUtility.loadAsString(filePath);
+            String jsonContent = FileUtility.loadAsString(learnedJson);
             JSONObject jsonObject = new JSONObject(jsonContent);
             int keySetSize = jsonObject.keySet().size();
 
@@ -208,9 +219,8 @@ public class Vocabulary {
 
     /**
      * Save information about learning state of vocabulary
-     * @param filePath path to the file
      */
-    public void saveProgress(String filePath) {
+    public void saveProgress() {
         JSONStringer stringer = new JSONStringer();
         stringer.object();
         allVocabulary.forEach(word -> {
@@ -220,7 +230,7 @@ public class Vocabulary {
         stringer.endObject();
 
         try {
-            FileUtility.saveTextFile(filePath,stringer.toString());
+            FileUtility.saveTextFile(learnedJson,stringer.toString());
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -272,7 +282,7 @@ public class Vocabulary {
 
     /**
      * Determine whether "Next" button can be pressed
-     * @param type type of selected vocabulary
+     * @param type type of selected vocabulary (ALL, KNOWN, UNKNOWN)
      * @return true if button should be active
      */
     public boolean canGetNextFlashcard(VocabularyType type) {
@@ -286,7 +296,7 @@ public class Vocabulary {
 
     /**
      * Determine whether "Back" button can be pressed
-     * @param type type of selected vocabulary
+     * @param type type of selected vocabulary (ALL, KNOWN, UNKNOWN)
      * @return true if button should be active
      */
     public boolean canGetPreviousFlashcard(VocabularyType type) {
@@ -295,6 +305,34 @@ public class Vocabulary {
             case KNOWN: return knownDrawnListIterator.canDecrement();
             case UNKNOWN: return unknownDrawnListIterator.canDecrement();
             default: return false;
+        }
+    }
+
+    /**
+     * Get amount of drawn vocabulary of certain type
+     * @param type type of selected vocabulary (ALL, KNOWN, UNKNOWN)
+     * @return amount of drawn vocabulary
+     */
+    public int getDrawnCount(VocabularyType type) {
+        switch(type) {
+            case ALL: return allDrawnListIterator.list.size();
+            case KNOWN: return knownDrawnListIterator.list.size();
+            case UNKNOWN: return unknownDrawnListIterator.list.size();
+            default: return 0;
+        }
+    }
+
+    /**
+     * Get current Word of certain type from lastDrawn List
+     * @param type type of selected vocabulary (ALL, KNOWN, UNKNOWN)
+     * @return Word from lastDrawn List
+     */
+    public Word getLastDrawn(VocabularyType type) {
+        switch(type) {
+            case ALL: return (Word)allDrawnListIterator.getObject();
+            case KNOWN: return (Word)knownDrawnListIterator.getObject();
+            case UNKNOWN: return (Word)unknownDrawnListIterator.getObject();
+            default: return null;
         }
     }
 
@@ -311,6 +349,7 @@ public class Vocabulary {
     private MyListIterator unknownDrawnListIterator = new MyListIterator(unknownDrawn);
 
     private Random random;
+    private File learnedJson;
 
     /**
      * Inner class responsible for iterating through elements of the list.
@@ -346,7 +385,7 @@ public class Vocabulary {
          * Determine whether iterator can be incremented
          * @return true if possible
          */
-        public boolean canIncrement() { return iterator<list.size(); }
+        public boolean canIncrement() { return iterator<list.size()-1; }
 
         /**
          * Get current position on list of this iterator
@@ -361,13 +400,9 @@ public class Vocabulary {
         public Object getObject() { return list.get(iterator); }
 
         /**
-         * Remove all elements on the list after current iterator position
+         * Set iterator on last possible position
          */
-        public void removeNextElements() {
-            if(canIncrement())
-                for(int i=list.size(); i>iterator; i--)
-                    list.remove(iterator);
-        }
+        public void setIteratorOnLastPosition() { iterator = list.size()-1; }
 
         private int iterator;
         private List<?> list;

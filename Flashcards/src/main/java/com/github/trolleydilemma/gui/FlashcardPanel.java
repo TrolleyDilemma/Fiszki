@@ -1,134 +1,145 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.core.App;
+import com.github.trolleydilemma.core.datastructures.Word;
+import com.github.trolleydilemma.core.enums.VocabularyType;
+import com.github.trolleydilemma.core.exceptions.OutOfWordsException;
+import com.github.trolleydilemma.gui.listeners.BackActionListener;
+import com.github.trolleydilemma.gui.listeners.CheckboxActionListener;
+import com.github.trolleydilemma.gui.listeners.NextActionListener;
+import com.github.trolleydilemma.gui.listeners.RollActionListener;
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
-import javax.swing.text.SimpleAttributeSet;
-import javax.swing.text.StyleConstants;
-import javax.swing.text.StyledDocument;
 import java.awt.*;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 
 
+/**
+ * Panel with Flashcard and controls.
+ * @author Blazej Zurawik, Michal Glogowski
+ */
 public class FlashcardPanel extends MainPanel {
 
-    int Progress_Min = 0;
-    int Progress_Max = 550;
-    int Progress_Init = 0;
+    private int progressMin = 0;
+    private int progressMax = (int)App.getVocabulary().getQuantity();
+    private int progressInit = (int)App.getVocabulary().getProgress();
 
-    public FlashcardPanel(){
-
+    /**
+     * Constructor that takes in type of Vocabulary that this Panel represents
+     * @param vocabularyType type of Vocabulary that this Panel represents
+     */
+    public FlashcardPanel(VocabularyType vocabularyType){
         super();
+        this.vocabularyType = vocabularyType;
         init();
-        flashcard();
     }
 
 
+    /**
+     * Initialize component
+     */
     private void init(){
 
         setLayout(null);
 
-        JButton back = new JButton("Back");
+        back = new JButton("Back");
         back.setFont(new Font("Thoma", Font.BOLD, 18));
         back.setBounds(190,380,120,45);
         back.setFocusable(false);
         back.setIcon(new ImageIcon("Back.png"));
         back.setIconTextGap(10);
+        back.setEnabled(false);
+        back.addActionListener(new BackActionListener());
         add(back);
 
-        JButton roll = new JButton("Roll");
+        roll = new JButton("Roll");
         roll.setFont(new Font("Thoma", Font.BOLD, 18));
         roll.setBounds(340,380,120,45);
         roll.setFocusable(false);
         roll.setIcon(new ImageIcon("Roll.png"));
         roll.setIconTextGap(10);
+        roll.addActionListener(new RollActionListener());
         add(roll);
 
-        JButton next = new JButton("Next");
+        next = new JButton("Next");
         next.setFont(new Font("Thoma", Font.BOLD, 18));
         next.setBounds(490,380,120,45);
         next.setFocusable(false);
         next.setHorizontalTextPosition(SwingConstants.LEFT);
         next.setIcon(new ImageIcon("Next.png"));
         next.setIconTextGap(10);
+        next.setEnabled(false);
+        next.addActionListener(new NextActionListener());
         add(next);
 
-        JProgressBar progress = new JProgressBar();
+        progress = new JProgressBar();
         progress.setBounds(50, 440, 700, 20);
-        progress.setMaximum(Progress_Max);
-        progress.setMinimum(Progress_Min);
-        progress.setValue(200); //przykladowa wartosc
+        progress.setMaximum(progressMax);
+        progress.setMinimum(progressMin);
+        progress.setValue(progressInit); //poczatkowa wartosc`
         progress.setStringPainted(true);
         progress.setBorder(BorderFactory.createLoweredBevelBorder());
         progress.setForeground(new Color(104,130,106));
         add(progress);
 
-        JButtonBox check = new JButtonBox(false);
+        check = new JButtonBox(false);
         check.setLocation(665, 385);
         check.setSize(35,35);
         //check.setOpaque(false);
         check.setFocusable(false);
         add(check);
 
-    }
+        if(App.getVocabulary().canGetNextFlashcard(vocabularyType))
+            next.setEnabled(true);
 
-    private void flashcard(){
+        if(App.getVocabulary().canGetPreviousFlashcard(vocabularyType))
+            back.setEnabled(true);
 
-        JPanel flashcard = new JPanel();
-        flashcard.setBounds(100, 50, 600, 315);
-        flashcard.setLayout(null);
-        flashcard.setBorder(BorderFactory.createLineBorder(Color.black));
+        Word w = new Word();
+        if(App.getVocabulary().getDrawnCount(vocabularyType) == 0) {
+
+            try {
+                w = App.getVocabulary().draw(vocabularyType);
+            } catch (OutOfWordsException e) {
+                JOptionPane.showMessageDialog(this, "Empty list!");
+            }
+
+            flashcard = new Flashcard(w);
+            check.setChecked(w.isLearned());
+        } else {
+            w = App.getVocabulary().getLastDrawn(vocabularyType);
+            flashcard = new Flashcard(w);
+            check.setChecked(w.isLearned());
+        }
         add(flashcard);
-
-            JTextPane word = new JTextPane();
-            word.setFont(new Font("Thoma", Font.BOLD, 40));
-            word.setBounds(100,70,400,150);
-            word.setEnabled(false);
-            //word.setText("Test"); //test
-            //word.setBorder(BorderFactory.createLineBorder(Color.black)); //test
-                StyledDocument docc = word.getStyledDocument();
-                SimpleAttributeSet centerr = new SimpleAttributeSet();
-                StyleConstants.setAlignment(centerr, StyleConstants.ALIGN_CENTER);
-                docc.setParagraphAttributes(0, docc.getLength(), centerr, false);
-                flashcard.add(word);
-
-
-            JTextPane note = new JTextPane();
-            note.setFont(new Font("Thoma", Font.PLAIN, 15));
-            note.setBounds(100,240, 400,50);
-            note.setEnabled(false);
-            //note.setText("NoteNoteNoteNoteNoteNoteNoteNo teNoteNoteNoteNoteNoteNot eNoteNoteNoteNote"); //test
-            //note.setBorder(BorderFactory.createLineBorder(Color.black)); //test
-                StyledDocument doc = note.getStyledDocument();
-                SimpleAttributeSet center = new SimpleAttributeSet();
-                StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
-                doc.setParagraphAttributes(0, doc.getLength(), center, false);
-                flashcard.add(note);
-
-            JTextField indexLevel = new JTextField();
-            indexLevel.setBounds(555, 270, 40,20);
-            indexLevel.setFont(new Font("Thoma", Font.PLAIN, 15));
-            indexLevel.setEnabled(false);
-            indexLevel.setBorder(null);
-            //indexLevel.setBorder(BorderFactory.createLineBorder(Color.black)); //test
-            indexLevel.setHorizontalAlignment(JTextField.CENTER);
-            //indexLevel.setText("H"); //test
-            flashcard.add(indexLevel);
-
-            JTextField indexNum = new JTextField();
-            indexNum.setBounds(555, 290, 40,20);
-            indexNum.setFont(new Font("Thoma", Font.PLAIN, 15));
-            indexNum.setEnabled(false);
-            indexNum.setBorder(null);
-            //indexNum.setBorder(BorderFactory.createLineBorder(Color.black)); //test
-            indexNum.setHorizontalAlignment(JTextField.CENTER);
-            //indexNum.setText("Num"); //test
-            flashcard.add(indexNum);
-
     }
+
+    /**
+     * Method responsible for updating progress bar with current progress from Vocabulary
+     */
+    public void updateProgressBar() { progress.setValue((int)App.getVocabulary().getProgress()); }
+
+    public void setEnabledBackButton(boolean arg) { back.setEnabled(arg); }
+    public void setEnabledNextButton(boolean arg) { next.setEnabled(arg); }
+    public void setCheckbox(boolean arg) { check.setChecked(arg); }
+
+    public void setFlashcard(Flashcard f) { flashcard = f; }
+
+    public Flashcard getFlashcard() { return flashcard; }
+    public VocabularyType getVocabularyType() { return vocabularyType; }
+    public boolean getCheckboxValue() { return check.isChecked; }
+
+    private VocabularyType vocabularyType;
+
+    private JButton back;
+    private JButton roll;
+    private JButton next;
+    private JProgressBar progress;
+    private JButtonBox check;
+    private Flashcard flashcard;
 
     private class JButtonBox extends JButton {
 
@@ -147,39 +158,7 @@ public class FlashcardPanel extends MainPanel {
             }
 
             this.isChecked = isChecked;
-            this.createMousEvent(this);
-
-        }
-
-
-        public void createMousEvent(JButtonBox b) {
-
-            b.addMouseListener(new MouseListener() {
-                @Override
-                public void mouseClicked(MouseEvent e) {
-                    b.setChecked(!b.isChecked);
-                }
-
-                @Override
-                public void mousePressed(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mouseReleased(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mouseEntered(MouseEvent e) {
-
-                }
-
-                @Override
-                public void mouseExited(MouseEvent e) {
-
-                }
-            });
+            this.addActionListener(new CheckboxActionListener());
         }
 
         @Override
@@ -195,7 +174,7 @@ public class FlashcardPanel extends MainPanel {
 
         }
 
-        public boolean IsChecked(){return isChecked;}
+        public boolean isChecked(){return isChecked;}
         public void setChecked(boolean isChecked){this.isChecked = isChecked;}
 
     }
