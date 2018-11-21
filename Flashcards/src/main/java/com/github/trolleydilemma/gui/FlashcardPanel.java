@@ -49,7 +49,7 @@ public class FlashcardPanel extends MainPanel {
         back.setFont(new Font("Thoma", Font.BOLD, 18));
         back.setBounds(190,380,120,45);
         back.setFocusable(false);
-        back.setIcon(new ImageIcon("Back.png"));
+        back.setIcon(new ImageIcon(getClass().getResource("/images/Back.png")));
         back.setIconTextGap(10);
         back.setEnabled(false);
         back.addActionListener(new BackActionListener());
@@ -59,7 +59,7 @@ public class FlashcardPanel extends MainPanel {
         roll.setFont(new Font("Thoma", Font.BOLD, 18));
         roll.setBounds(340,380,120,45);
         roll.setFocusable(false);
-        roll.setIcon(new ImageIcon("Roll.png"));
+        roll.setIcon(new ImageIcon(getClass().getResource("/images/Roll.png")));
         roll.setIconTextGap(10);
         roll.addActionListener(new RollActionListener());
         add(roll);
@@ -69,7 +69,7 @@ public class FlashcardPanel extends MainPanel {
         next.setBounds(490,380,120,45);
         next.setFocusable(false);
         next.setHorizontalTextPosition(SwingConstants.LEFT);
-        next.setIcon(new ImageIcon("Next.png"));
+        next.setIcon(new ImageIcon(getClass().getResource("/images/Next.png")));
         next.setIconTextGap(10);
         next.setEnabled(false);
         next.addActionListener(new NextActionListener());
@@ -148,13 +148,10 @@ public class FlashcardPanel extends MainPanel {
         public JButtonBox(boolean isChecked){
 
             super();
-            try{
-
-                checkBox = ImageIO.read(new File("CheckBoxSelected.png"));
-            }catch(IOException e){
-
+            try {
+                checkBox = ImageIO.read(getClass().getResourceAsStream("/images/CheckBoxSelected.png"));
+            } catch(IOException e) {
                 e.printStackTrace();
-
             }
 
             this.isChecked = isChecked;

@@ -26,7 +26,7 @@ public class Vocabulary {
      * Constructor which loads vocabulary from XML file and progress of learning from JSON file
      */
     public Vocabulary() {
-        allVocabulary = XMLUtility.loadWords("words.xml");
+        allVocabulary = XMLUtility.loadWords(getClass().getResourceAsStream("/words.xml"));
         random = new Random();
         learnedJson = new File("./config/learned.json");
         if(!learnedJson.exists())

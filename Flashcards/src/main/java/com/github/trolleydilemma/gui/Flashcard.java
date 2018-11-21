@@ -90,13 +90,13 @@ public class Flashcard extends JPanel {
         if(wordTextPane != null)
             remove(wordTextPane);   //remove component from JPanel
 
+        isEnglish = !isEnglish;
+
         wordTextPane = new JTextPane();
-        wordTextPane.setFont(new Font("Thoma", Font.BOLD, 40));
-        wordTextPane.setBounds(100,70,400,150);
+        wordTextPane.setFont(new Font("Thoma", Font.BOLD, getFontSize()));
+        wordTextPane.setBounds(3,40,594,180);
         wordTextPane.setEnabled(false);
         wordTextPane.addMouseListener(myMouseListener);
-
-        isEnglish = !isEnglish;
 
         StringBuilder sb = new StringBuilder();
         if(isEnglish) {
@@ -119,6 +119,29 @@ public class Flashcard extends JPanel {
         docc.setParagraphAttributes(0, docc.getLength(), centerr, false);
         add(wordTextPane);
 
+    }
+
+    /**
+     * Get font size depending on size of vocabulary List in Word.
+     * Method determines whether english or japanese vocabulary is needed.
+     * @return font size for main TextPane
+     */
+    private int getFontSize() {
+        int count;
+
+        if(isEnglish)
+            count = word.getEnglish().size();
+        else
+            count = word.getJapanese().size();
+
+        switch(count) {
+            case 1: return 64;
+            case 2: return 48;
+            case 3: return 32;
+            case 4: return 28;
+            case 5: return 24;
+            default: return 22;
+        }
     }
 
     /**
