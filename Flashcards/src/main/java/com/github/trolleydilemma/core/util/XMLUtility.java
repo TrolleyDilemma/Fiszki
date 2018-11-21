@@ -12,6 +12,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,17 +24,16 @@ public class XMLUtility {
 
     /**
      * Load words from XML file
-     * @param XMLPath path for XML file with vocabulary
+     * @param XMLStream InputStream of XML file with vocabulary
      * @return list of all words contained in specified XML file
      */
-    public static List<Word> loadWords(String XMLPath) {
+    public static List<Word> loadWords(InputStream XMLStream) {
 
         List<Word> words = new ArrayList<>();
         try {
-            File inputFile = new File(XMLPath);
             DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-            Document doc = dBuilder.parse(inputFile);
+            Document doc = dBuilder.parse(XMLStream);
             doc.getDocumentElement().normalize();
             NodeList nList = doc.getElementsByTagName("word");
 
