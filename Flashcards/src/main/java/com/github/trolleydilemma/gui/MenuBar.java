@@ -1,5 +1,7 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.core.App;
+
 import javax.swing.*;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
@@ -36,7 +38,7 @@ public class MenuBar extends JMenuBar {
         JMenu help = createJMenu(menuTitles[1], KeyEvent.VK_H);
 
         file.add(createJMenuItem(fileMenuTitles[0], KeyEvent.VK_S, null));
-        file.add(createJMenuItem(fileMenuTitles[1], KeyEvent.VK_X, null));
+        file.add(createJMenuItem(fileMenuTitles[1], KeyEvent.VK_X, event -> App.getWindow().getWindowListeners()[0].windowClosing(null)));
         help.add(createJMenuItem(aboutMenuTitles[0], KeyEvent.VK_A, null));
 
         add(file);

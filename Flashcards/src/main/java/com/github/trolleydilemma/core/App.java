@@ -3,7 +3,8 @@ package com.github.trolleydilemma.core;
 import com.github.trolleydilemma.gui.Window;
 
 import javax.swing.*;
-import java.io.File;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 /**
  * Entry point
@@ -19,15 +20,16 @@ public class App
             throw new RuntimeException(e);
         }
 
-        //TODO: put it in config class with window's config
-        File configFile = new File("./config/learned.json");
-        if(!configFile.exists())
-            configFile.getParentFile().mkdirs();
-
-        Vocabulary vocabulary = new Vocabulary();
+        vocabulary = new Vocabulary();
 
         SwingUtilities.invokeLater(() -> window = new Window());
     }
 
+    public static Vocabulary getVocabulary() { return vocabulary; }
+    public static Window getWindow() { return  window; }
+    public static ExecutorService getExecutorService() { return executorService; }
+
     private static Window window;
+    private static Vocabulary vocabulary;
+    private static ExecutorService executorService = Executors.newFixedThreadPool(1);
 }

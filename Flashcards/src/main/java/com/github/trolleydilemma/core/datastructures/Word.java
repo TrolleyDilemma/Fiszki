@@ -1,5 +1,6 @@
 package com.github.trolleydilemma.core.datastructures;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -30,6 +31,18 @@ public class Word {
         this.japanese = jap;
         this.level = lvl;
         this.note = note;
+        this.learned = false;
+    }
+
+    /**
+     * Create empty Word.
+     */
+    public Word() {
+        this.id = 0;
+        this.english = new ArrayList<>();
+        this.japanese = new ArrayList<>();
+        this.level = " ";
+        this.note = " ";
         this.learned = false;
     }
 

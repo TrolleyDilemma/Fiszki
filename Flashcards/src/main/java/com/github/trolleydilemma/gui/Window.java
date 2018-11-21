@@ -1,5 +1,7 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.gui.listeners.MainWindowAdapter;
+
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import java.awt.*;
@@ -19,7 +21,8 @@ public class Window extends JFrame {
 
     private void init() {
 
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
+        addWindowListener(new MainWindowAdapter());
         setSize(1080, 720);
         setLocationRelativeTo(null);
         setLayout(new BorderLayout());

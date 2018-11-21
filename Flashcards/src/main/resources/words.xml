@@ -3956,12 +3956,14 @@
 		<jap>ね</jap>
 		<eng>emphasis and question marker</eng>
 		<eng>equivalent to "right?"</eng>
+		<eng></eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
 	<word id="636">
 		<jap>っけ</jap>
 		<eng>particle indicating that the speaker is trying to recall some information</eng>
+		<eng></eng>
 		<lvl>Hard</lvl>
 		<note>"What class is next -kke?"</note>
 	</word>
@@ -3996,6 +3998,8 @@
 	<word id="641">
 		<jap>どころ</jap>
 		<eng>particle used to indicate that what precedes it is an extreme example and strongly negates it</eng>
+		<eng></eng>
+		<eng></eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>

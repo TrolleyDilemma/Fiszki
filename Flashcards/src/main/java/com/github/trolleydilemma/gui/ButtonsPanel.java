@@ -1,12 +1,16 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.gui.listeners.FlashcardAllActionListener;
+import com.github.trolleydilemma.gui.listeners.FlashcardKnownActionListener;
+import com.github.trolleydilemma.gui.listeners.FlashcardUnknownActionListener;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionListener;
 
 /**
  * komenarz dokumentacyjny
- * @Author Blazej Zurawik
+ * @author Blazej Zurawik, Michal Glogowski
  */
 public class ButtonsPanel extends JPanel {
 
@@ -43,12 +47,14 @@ public class ButtonsPanel extends JPanel {
             //menuFlashcards.setBorder(BorderFactory.createLineBorder(Color.black));
             menuFlashcards.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuFlashcards.setBorderPainted(true);
-            menuFlashcards.setIcon(new ImageIcon("FlashcardIcon.png"));
+            menuFlashcards.setIcon(new ImageIcon(getClass().getResource("/images/FlashcardIcon.png")));
+
+
             menuFlashcards.setIconTextGap(5);
 
-                menuFlashcards.add(createJMenuItem("All", null));
-                menuFlashcards.add(createJMenuItem("Known", null));
-                menuFlashcards.add(createJMenuItem("Unknown", null));
+                menuFlashcards.add(createJMenuItem("All", new FlashcardAllActionListener()));
+                menuFlashcards.add(createJMenuItem("Known", new FlashcardKnownActionListener()));
+                menuFlashcards.add(createJMenuItem("Unknown", new FlashcardUnknownActionListener()));
                 menuBarFlashcards.add(menuFlashcards);
                 add(menuBarFlashcards);
 
@@ -63,7 +69,7 @@ public class ButtonsPanel extends JPanel {
             //menuTest.setBorder(BorderFactory.createLineBorder(Color.black));
             menuTest.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuTest.setBorderPainted(true);
-            menuTest.setIcon(new ImageIcon("TestIcon.png"));
+            menuTest.setIcon(new ImageIcon(getClass().getResource("/images/TestIcon.png")));
             menuTest.setIconTextGap(10);
 
                 menuTest.add(createJMenuItem("Test 1", null));
@@ -82,7 +88,7 @@ public class ButtonsPanel extends JPanel {
             //menuList.setBorder(BorderFactory.createLineBorder(Color.black));
             menuList.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuList.setBorderPainted(true);
-            menuList.setIcon(new ImageIcon("ListIcon.png"));
+            menuList.setIcon(new ImageIcon("/images/ListIcon.png"));
             menuList.setIconTextGap(10);
 
                 menuList.add(createJMenuItem("All", null));
@@ -102,21 +108,17 @@ public class ButtonsPanel extends JPanel {
             //menuStatistics.setBorder(BorderFactory.createLineBorder(Color.black));
             menuStatistics.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuStatistics.setBorderPainted(true);
-            menuStatistics.setIcon(new ImageIcon("StatisticIcon.png"));
+            menuStatistics.setIcon(new ImageIcon(getClass().getResource("/images/StatisticIcon.png")));
             menuStatistics.setIconTextGap(10);
 
                 menuBarStatistics.add(menuStatistics);
                 add(menuBarStatistics);
 
 
-        ImageIcon icon = new ImageIcon("LogiIcon.png");
+        ImageIcon icon = new ImageIcon(getClass().getResource("/images/LogiIcon.png"));
         JLabel obrazek = new JLabel(icon);
         obrazek.setBounds(910,10,125,125);
         add(obrazek);
-
-        flashcardPanel = new FlashcardPanel();
-        add(flashcardPanel);
-
 
     }
 
@@ -144,7 +146,8 @@ public class ButtonsPanel extends JPanel {
         private Color bgColor;
     }
 
-    public JPanel getFlashcardPanel(){return flashcardPanel;}
+    public FlashcardPanel getFlashcardPanel(){ return (FlashcardPanel)mainPanel; }
+    public void setFlashcardPanel(FlashcardPanel fp) { mainPanel = fp; }
 
-    private JPanel flashcardPanel;
+    private JPanel mainPanel;
 }
