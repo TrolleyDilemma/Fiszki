@@ -334,11 +334,6 @@
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -372,6 +367,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="datastructures" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -389,15 +394,40 @@
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -418,6 +448,9 @@
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.github.trolleydilemma.gui" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\projekt_io\Flashcards\src\test\java\com\github\trolleydilemma" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Szaman\IdeaProjects\Flashcards\src\main\resources" />
       <recent name="C:\Users\Szaman\IdeaProjects\Flashcards" />
@@ -437,7 +470,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FileUtilityTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.core.App" />
       <module name="flashcards" />
@@ -451,9 +484,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flashcards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.trolleydilemma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
+      <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.AppTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CorrectWordLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flashcards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.trolleydilemma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
+      <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.CorrectWordLoadTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileUtilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flashcards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.trolleydilemma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
+      <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.FileUtilityTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VocabularyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flashcards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.trolleydilemma.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
+      <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.VocabularyTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.CorrectWordLoadTest" />
+      <item itemvalue="JUnit.FileUtilityTest" />
+      <item itemvalue="JUnit.AppTest" />
+      <item itemvalue="JUnit.VocabularyTest" />
+      <item itemvalue="Application.App" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileUtilityTest" />
+        <item itemvalue="JUnit.VocabularyTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.AppTest" />
+        <item itemvalue="JUnit.CorrectWordLoadTest" />
       </list>
     </recent_temporary>
   </component>
@@ -469,6 +569,38 @@
       <updated>1540746322040</updated>
     </task>
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 35m 09s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 35m 58s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 37m 19s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 37m 50s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 40m 04s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 40m 41s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.23 at 23h 41m 05s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.24 at 01h 19m 56s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="VocabularyTest - 2018.11.24 at 01h 20m 16s.xml">
+      <configuration name="VocabularyTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FileUtilityTest - 2018.11.24 at 01h 21m 36s.xml">
+      <configuration name="FileUtilityTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -501,7 +633,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.21244635" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.15292841" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -516,18 +648,23 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/util/FileUtility.java</url>
+          <line>249</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/AppTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Flashcards.iml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Word.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Start.java" />
@@ -542,7 +679,7 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/util/concurrent/ThreadPoolExecutor.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/datastructures/TestData.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
+        <state relative-caret-position="17">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
@@ -610,59 +747,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/NextActionListener.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/FlashcardUnknownActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatusBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Window.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="51" lean-forward="true" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/words.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" lean-forward="true" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="143" column="9" selection-start-line="143" selection-start-column="9" selection-end-line="143" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1785">
-          <caret line="105" column="10" selection-start-line="105" selection-start-column="10" selection-end-line="105" selection-end-column="10" />
+        <state relative-caret-position="398">
+          <caret line="131" column="7" selection-start-line="131" selection-start-column="7" selection-end-line="131" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/util/XMLUtility.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        <state relative-caret-position="262">
+          <caret line="40" column="46" lean-forward="true" selection-start-line="40" selection-start-column="46" selection-end-line="40" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3434">
+          <caret line="208" selection-start-line="208" selection-end-line="208" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/config/learned.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="34" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/words.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="687">
+          <caret line="70" column="88" selection-start-line="70" selection-start-column="88" selection-end-line="70" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/VocabularyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/WordTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="130" column="52" selection-start-line="130" selection-start-column="52" selection-end-line="130" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/XMLUtilityTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="84" selection-start-line="29" selection-start-column="84" selection-end-line="29" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -691,7 +840,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/util/FileUtility.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6392">
           <caret line="390" column="56" lean-forward="true" selection-start-line="390" selection-start-column="56" selection-end-line="390" selection-end-column="56" />
