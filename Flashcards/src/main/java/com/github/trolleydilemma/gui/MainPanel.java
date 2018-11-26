@@ -21,7 +21,6 @@ public abstract class MainPanel extends JPanel {
         setLayout(null);
         setBounds(50,110,800,480);
         setBackground(new Color(255, 212, 132));
-        //setBorder(BorderFactory.createRaisedBevelBorder());
         setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
 
     }
