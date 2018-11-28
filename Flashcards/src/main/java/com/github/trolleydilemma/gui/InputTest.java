@@ -1,5 +1,7 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.core.datastructures.TestData;
+
 import javax.swing.*;
 import java.awt.*;
 
@@ -54,35 +56,35 @@ public class InputTest extends MainPanel {
         fifthWord.setEditable(false);
         add(fifthWord);
 
-            firstAnwser = new JTextField();
-            firstAnwser.setBounds(500,30,200,50);
-            firstAnwser.setFont(new Font("Tehoma", Font.BOLD, 18));
-            firstAnwser.setHorizontalAlignment(JTextField.CENTER);
-            add(firstAnwser);
+            firstAnswer = new JTextField();
+            firstAnswer.setBounds(500,30,200,50);
+            firstAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+            firstAnswer.setHorizontalAlignment(JTextField.CENTER);
+            add(firstAnswer);
 
-            secondAnwser = new JTextField();
-            secondAnwser.setBounds(500,100,200,50);
-            secondAnwser.setFont(new Font("Tehoma", Font.BOLD, 18));
-            secondAnwser.setHorizontalAlignment(JTextField.CENTER);
-            add(secondAnwser);
+            secondAnswer = new JTextField();
+            secondAnswer.setBounds(500,100,200,50);
+            secondAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+            secondAnswer.setHorizontalAlignment(JTextField.CENTER);
+            add(secondAnswer);
 
-            thirdAnwser = new JTextField();
-            thirdAnwser.setBounds(500,170,200,50);
-            thirdAnwser.setFont(new Font("Tehoma", Font.BOLD, 18));
-            thirdAnwser.setHorizontalAlignment(JTextField.CENTER);
-            add(thirdAnwser);
+            thirdAnswer = new JTextField();
+            thirdAnswer.setBounds(500,170,200,50);
+            thirdAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+            thirdAnswer.setHorizontalAlignment(JTextField.CENTER);
+            add(thirdAnswer);
 
-            fourthAnwser = new JTextField();
-            fourthAnwser.setBounds(500,240,200,50);
-            fourthAnwser.setFont(new Font("Tehoma", Font.BOLD, 18));
-            fourthAnwser.setHorizontalAlignment(JTextField.CENTER);
-            add(fourthAnwser);
+            fourthAnswer = new JTextField();
+            fourthAnswer.setBounds(500,240,200,50);
+            fourthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+            fourthAnswer.setHorizontalAlignment(JTextField.CENTER);
+            add(fourthAnswer);
 
-            fifthAnwser = new JTextField();
-            fifthAnwser.setBounds(500,310,200,50);
-            fifthAnwser.setFont(new Font("Tehoma", Font.BOLD, 18));
-            fifthAnwser.setHorizontalAlignment(JTextField.CENTER);
-            add(fifthAnwser);
+            fifthAnswer = new JTextField();
+            fifthAnswer.setBounds(500,310,200,50);
+            fifthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+            fifthAnswer.setHorizontalAlignment(JTextField.CENTER);
+            add(fifthAnswer);
 
 
 
@@ -105,47 +107,44 @@ public class InputTest extends MainPanel {
 
     }
 
+    public JButton getNext () { return next; }
+    public JButton getCheck() { return check; }
 
-    private JTextField firstWord;
+    public TestData getTestData() { return testData; }
+    public void setTestData(TestData arg) { this.testData = testData; }
+
     public JTextField getFirstWord(){ return firstWord; }
-    public void setFirstWord(JTextField arg){ firstWord = arg;}
+    public JTextField getSecondWord() { return secondWord; }
+    public JTextField getThirdWord() { return thirdWord; }
+    public JTextField getFourthWord() { return fourthWord; }
+    public JTextField getFifthWord() { return fifthWord; }
 
-    private JTextField secondWord;
-    public JTextField getSecondWord(){return secondWord;}
-    public void setSecondWord(JTextField arg){secondWord = arg;}
+    public JTextField getFirstAnswer() { return firstAnswer; }
+    public JTextField getSecondAnswer() { return secondAnswer; }
+    public JTextField getThirdAnswer() { return thirdAnswer; }
+    public JTextField getFourthAnswer() { return fourthAnswer; }
+    public JTextField getFifthAnswer() { return fifthAnswer; }
 
-    private JTextField thirdWord;
-    public JTextField getThirdWord(){return thirdWord;}
-    public void setThirdWord(JTextField arg){thirdWord = arg;}
-
-    private JTextField fourthWord;
-    public JTextField getFourthWord(){return fourthWord;}
-    public void setFourthWord(JTextField arg){fourthWord = arg;}
-
-    private JTextField fifthWord;
-    public JTextField getFifthWord(){return fifthWord;}
-    public void setFifthWord(JTextField arg){fourthWord = arg;}
-
-
-    private JTextField firstAnwser;
-    public JTextField getFirstAnwser(){return firstAnwser;}
-
-    private JTextField secondAnwser;
-    public JTextField getSecondAnwser(){return secondAnwser;}
-
-    private JTextField thirdAnwser;
-    public JTextField getThirdAnwser(){return thirdAnwser;}
-
-    private JTextField fourthAnwser;
-    public JTextField getFourthAnwser(){return fourthAnwser;}
-
-    private JTextField fifthAnwser;
-    public JTextField getFifthAnwser(){return fifthAnwser;}
-
+    public void setFirstWord(JTextField arg) { firstWord = arg; }
+    public void setSecondWord(JTextField arg) { secondWord = arg; }
+    public void setThirdWord(JTextField arg) { thirdWord = arg; }
+    public void setFourthWord(JTextField arg) { fourthWord = arg; }
+    public void setFifthWord(JTextField arg) { fourthWord = arg; }
 
     private JButton next;
-    public JButton getNext (){return next;}
-
     private JButton check;
-    public JButton getCheck(){return check;}
+
+    private JTextField firstWord;
+    private JTextField secondWord;
+    private JTextField thirdWord;
+    private JTextField fourthWord;
+    private JTextField fifthWord;
+
+    private JTextField firstAnswer;
+    private JTextField secondAnswer;
+    private JTextField thirdAnswer;
+    private JTextField fourthAnswer;
+    private JTextField fifthAnswer;
+
+    private TestData testData;
 }

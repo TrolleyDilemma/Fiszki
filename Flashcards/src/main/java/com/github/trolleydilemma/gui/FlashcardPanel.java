@@ -4,16 +4,15 @@ import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.core.datastructures.Word;
 import com.github.trolleydilemma.core.enums.VocabularyType;
 import com.github.trolleydilemma.core.exceptions.OutOfWordsException;
-import com.github.trolleydilemma.gui.listeners.BackActionListener;
-import com.github.trolleydilemma.gui.listeners.CheckboxActionListener;
-import com.github.trolleydilemma.gui.listeners.NextActionListener;
-import com.github.trolleydilemma.gui.listeners.RollActionListener;
+import com.github.trolleydilemma.gui.listeners.flashcard.BackActionListener;
+import com.github.trolleydilemma.gui.listeners.flashcard.CheckboxActionListener;
+import com.github.trolleydilemma.gui.listeners.flashcard.NextActionListener;
+import com.github.trolleydilemma.gui.listeners.flashcard.RollActionListener;
 
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
-import java.io.File;
 import java.io.IOException;
 
 
