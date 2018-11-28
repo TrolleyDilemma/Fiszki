@@ -41,7 +41,6 @@ public class Flashcard extends JPanel {
         note.setEnabled(false);
         note.addMouseListener(myMouseListener);
         note.setText(word.getNote() + " ");
-        //note.setBorder(BorderFactory.createLineBorder(Color.black)); //test
         StyledDocument doc = note.getStyledDocument();
         SimpleAttributeSet center = new SimpleAttributeSet();
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
@@ -53,7 +52,6 @@ public class Flashcard extends JPanel {
         indexLevel.setFont(new Font("Thoma", Font.PLAIN, 15));
         indexLevel.setEnabled(false);
         indexLevel.setBorder(null);
-        //indexLevel.setBorder(BorderFactory.createLineBorder(Color.black)); //test
         indexLevel.setHorizontalAlignment(JTextField.CENTER);
         indexLevel.addMouseListener(myMouseListener);
         indexLevel.setText(word.getLevel().substring(0,1));
@@ -64,7 +62,6 @@ public class Flashcard extends JPanel {
         indexNum.setFont(new Font("Thoma", Font.PLAIN, 15));
         indexNum.setEnabled(false);
         indexNum.setBorder(null);
-        //indexNum.setBorder(BorderFactory.createLineBorder(Color.black)); //test
         indexNum.setHorizontalAlignment(JTextField.CENTER);
         indexNum.addMouseListener(myMouseListener);
         indexNum.setText(Integer.toString(word.getId()));
@@ -112,7 +109,6 @@ public class Flashcard extends JPanel {
         }
 
         wordTextPane.setText(sb.toString());
-        //word.setBorder(BorderFactory.createLineBorder(Color.black)); //test
         StyledDocument docc = wordTextPane.getStyledDocument();
         SimpleAttributeSet centerr = new SimpleAttributeSet();
         StyleConstants.setAlignment(centerr, StyleConstants.ALIGN_CENTER);

@@ -109,10 +109,10 @@ public class ButtonsPanel extends JPanel {
 
         //TODO: REMOVE
         //mainPanel = new ChooseOneTest();
-       // add(mainPanel);
-
        // mainPanel = new InputTest();
-        //add(mainPanel);
+        //mainPanel = new ListPanel();
+        mainPanel = new StatisticsPanel();
+        add(mainPanel);
 
     }
 
