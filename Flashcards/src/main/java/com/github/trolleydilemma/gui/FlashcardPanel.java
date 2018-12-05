@@ -14,6 +14,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import java.text.DecimalFormat;
 
 
 /**
@@ -78,10 +79,11 @@ public class FlashcardPanel extends MainPanel {
         progress.setBounds(50, 440, 700, 20);
         progress.setMaximum(progressMax);
         progress.setMinimum(progressMin);
-        progress.setValue(progressInit); //poczatkowa wartosc`
+        progress.setValue(progressInit); //poczatkowa wartosc
         progress.setStringPainted(true);
         progress.setBorder(BorderFactory.createLoweredBevelBorder());
         progress.setForeground(new Color(104,130,106));
+        setTextForProgressBar();
         add(progress);
 
         check = new JButtonBox(false);
@@ -119,7 +121,21 @@ public class FlashcardPanel extends MainPanel {
     /**
      * Method responsible for updating progress bar with current progress from Vocabulary
      */
-    public void updateProgressBar() { progress.setValue((int)App.getVocabulary().getProgress()); }
+    public void updateProgressBar() {
+        progress.setValue((int)App.getVocabulary().getProgress());
+        setTextForProgressBar();
+    }
+
+    /**
+     * Method responsible for changing text on progress bar with after decimal precision.
+     * It needs to be used after each progress bar update.
+     */
+    private void setTextForProgressBar() {
+        double percentage = (double)progress.getValue() / progressMax;
+        progress.setString(formatter.format(percentage));
+    }
+
+    private DecimalFormat formatter = new DecimalFormat("#.#%");
 
     public void setEnabledBackButton(boolean arg) { back.setEnabled(arg); }
     public void setEnabledNextButton(boolean arg) { next.setEnabled(arg); }

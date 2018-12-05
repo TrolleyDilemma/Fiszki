@@ -1,6 +1,8 @@
 package com.github.trolleydilemma.gui;
 
 import com.github.trolleydilemma.core.datastructures.TestData;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.ChooseOneTestActionListener;
+import com.github.trolleydilemma.gui.listeners.chooseonetest.AnswerButtonActionListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -26,24 +28,28 @@ public class ChooseOneTest extends MainPanel {
         answerA.setFont(new Font("Thoma", Font.BOLD, 18));
         answerA.setBounds(160,250,200,60);
         answerA.setFocusable(false);
+        answerA.addActionListener(new AnswerButtonActionListener());
         add(answerA);
 
         answerB = new JButton();
         answerB.setFont(new Font("Thoma", Font.BOLD, 18));
         answerB.setBounds(160,330,200,60);
         answerB.setFocusable(false);
+        answerB.addActionListener(new AnswerButtonActionListener());
         add(answerB);
 
         answerC = new JButton();
         answerC.setFont(new Font("Thoma", Font.BOLD, 18));
         answerC.setBounds(440,250,200,60);
         answerC.setFocusable(false);
+        answerC.addActionListener(new AnswerButtonActionListener());
         add(answerC);
 
         answerD = new JButton();
         answerD.setFont(new Font("Thoma", Font.BOLD, 18));
         answerD.setBounds(440,330,200,60);
         answerD.setFocusable(false);
+        answerD.addActionListener(new AnswerButtonActionListener());
         add(answerD);
 
         next = new JButton("Next");
@@ -53,6 +59,7 @@ public class ChooseOneTest extends MainPanel {
         next.setHorizontalTextPosition(SwingConstants.LEFT);
         next.setIcon(new ImageIcon(getClass().getResource("/images/Next.png")));
         next.setIconTextGap(10);
+        next.addActionListener(new ChooseOneTestActionListener());
         add(next);
 
     }
@@ -71,7 +78,7 @@ public class ChooseOneTest extends MainPanel {
     public JButton getNext() { return answerA; }
 
     public TestData getTestData() { return testData; }
-    public void setTestData(TestData arg) { this.testData = testData; }
+    public void setTestData(TestData arg) { testData = arg; }
 
     private JButton answerA;
     private JButton answerB;

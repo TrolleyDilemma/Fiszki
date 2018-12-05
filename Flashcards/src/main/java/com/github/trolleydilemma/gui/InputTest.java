@@ -1,6 +1,8 @@
 package com.github.trolleydilemma.gui;
 
 import com.github.trolleydilemma.core.datastructures.TestData;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.InputTestActionListener;
+import com.github.trolleydilemma.gui.listeners.inputtest.CheckButtonActionListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -20,7 +22,6 @@ public class InputTest extends MainPanel {
         firstWord.setBounds(100,30,200,50);
         firstWord.setFont(new Font("Tehoma", Font.BOLD, 18));
         firstWord.setHorizontalAlignment(JTextField.CENTER);
-        firstWord.setText("firstWord");
         firstWord.setEditable(false);
         add(firstWord);
 
@@ -28,7 +29,6 @@ public class InputTest extends MainPanel {
         secondWord.setBounds(100,100,200,50);
         secondWord.setFont(new Font("Tehoma", Font.BOLD, 18));
         secondWord.setHorizontalAlignment(JTextField.CENTER);
-        secondWord.setText("secondWord");
         secondWord.setEditable(false);
         add(secondWord);
 
@@ -36,7 +36,6 @@ public class InputTest extends MainPanel {
         thirdWord.setBounds(100,170,200,50);
         thirdWord.setFont(new Font("Tehoma", Font.BOLD, 18));
         thirdWord.setHorizontalAlignment(JTextField.CENTER);
-        thirdWord.setText("thirdWord");
         thirdWord.setEditable(false);
         add(thirdWord);
 
@@ -44,7 +43,6 @@ public class InputTest extends MainPanel {
         fourthWord.setBounds(100,240,200,50);
         fourthWord.setFont(new Font("Tehoma", Font.BOLD, 18));
         fourthWord.setHorizontalAlignment(JTextField.CENTER);
-        fourthWord.setText("fourthWord");
         fourthWord.setEditable(false);
         add(fourthWord);
 
@@ -52,7 +50,6 @@ public class InputTest extends MainPanel {
         fifthWord.setBounds(100,310,200,50);
         fifthWord.setFont(new Font("Tehoma", Font.BOLD, 18));
         fifthWord.setHorizontalAlignment(JTextField.CENTER);
-        fifthWord.setText("fifthWord");
         fifthWord.setEditable(false);
         add(fifthWord);
 
@@ -95,6 +92,7 @@ public class InputTest extends MainPanel {
         next.setHorizontalTextPosition(SwingConstants.LEFT);
         next.setIcon(new ImageIcon(getClass().getResource("/images/Next.png")));
         next.setIconTextGap(10);
+        next.addActionListener(new InputTestActionListener());
         add(next);
 
 
@@ -103,15 +101,13 @@ public class InputTest extends MainPanel {
         check.setBounds(325,170,150,50);
         check.setFocusable(false);
         check.setHorizontalTextPosition(SwingConstants.LEFT);
+        check.addActionListener(new CheckButtonActionListener());
         add(check);
 
     }
 
-    public JButton getNext () { return next; }
-    public JButton getCheck() { return check; }
-
     public TestData getTestData() { return testData; }
-    public void setTestData(TestData arg) { this.testData = testData; }
+    public void setTestData(TestData arg) { testData = arg; }
 
     public JTextField getFirstWord(){ return firstWord; }
     public JTextField getSecondWord() { return secondWord; }
@@ -124,12 +120,6 @@ public class InputTest extends MainPanel {
     public JTextField getThirdAnswer() { return thirdAnswer; }
     public JTextField getFourthAnswer() { return fourthAnswer; }
     public JTextField getFifthAnswer() { return fifthAnswer; }
-
-    public void setFirstWord(JTextField arg) { firstWord = arg; }
-    public void setSecondWord(JTextField arg) { secondWord = arg; }
-    public void setThirdWord(JTextField arg) { thirdWord = arg; }
-    public void setFourthWord(JTextField arg) { fourthWord = arg; }
-    public void setFifthWord(JTextField arg) { fourthWord = arg; }
 
     private JButton next;
     private JButton check;

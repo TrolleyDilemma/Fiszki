@@ -49,12 +49,12 @@ public class InputTestActionListener implements ActionListener {
                     ex.printStackTrace();
                 } catch (OutOfWordsException ex) {
                     SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(App.getWindow(),
-                            "You don't have any known vocabulary to draw from.", "No vocabulary", JOptionPane.INFORMATION_MESSAGE));
+                            "You don't have enough known vocabulary to draw from.", "No vocabulary", JOptionPane.INFORMATION_MESSAGE));
                 }
             });
         } else {
             SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(App.getWindow(),
-                    "You don't have any known vocabulary to draw from.", "No vocabulary", JOptionPane.INFORMATION_MESSAGE));
+                    "You don't have enough known vocabulary to draw from.", "No vocabulary", JOptionPane.INFORMATION_MESSAGE));
         }
     }
 

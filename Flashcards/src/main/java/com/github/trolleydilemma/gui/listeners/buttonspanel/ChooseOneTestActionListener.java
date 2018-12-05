@@ -47,15 +47,19 @@ public class ChooseOneTestActionListener implements ActionListener {
                         switch (testData.getMainWordId()) {
                             case 0:
                                 //TODO: set text field to: testData.getWords().get(0).getJapanese().get(0)
+                                System.out.println(testData.getWords().get(0).getJapanese().get(0));
                                 break;
                             case 1:
                                 //TODO: set text field to: testData.getWords().get(1).getJapanese().get(0)
+                                System.out.println(testData.getWords().get(1).getJapanese().get(0));
                                 break;
                             case 2:
                                 //TODO: set text field to: testData.getWords().get(2).getJapanese().get(0)
+                                System.out.println(testData.getWords().get(2).getJapanese().get(0));
                                 break;
                             case 3:
                                 //TODO: set text field to: testData.getWords().get(3).getJapanese().get(0)
+                                System.out.println(testData.getWords().get(3).getJapanese().get(0));
                         }
 
                     });
