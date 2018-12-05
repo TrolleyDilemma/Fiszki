@@ -1,4 +1,4 @@
-package com.github.trolleydilemma.gui.listeners;
+package com.github.trolleydilemma.gui.listeners.flashcard;
 
 import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.core.datastructures.Word;
@@ -12,24 +12,24 @@ import java.awt.event.ActionListener;
 import java.util.concurrent.ExecutorService;
 
 /**
- * ActionListener for the Back button in the Flashcard module
+ * ActionListener for the Next button in the Flashcard module
  * @author Michal Glogowski
  */
-public class BackActionListener implements ActionListener {
+public class NextActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
-        FlashcardPanel flashcardPanel = App.getWindow().getButtonPanel().getFlashcardPanel();
+        FlashcardPanel flashcardPanel = (FlashcardPanel)App.getWindow().getButtonPanel().getMainPanel();
         Flashcard flashcard = flashcardPanel.getFlashcard();
-        VocabularyType type = App.getWindow().getButtonPanel().getFlashcardPanel().getVocabularyType();
+        VocabularyType type = flashcardPanel.getVocabularyType();
         ExecutorService exec = App.getExecutorService();
 
         exec.execute(() -> {
-            Word word = App.getVocabulary().back(type);
-            boolean back = App.getVocabulary().canGetPreviousFlashcard(type);
+            Word word = App.getVocabulary().next(type);
+            boolean next = App.getVocabulary().canGetNextFlashcard(type);
 
             SwingUtilities.invokeLater(() -> {
-                flashcardPanel.setEnabledBackButton(back);
-                flashcardPanel.setEnabledNextButton(true);
+                flashcardPanel.setEnabledBackButton(true);
+                flashcardPanel.setEnabledNextButton(next);
                 flashcardPanel.setCheckbox(word.isLearned());
                 flashcardPanel.repaint();
 

@@ -1,8 +1,6 @@
 package com.github.trolleydilemma.gui;
 
-import com.github.trolleydilemma.gui.listeners.FlashcardAllActionListener;
-import com.github.trolleydilemma.gui.listeners.FlashcardKnownActionListener;
-import com.github.trolleydilemma.gui.listeners.FlashcardUnknownActionListener;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -61,8 +59,8 @@ public class ButtonsPanel extends JPanel {
             menuTest.setIcon(new ImageIcon(getClass().getResource("/images/TestIcon.png")));
             menuTest.setIconTextGap(10);
 
-                menuTest.add(createJMenuItem("Test 1", null));
-                menuTest.add(createJMenuItem("Test 2", null));
+                menuTest.add(createJMenuItem("Choose One Test", new ChooseOneTestActionListener()));
+                menuTest.add(createJMenuItem("Input Test", new InputTestActionListener()));
                 menuBarTest.add(menuTest);
                 add(menuBarTest);
 
@@ -79,9 +77,9 @@ public class ButtonsPanel extends JPanel {
             menuList.setIcon(new ImageIcon(getClass().getResource("/images/ListIcon.png")));
             menuList.setIconTextGap(10);
 
-                menuList.add(createJMenuItem("All", null));
-                menuList.add(createJMenuItem("Known", null));
-                menuList.add(createJMenuItem("Unknown",null));
+                menuList.add(createJMenuItem("All", null));     //TODO
+                menuList.add(createJMenuItem("Known", null));   //TODO
+                menuList.add(createJMenuItem("Unknown",null));  //TODO
                 menuBarList.add(menuList);
                 add(menuBarList);
 
@@ -111,8 +109,8 @@ public class ButtonsPanel extends JPanel {
         //mainPanel = new ChooseOneTest();
        // mainPanel = new InputTest();
         //mainPanel = new ListPanel();
-        mainPanel = new StatisticsPanel();
-        add(mainPanel);
+        //mainPanel = new StatisticsPanel();
+        //add(mainPanel);
 
     }
 
@@ -139,8 +137,8 @@ public class ButtonsPanel extends JPanel {
         private Color bgColor;
     }
 
-    public FlashcardPanel getFlashcardPanel(){ return (FlashcardPanel)mainPanel; }
-    public void setFlashcardPanel(FlashcardPanel fp) { mainPanel = fp; }
+    public MainPanel getMainPanel(){ return mainPanel; }
+    public void setMainPanel(MainPanel mp) { mainPanel = mp; }
 
-    private JPanel mainPanel;
+    private MainPanel mainPanel;
 }

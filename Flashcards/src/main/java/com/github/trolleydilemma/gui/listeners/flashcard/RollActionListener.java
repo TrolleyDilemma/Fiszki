@@ -1,4 +1,4 @@
-package com.github.trolleydilemma.gui.listeners;
+package com.github.trolleydilemma.gui.listeners.flashcard;
 
 import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.core.datastructures.Word;
@@ -19,9 +19,9 @@ import java.util.concurrent.ExecutorService;
 public class RollActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
-        FlashcardPanel flashcardPanel = App.getWindow().getButtonPanel().getFlashcardPanel();
+        FlashcardPanel flashcardPanel = (FlashcardPanel)App.getWindow().getButtonPanel().getMainPanel();
         Flashcard flashcard = flashcardPanel.getFlashcard();
-        VocabularyType type = App.getWindow().getButtonPanel().getFlashcardPanel().getVocabularyType();
+        VocabularyType type = flashcardPanel.getVocabularyType();
         ExecutorService exec = App.getExecutorService();
 
         exec.execute(() -> {

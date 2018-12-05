@@ -1,5 +1,9 @@
 package com.github.trolleydilemma.gui;
 
+import com.github.trolleydilemma.core.datastructures.TestData;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.ChooseOneTestActionListener;
+import com.github.trolleydilemma.gui.listeners.chooseonetest.AnswerButtonActionListener;
+
 import javax.swing.*;
 import java.awt.*;
 //TODO: Dokumentacja
@@ -20,29 +24,33 @@ public class ChooseOneTest extends MainPanel {
         word.setBorder(BorderFactory.createLineBorder(Color.black));
         add(word);
 
-        anwserA = new JButton();
-        anwserA.setFont(new Font("Thoma", Font.BOLD, 18));
-        anwserA.setBounds(160,250,200,60);
-        anwserA.setFocusable(false);
-        add(anwserA);
+        answerA = new JButton();
+        answerA.setFont(new Font("Thoma", Font.BOLD, 18));
+        answerA.setBounds(160,250,200,60);
+        answerA.setFocusable(false);
+        answerA.addActionListener(new AnswerButtonActionListener());
+        add(answerA);
 
-        anwserB = new JButton();
-        anwserB.setFont(new Font("Thoma", Font.BOLD, 18));
-        anwserB.setBounds(160,330,200,60);
-        anwserB.setFocusable(false);
-        add(anwserB);
+        answerB = new JButton();
+        answerB.setFont(new Font("Thoma", Font.BOLD, 18));
+        answerB.setBounds(160,330,200,60);
+        answerB.setFocusable(false);
+        answerB.addActionListener(new AnswerButtonActionListener());
+        add(answerB);
 
-        anwserC = new JButton();
-        anwserC.setFont(new Font("Thoma", Font.BOLD, 18));
-        anwserC.setBounds(440,250,200,60);
-        anwserC.setFocusable(false);
-        add(anwserC);
+        answerC = new JButton();
+        answerC.setFont(new Font("Thoma", Font.BOLD, 18));
+        answerC.setBounds(440,250,200,60);
+        answerC.setFocusable(false);
+        answerC.addActionListener(new AnswerButtonActionListener());
+        add(answerC);
 
-        anwserD = new JButton();
-        anwserD.setFont(new Font("Thoma", Font.BOLD, 18));
-        anwserD.setBounds(440,330,200,60);
-        anwserD.setFocusable(false);
-        add(anwserD);
+        answerD = new JButton();
+        answerD.setFont(new Font("Thoma", Font.BOLD, 18));
+        answerD.setBounds(440,330,200,60);
+        answerD.setFocusable(false);
+        answerD.addActionListener(new AnswerButtonActionListener());
+        add(answerD);
 
         next = new JButton("Next");
         next.setFont(new Font("Thoma", Font.BOLD, 18));
@@ -51,31 +59,36 @@ public class ChooseOneTest extends MainPanel {
         next.setHorizontalTextPosition(SwingConstants.LEFT);
         next.setIcon(new ImageIcon(getClass().getResource("/images/Next.png")));
         next.setIconTextGap(10);
+        next.addActionListener(new ChooseOneTestActionListener());
         add(next);
 
     }
 
+    public JButton getAnswerA() { return answerA; }
+    public JButton getAnswerB() { return answerB; }
+    public JButton getAnswerC() { return answerC; }
+    public JButton getAnswerD() { return answerD; }
+
+    public void setAnswerA(JButton arg) { answerA = arg; }
+    public void setAnswerB(JButton arg) { answerB = arg; }
+    public void setAnswerC(JButton arg) { answerC = arg; }
+    public void setAnswerD(JButton arg) { answerD = arg; }
+
+    public JPanel getWord() { return word; }
+    public JButton getNext() { return answerA; }
+
+    public TestData getTestData() { return testData; }
+    public void setTestData(TestData arg) { testData = arg; }
+
+    private JButton answerA;
+    private JButton answerB;
+    private JButton answerC;
+    private JButton answerD;
+
     private JPanel word;
-        public JPanel getWord(){return word;}
-
-    private JButton anwserA;
-        public JButton getAnwserA(){return anwserA;}
-        public void setAnwserA(JButton arg){anwserA = arg;}
-
-    private JButton anwserB;
-        public JButton getAnwserB(){return anwserB;}
-        public void setAnwserB(JButton arg){anwserB = arg;}
-
-    private JButton anwserC;
-        public JButton getAnwserC(){return anwserC;}
-        public void setAnwserC(JButton arg){anwserC = arg;}
-
-    private JButton anwserD;
-        public JButton getAnwserD(){return anwserD;}
-        public void setAnwserD(JButton arg){anwserD = arg;}
-
     private JButton next;
-        public JButton getNext(){return anwserA;}
+
+    private TestData testData;
 
 }
 
