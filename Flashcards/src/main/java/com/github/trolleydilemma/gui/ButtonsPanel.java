@@ -77,9 +77,9 @@ public class ButtonsPanel extends JPanel {
             menuList.setIcon(new ImageIcon(getClass().getResource("/images/ListIcon.png")));
             menuList.setIconTextGap(10);
 
-                menuList.add(createJMenuItem("All", null));     //TODO
-                menuList.add(createJMenuItem("Known", null));   //TODO
-                menuList.add(createJMenuItem("Unknown",null));  //TODO
+                menuList.add(createJMenuItem("All", new AllListActionListener()));
+                menuList.add(createJMenuItem("Known", new KnownListActionListener()));
+                menuList.add(createJMenuItem("Unknown", new UnknownListActionListener()));
                 menuBarList.add(menuList);
                 add(menuBarList);
 
@@ -88,13 +88,14 @@ public class ButtonsPanel extends JPanel {
         menuBarStatistics.setBounds(560, 40, 150, 40);
         menuBarStatistics.setLayout(null);
 
-            JMenu menuStatistics = new PaintMenu("Statistics", new Color(220,220,220));
+            menuStatistics = new PaintMenu("Statistics", new Color(220,220,220));
             menuStatistics.setFont(new Font("Thoma", Font.BOLD, 18));
             menuStatistics.setBounds(0, 0, 150, 40);
             menuStatistics.setBorder((BorderFactory.createCompoundBorder(BorderFactory.createRaisedBevelBorder(),BorderFactory.createLoweredBevelBorder())));
             menuStatistics.setBorderPainted(true);
             menuStatistics.setIcon(new ImageIcon(getClass().getResource("/images/StatisticIcon.png")));
             menuStatistics.setIconTextGap(10);
+            menuStatistics.addMenuListener(new StatisticsPanelMenuListener());
 
                 menuBarStatistics.add(menuStatistics);
                 add(menuBarStatistics);
@@ -113,6 +114,11 @@ public class ButtonsPanel extends JPanel {
         //add(mainPanel);
 
     }
+
+    /**
+     * Turns off selection (highlight) of menuStatistics. It needs to be used after pressing menuStatistics.
+     */
+    public void deselectMenuStatistics() { menuStatistics.setSelected(false); }
 
     private JMenuItem createJMenuItem(String title,  ActionListener al) {
         JMenuItem jMenuItem;
@@ -141,4 +147,5 @@ public class ButtonsPanel extends JPanel {
     public void setMainPanel(MainPanel mp) { mainPanel = mp; }
 
     private MainPanel mainPanel;
+    private JMenu menuStatistics;
 }

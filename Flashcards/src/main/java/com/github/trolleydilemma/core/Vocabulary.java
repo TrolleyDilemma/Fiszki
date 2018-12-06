@@ -309,21 +309,21 @@ public class Vocabulary {
 
     /**
      * Get amount of known vocabulary of entire collection.
-     * Recommended purpose of use: progress par.
+     * Recommended purpose of use: progress bar.
      * @return amount of known vocabulary
      */
     public long getProgress() { return allVocabulary.stream().filter(word -> word.isLearned()).count(); }
 
     /**
      * Get amount of entire vocabulary.
-     * Recommended purpose of use: progress par.
+     * Recommended purpose of use: progress bar.
      * @return amount of entire vocabulary
      */
     public long getQuantity() { return allVocabulary.size(); }
 
     /**
      * Get amount of known vocabulary of certain level.
-     * Recommended purpose of use: progress par.
+     * Recommended purpose of use: progress bar.
      * @param lvl level of vocabulary (EASY, MEDIUM, HARD)
      * @return amount of known vocabulary
      */
@@ -338,7 +338,7 @@ public class Vocabulary {
 
     /**
      * Get amount of entire vocabulary of certain level.
-     * Recommended purpose of use: progress par.
+     * Recommended purpose of use: progress bar.
      * @param lvl level of vocabulary (EASY, MEDIUM, HARD)
      * @return amount of entire vocabulary
      */
