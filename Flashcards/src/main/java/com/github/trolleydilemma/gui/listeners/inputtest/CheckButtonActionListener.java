@@ -43,10 +43,12 @@ public class CheckButtonActionListener implements ActionListener {
         });
 
         if(correct)
-            answerField.setBackground(Color.GREEN);
+            answerField.setBackground(green);
         else
-            answerField.setBackground(Color.RED);
+            answerField.setBackground(red);
     }
 
     private boolean correct;
+    private Color red = new Color(200,76,90);
+    private Color green = new Color(165,199,127);
 }
