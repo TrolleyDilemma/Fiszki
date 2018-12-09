@@ -5,6 +5,9 @@ import com.github.trolleydilemma.gui.listeners.buttonspanel.ChooseOneTestActionL
 import com.github.trolleydilemma.gui.listeners.chooseonetest.AnswerButtonActionListener;
 
 import javax.swing.*;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleConstants;
+import javax.swing.text.StyledDocument;
 import java.awt.*;
 //TODO: Dokumentacja
 public class ChooseOneTest extends MainPanel {
@@ -19,35 +22,47 @@ public class ChooseOneTest extends MainPanel {
     private void init(){
 
         word = new JPanel();
-        word.setBounds(200, 30, 400, 200);
+        word.setBounds(100, 25, 600, 220);
         word.setLayout(null);
         word.setBorder(BorderFactory.createLineBorder(Color.black));
         add(word);
 
+        text = new JTextPane();
+        text.setFont(new Font("Thoma", Font.PLAIN, 15));
+        text.setBounds(5,20, 590,180);
+        text.setEnabled(false);
+        //text.setText("test raz dwa trzy");
+        //text.setBorder(BorderFactory.createLineBorder(Color.black));
+        StyledDocument doc = text.getStyledDocument();
+        SimpleAttributeSet center = new SimpleAttributeSet();
+        StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
+        doc.setParagraphAttributes(0, doc.getLength(), center, false);
+        word.add(text);
+
         answerA = new JButton();
         answerA.setFont(new Font("Thoma", Font.BOLD, 18));
-        answerA.setBounds(160,250,200,60);
+        answerA.setBounds(140,265,240,60);
         answerA.setFocusable(false);
         answerA.addActionListener(new AnswerButtonActionListener());
         add(answerA);
 
         answerB = new JButton();
         answerB.setFont(new Font("Thoma", Font.BOLD, 18));
-        answerB.setBounds(160,330,200,60);
+        answerB.setBounds(140,345,240,60);
         answerB.setFocusable(false);
         answerB.addActionListener(new AnswerButtonActionListener());
         add(answerB);
 
         answerC = new JButton();
         answerC.setFont(new Font("Thoma", Font.BOLD, 18));
-        answerC.setBounds(440,250,200,60);
+        answerC.setBounds(420,265,240,60);
         answerC.setFocusable(false);
         answerC.addActionListener(new AnswerButtonActionListener());
         add(answerC);
 
         answerD = new JButton();
         answerD.setFont(new Font("Thoma", Font.BOLD, 18));
-        answerD.setBounds(440,330,200,60);
+        answerD.setBounds(420,345,240,60);
         answerD.setFocusable(false);
         answerD.addActionListener(new AnswerButtonActionListener());
         add(answerD);
@@ -86,6 +101,7 @@ public class ChooseOneTest extends MainPanel {
     private JButton answerD;
 
     private JPanel word;
+    private JTextPane text;
     private JButton next;
 
     private TestData testData;
