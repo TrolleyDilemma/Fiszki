@@ -3,6 +3,7 @@ package com.github.trolleydilemma.gui;
 import com.github.trolleydilemma.core.datastructures.Word;
 
 import javax.swing.*;
+import javax.swing.border.Border;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
@@ -94,6 +95,7 @@ public class Flashcard extends JPanel {
         wordTextPane.setBounds(3,40,594,180);
         wordTextPane.setEnabled(false);
         wordTextPane.addMouseListener(myMouseListener);
+        wordTextPane.setBorder(BorderFactory.createLineBorder(Color.black));
 
         StringBuilder sb = new StringBuilder();
         if(isEnglish) {
