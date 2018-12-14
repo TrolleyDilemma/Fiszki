@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c766acf9-6352-4f4f-b29f-15bb87c8b737" name="Default Changelist" comment="" />
+    <list default="true" id="c766acf9-6352-4f4f-b29f-15bb87c8b737" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/AllListActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/KnownListActionListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/StatisticsPanelMenuListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/UnknownListActionListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +26,81 @@
       <FILTER>com.github.trolleydilemma.core.*</FILTER>
     </SUITE>
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-293535132">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="220" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="220" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/InputTestActionListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ChooseOneTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,7 +115,11 @@
       <find>636</find>
       <find>641</find>
       <find>Thoma</find>
+      <find>par</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -50,10 +138,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/util/XMLUtility.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/TestPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/MainPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/App.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/FlashcardUnknownActionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/FlashcardAllActionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/FlashcardKnownActionListener.java" />
@@ -62,16 +147,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/BackActionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/CheckboxActionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/ChooseOneTestActionListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/ChooseOneTestActionListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ChooseOneTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/chooseonetest/AnswerButtonActionListener.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/FlashcardPanel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/InputTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/FileUtilityTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/InputTestActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/StatisticsPanelActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/StatisticsPanelMenuListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/AllListActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/KnownListActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/UnknownListActionListener.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ChooseOneTest.java" />
       </list>
     </option>
   </component>
@@ -100,16 +193,15 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1101" />
-    <option name="height" value="1057" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -120,11 +212,6 @@
             <path>
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -155,7 +242,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
@@ -165,7 +252,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
@@ -176,36 +262,33 @@
               <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
               <item name="listeners" type="462c0819:PsiDirectoryNode" />
-              <item name="buttonspanel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
               <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Flashcards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Flashcards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="trolleydilemma" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+              <item name="listeners" type="462c0819:PsiDirectoryNode" />
+              <item name="inputtest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544013576862" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544136076959" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -375,10 +458,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
       <window_info id="Learn" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1748401" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18123667" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
@@ -386,15 +469,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.19609967" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.19527897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32832617" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.21244635" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32936078" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.15276273" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -407,37 +490,9 @@
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="8" side_tool="true" weight="0.32995737" />
       <window_info anchor="right" id="Maven" order="9" weight="0.18763326" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Learn" order="0" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1716418" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Designer" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.15384616" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39914164" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32832617" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32939914" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.21244635" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49946696" weight="0.15276273" />
-      <window_info anchor="right" id="Maven" order="0" visible="true" weight="0.18763326" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" visible="true" weight="0.07995736" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="9" side_tool="true" weight="0.32995737" />
-    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -456,10 +511,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Word.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Start.java" />
-    <entry file="file://$PROJECT_DIR$/Img/Imaggee.jpeg" />
-    <entry file="file://$PROJECT_DIR$/Obrazek.png" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/PaintButton.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/images/CheckBoxSelected.png" />
     <entry file="file://$PROJECT_DIR$/CheckBoxNormal.png" />
@@ -509,20 +560,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/config/learned.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="35" selection-start-column="34" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/config/learned.json" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/words.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
           <caret line="70" column="88" selection-start-line="70" selection-start-column="88" selection-end-line="70" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -558,21 +600,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-756">
-          <caret line="42" column="43" selection-start-line="42" selection-start-column="43" selection-end-line="42" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/MainPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/MenuBar.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -584,13 +611,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="15" lean-forward="true" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -622,40 +642,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/FlashcardKnownActionListener.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/chooseonetest/AnswerButtonActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="155">
+          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/javax/swing/plaf/basic/BasicButtonListener.java">
+    <entry file="file://$PROJECT_DIR$/config/learned.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/ResourcesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="251" selection-start-line="251" selection-end-line="251" />
+        <state relative-caret-position="-253">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/ChooseOneTestActionListener.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/FileUtilityTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="852">
-          <caret line="61" column="100" lean-forward="true" selection-start-line="61" selection-start-column="100" selection-end-line="61" selection-end-column="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ChooseOneTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="61" column="66" selection-start-line="61" selection-start-column="66" selection-end-line="61" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
@@ -666,78 +673,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/InputTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+        <state relative-caret-position="1530">
+          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/FlashcardKnownActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-start-column="41" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/FlashcardPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="35" column="45" lean-forward="true" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/chooseonetest/AnswerButtonActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="14" column="55" lean-forward="true" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/learned.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/ResourcesTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-253">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/github/trolleydilemma/FileUtilityTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="107" column="63" selection-start-line="107" selection-start-column="63" selection-end-line="107" selection-end-column="63" />
+        <state relative-caret-position="507">
+          <caret line="137" column="64" lean-forward="true" selection-start-line="137" selection-start-column="64" selection-end-line="137" selection-end-column="64" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/Vocabulary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="282" column="45" lean-forward="true" selection-start-line="282" selection-start-column="45" selection-end-line="282" selection-end-column="45" />
+        <state relative-caret-position="-6694">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/inputtest/CheckButtonActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="46" column="12" lean-forward="true" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/StatisticsPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/ChooseOneTestActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/MainPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ListPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/StatisticsPanelMenuListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="31" lean-forward="true" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/AllListActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/core/App.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ButtonsPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="850">
+          <caret line="81" column="56" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/InputTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/UnknownListActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
-          <caret line="135" column="36" lean-forward="true" selection-start-line="135" selection-start-column="36" selection-end-line="135" selection-end-column="36" />
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/KnownListActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -747,10 +783,24 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/listeners/buttonspanel/InputTestActionListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
-          <caret line="56" column="42" selection-start-line="56" selection-start-column="42" selection-end-line="56" selection-end-column="42" />
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/Flashcard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="97" column="20" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/trolleydilemma/gui/ChooseOneTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="34" column="10" selection-start-line="34" selection-start-column="10" selection-end-line="34" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -812,6 +862,18 @@
               <list>
                 <option value="0.2" />
                 <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>

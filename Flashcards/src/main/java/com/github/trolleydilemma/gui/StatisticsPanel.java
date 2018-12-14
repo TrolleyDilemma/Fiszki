@@ -1,14 +1,13 @@
 package com.github.trolleydilemma.gui;
 
 import com.github.trolleydilemma.core.App;
+import com.github.trolleydilemma.core.enums.VocabularyLevel;
+
 import javax.swing.*;
 import java.awt.*;
+import java.text.DecimalFormat;
 
 public class StatisticsPanel extends MainPanel {
-
-    private int progressMin = 0;
-    private int progressMax = (int)App.getVocabulary().getQuantity();
-    private int progressInit = (int)App.getVocabulary().getProgress();
 
     public  StatisticsPanel(){
 
@@ -23,16 +22,15 @@ public class StatisticsPanel extends MainPanel {
 
         progressE = new JProgressBar(JProgressBar.VERTICAL);
         progressE.setBounds(200, 52, 50, 320);
-        progressE.setMaximum(progressMax);
-        progressE.setMinimum(progressMin);
-        progressE.setValue(progressInit); //poczatkowa wartosc`
+        progressE.setMaximum((int)App.getVocabulary().getQuantity(VocabularyLevel.EASY));
+        progressE.setMinimum(0);
         progressE.setStringPainted(true);
         progressE.setString("");
         progressE.setBorder(BorderFactory.createLoweredBevelBorder());
         progressE.setForeground(new Color(165,199,127));
         add(progressE);
 
-        valueEasy = new JTextField("100/100");
+        valueEasy = new JTextField();
         valueEasy.setFont(new Font("Thoma", Font.PLAIN, 18));
         valueEasy.setBounds(175,20,100,30);
         valueEasy.setEditable(false);
@@ -50,16 +48,15 @@ public class StatisticsPanel extends MainPanel {
 
         progressM = new JProgressBar(JProgressBar.VERTICAL);
         progressM.setBounds(375, 52, 50, 320);
-        progressM.setMaximum(progressMax);
-        progressM.setMinimum(progressMin);
-        progressM.setValue(progressInit); //poczatkowa wartosc`
+        progressM.setMaximum((int)App.getVocabulary().getQuantity(VocabularyLevel.MEDIUM));
+        progressM.setMinimum(0);
         progressM.setStringPainted(true);
         progressM.setString("");
         progressM.setBorder(BorderFactory.createLoweredBevelBorder());
         progressM.setForeground(new Color(255,212,85));
         add(progressM);
 
-        valueMedium = new JTextField("100/100");
+        valueMedium = new JTextField();
         valueMedium.setFont(new Font("Thoma", Font.PLAIN, 18));
         valueMedium.setBounds(350,20,100,30);
         valueMedium.setEditable(false);
@@ -76,18 +73,16 @@ public class StatisticsPanel extends MainPanel {
         add(medium);
 
         progressH = new JProgressBar(JProgressBar.VERTICAL);
-        //progressH = new MyVerticalProgressBar();
         progressH.setBounds(550, 52, 50, 320);
-        progressH.setMaximum(progressMax);
-        progressH.setMinimum(progressMin);
-        progressH.setValue(progressInit); //poczatkowa wartosc`
+        progressH.setMaximum((int)App.getVocabulary().getQuantity(VocabularyLevel.HARD));
+        progressH.setMinimum(0);
         progressH.setStringPainted(true);
         progressH.setString("");
         progressH.setBorder(BorderFactory.createLoweredBevelBorder());
         progressH.setForeground(new Color(200,76,90));
         add(progressH);
 
-        valueHard = new JTextField("100/100");
+        valueHard = new JTextField();
         valueHard.setFont(new Font("Thoma", Font.PLAIN, 18));
         valueHard.setBounds(525,20,100,30);
         valueHard.setEditable(false);
@@ -106,22 +101,39 @@ public class StatisticsPanel extends MainPanel {
 
         progressAll = new JProgressBar();
         progressAll.setBounds(50, 440, 700, 20);
-        progressAll.setMaximum(progressMax);
-        progressAll.setMinimum(progressMin);
-        progressAll.setValue(progressInit); //poczatkowa wartosc`
+        progressAll.setMaximum((int)App.getVocabulary().getQuantity());
+        progressAll.setMinimum(0);
         progressAll.setStringPainted(true);
         progressAll.setBorder(BorderFactory.createLoweredBevelBorder());
         progressAll.setForeground(new Color(104,130,106));
         add(progressAll);
 
+        updateProgressBar();
+
     }
 
-    public void updateProgressBar() {
+    private void updateProgressBar() {
         progressAll.setValue((int) App.getVocabulary().getProgress());
-        progressE.setValue((int) App.getVocabulary().getProgress());
-        progressM.setValue((int) App.getVocabulary().getProgress());
-        progressH.setValue((int) App.getVocabulary().getProgress());
+        progressE.setValue((int) App.getVocabulary().getProgress(VocabularyLevel.EASY));
+        progressM.setValue((int) App.getVocabulary().getProgress(VocabularyLevel.MEDIUM));
+        progressH.setValue((int) App.getVocabulary().getProgress(VocabularyLevel.HARD));
+
+        valueEasy.setText(progressE.getValue() + "/" + progressE.getMaximum());
+        valueMedium.setText(progressM.getValue() + "/" + progressM.getMaximum());
+        valueHard.setText(progressH.getValue() + "/" + progressH.getMaximum());
+        setTextForMainProgressBar();
     }
+
+    /**
+     * Method responsible for changing text on main progress bar with after decimal precision.
+     */
+    private void setTextForMainProgressBar() {
+        double percentage = (double)progressAll.getValue() / progressAll.getMaximum();
+        progressAll.setString(formatter.format(percentage));
+    }
+
+    private DecimalFormat formatter = new DecimalFormat("#.#%");
+
     private JProgressBar progressAll;
     private JProgressBar progressE;
     private JProgressBar progressM;
@@ -130,60 +142,4 @@ public class StatisticsPanel extends MainPanel {
     private JTextField valueEasy;
     private JTextField valueMedium;
     private JTextField valueHard;
-
-    public JTextField getValueEasy() {
-        return valueEasy;
-    }
-
-    public void setValueEasy(JTextField valueEasy) {
-        this.valueEasy = valueEasy;
-    }
-
-    public JTextField getValueMedium() {
-        return valueMedium;
-    }
-
-    public void setValueMedium(JTextField valueMedium) {
-        this.valueMedium = valueMedium;
-    }
-
-    public JTextField getValueHard() {
-        return valueHard;
-    }
-
-    public void setValueHard(JTextField valueHard) {
-        this.valueHard = valueHard;
-    }
-
-    public JProgressBar getProgressAll() {
-        return progressAll;
-    }
-
-    public void setProgressAll(JProgressBar progressAll) {
-        this.progressAll = progressAll;
-    }
-
-    public JProgressBar getProgressE() {
-        return progressE;
-    }
-
-    public void setProgressE(JProgressBar progressE) {
-        this.progressE = progressE;
-    }
-
-    public JProgressBar getProgressM() {
-        return progressM;
-    }
-
-    public void setProgressM(JProgressBar progressM) {
-        this.progressM = progressM;
-    }
-
-    public JProgressBar getProgressH() {
-        return progressH;
-    }
-
-    public void setProgressH(JProgressBar progressH) {
-        this.progressH = progressH;
-    }
 }
