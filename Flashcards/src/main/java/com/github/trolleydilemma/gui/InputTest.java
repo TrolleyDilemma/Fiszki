@@ -1,7 +1,7 @@
 package com.github.trolleydilemma.gui;
 
 import com.github.trolleydilemma.core.datastructures.TestData;
-import com.github.trolleydilemma.gui.listeners.buttonspanel.InputTestActionListener;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.test.InputTestActionListener;
 import com.github.trolleydilemma.gui.listeners.inputtest.CheckButtonActionListener;
 
 import javax.swing.*;

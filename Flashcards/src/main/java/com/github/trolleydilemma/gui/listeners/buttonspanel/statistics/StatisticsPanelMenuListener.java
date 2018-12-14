@@ -1,4 +1,4 @@
-package com.github.trolleydilemma.gui.listeners.buttonspanel;
+package com.github.trolleydilemma.gui.listeners.buttonspanel.statistics;
 
 import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.gui.ButtonsPanel;
