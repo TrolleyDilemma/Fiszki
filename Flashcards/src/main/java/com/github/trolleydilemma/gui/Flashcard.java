@@ -95,7 +95,6 @@ public class Flashcard extends JPanel {
         wordTextPane.setBounds(3,40,594,180);
         wordTextPane.setEnabled(false);
         wordTextPane.addMouseListener(myMouseListener);
-        wordTextPane.setBorder(BorderFactory.createLineBorder(Color.black));
 
         StringBuilder sb = new StringBuilder();
         if(isEnglish) {

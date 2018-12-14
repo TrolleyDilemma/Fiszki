@@ -40,9 +40,7 @@ public class RollActionListener implements ActionListener {
                     flashcardPanel.add(newFlashcard);
                 });
             } catch (OutOfWordsException ex) {
-                SwingUtilities.invokeLater(() -> {
-                    JOptionPane.showMessageDialog(null, "Empty list!");
-                });
+                SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(null, "Empty list!"));
             }
         });
     }
