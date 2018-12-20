@@ -98,11 +98,20 @@ public class InputTest extends MainPanel {
 
         check = new JButton("Check");
         check.setFont(new Font("Thoma", Font.BOLD, 18));
-        check.setBounds(325,170,150,50);
+        check.setBounds(325,135,150,50);
         check.setFocusable(false);
         check.setHorizontalTextPosition(SwingConstants.LEFT);
         check.addActionListener(new CheckButtonActionListener());
         add(check);
+
+
+        reveal = new JButton("Reveal");
+        reveal.setFont(new Font("Thoma", Font.BOLD, 18));
+        reveal.setBounds(325,205,150,50);
+        reveal.setFocusable(false);
+        reveal.setHorizontalTextPosition(SwingConstants.LEFT);
+        reveal.addActionListener(new CheckButtonActionListener());
+        add(reveal);
 
     }
 
@@ -123,6 +132,7 @@ public class InputTest extends MainPanel {
 
     private JButton next;
     private JButton check;
+    private JButton reveal;
 
     private JTextField firstWord;
     private JTextField secondWord;
