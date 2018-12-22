@@ -18,7 +18,7 @@ import java.util.List;
 public class CheckButtonActionListener implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
-        InputTest inputTest = (InputTest) App.getWindow().getButtonPanel().getMainPanel();
+        inputTest = (InputTest) App.getWindow().getButtonPanel().getMainPanel();
 
         processAnswer(inputTest.getFirstAnswer(), inputTest.getTestData().getWords().get(0));
         processAnswer(inputTest.getSecondAnswer(), inputTest.getTestData().getWords().get(1));
@@ -49,6 +49,8 @@ public class CheckButtonActionListener implements ActionListener {
     }
 
     private boolean correct;
-    private Color red = new Color(200,76,90);
-    private Color green = new Color(165,199,127);
+
+    protected Color red = new Color(200,76,90);
+    protected Color green = new Color(165,199,127);
+    protected InputTest inputTest;
 }

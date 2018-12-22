@@ -3,6 +3,7 @@ package com.github.trolleydilemma.gui;
 import com.github.trolleydilemma.core.datastructures.TestData;
 import com.github.trolleydilemma.gui.listeners.buttonspanel.test.InputTestActionListener;
 import com.github.trolleydilemma.gui.listeners.inputtest.CheckButtonActionListener;
+import com.github.trolleydilemma.gui.listeners.inputtest.RevealButtonActionListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -98,11 +99,20 @@ public class InputTest extends MainPanel {
 
         check = new JButton("Check");
         check.setFont(new Font("Thoma", Font.BOLD, 18));
-        check.setBounds(325,170,150,50);
+        check.setBounds(325,135,150,50);
         check.setFocusable(false);
         check.setHorizontalTextPosition(SwingConstants.LEFT);
         check.addActionListener(new CheckButtonActionListener());
         add(check);
+
+
+        reveal = new JButton("Reveal");
+        reveal.setFont(new Font("Thoma", Font.BOLD, 18));
+        reveal.setBounds(325,205,150,50);
+        reveal.setFocusable(false);
+        reveal.setHorizontalTextPosition(SwingConstants.LEFT);
+        reveal.addActionListener(new RevealButtonActionListener());
+        add(reveal);
 
     }
 
@@ -121,8 +131,12 @@ public class InputTest extends MainPanel {
     public JTextField getFourthAnswer() { return fourthAnswer; }
     public JTextField getFifthAnswer() { return fifthAnswer; }
 
+    public JButton getCheck() { return check; }
+    public JButton getReveal() { return reveal; }
+
     private JButton next;
     private JButton check;
+    private JButton reveal;
 
     private JTextField firstWord;
     private JTextField secondWord;
