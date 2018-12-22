@@ -3,6 +3,7 @@ package com.github.trolleydilemma.gui;
 import com.github.trolleydilemma.core.datastructures.TestData;
 import com.github.trolleydilemma.gui.listeners.buttonspanel.test.InputTestActionListener;
 import com.github.trolleydilemma.gui.listeners.inputtest.CheckButtonActionListener;
+import com.github.trolleydilemma.gui.listeners.inputtest.RevealButtonActionListener;
 
 import javax.swing.*;
 import java.awt.*;
@@ -110,7 +111,7 @@ public class InputTest extends MainPanel {
         reveal.setBounds(325,205,150,50);
         reveal.setFocusable(false);
         reveal.setHorizontalTextPosition(SwingConstants.LEFT);
-        reveal.addActionListener(new CheckButtonActionListener());
+        reveal.addActionListener(new RevealButtonActionListener());
         add(reveal);
 
     }
@@ -129,6 +130,9 @@ public class InputTest extends MainPanel {
     public JTextField getThirdAnswer() { return thirdAnswer; }
     public JTextField getFourthAnswer() { return fourthAnswer; }
     public JTextField getFifthAnswer() { return fifthAnswer; }
+
+    public JButton getCheck() { return check; }
+    public JButton getReveal() { return reveal; }
 
     private JButton next;
     private JButton check;
