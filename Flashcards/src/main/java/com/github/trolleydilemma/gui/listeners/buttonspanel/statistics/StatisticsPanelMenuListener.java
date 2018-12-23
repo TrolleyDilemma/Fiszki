@@ -25,6 +25,8 @@ public class StatisticsPanelMenuListener implements MenuListener {
         buttonsPanel.setMainPanel(mainPanel);
         buttonsPanel.add(mainPanel);
         buttonsPanel.repaint();
+
+        App.getWindow().getStatusBar().setText("Opened: Statistics");
     }
 
     @Override
