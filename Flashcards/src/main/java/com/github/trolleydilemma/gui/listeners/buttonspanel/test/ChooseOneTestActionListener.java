@@ -62,6 +62,8 @@ public class ChooseOneTestActionListener implements ActionListener {
                             default: throw new UnsupportedOperationException();
                         }
 
+                        App.getWindow().getStatusBar().setText("Opened: Choose One Test");
+
                     });
                 } catch (InterruptedException | InvocationTargetException ex) {
                     ex.printStackTrace();

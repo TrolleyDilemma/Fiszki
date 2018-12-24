@@ -60,6 +60,8 @@ public class AbstractList {
                 buttonsPanel.add(mainPanel);
                 buttonsPanel.repaint();
                 buttonsPanel.validate();
+
+                App.getWindow().getStatusBar().setText("Opened: List " + type.toString().toLowerCase());
             });
         });
     }

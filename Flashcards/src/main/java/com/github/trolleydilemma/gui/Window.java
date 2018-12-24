@@ -29,20 +29,24 @@ public class Window extends JFrame {
         setResizable(false);
 
         contentPane_1 = new JPanel();
-       // contentPane_1.setBorder(new EmptyBorder(5,5,5,5));
         contentPane_1.setLayout(new BorderLayout());
         add(contentPane_1, BorderLayout.CENTER);
 
-        add(new StatusBar(), BorderLayout.PAGE_END);
+        statusBar = new StatusBar();
+        add(statusBar, BorderLayout.PAGE_END);
 
         add(new MenuBar(), BorderLayout.PAGE_START);
 
         buttonPanel = new ButtonsPanel();
         add(buttonPanel, BorderLayout.CENTER);
 
+        statusBar.setText("Application is running");
+
     }
 
-    public ButtonsPanel getButtonPanel() {return buttonPanel;}
+    public ButtonsPanel getButtonPanel() { return buttonPanel; }
+    public StatusBar getStatusBar() { return statusBar; }
 
     private ButtonsPanel buttonPanel;
+    private StatusBar statusBar;
 }

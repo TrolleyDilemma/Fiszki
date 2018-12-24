@@ -44,6 +44,8 @@ public class InputTestActionListener implements ActionListener {
                         inputTest.getThirdWord().setText(testData.getWords().get(2).getJapanese().get(0));
                         inputTest.getFourthWord().setText(testData.getWords().get(3).getJapanese().get(0));
                         inputTest.getFifthWord().setText(testData.getWords().get(4).getJapanese().get(0));
+
+                        App.getWindow().getStatusBar().setText("Opened: Input Test");
                     });
                 } catch (InterruptedException | InvocationTargetException ex) {
                     ex.printStackTrace();
