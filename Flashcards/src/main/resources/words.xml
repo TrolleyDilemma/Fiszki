@@ -206,6 +206,7 @@
 	</word>
 	<word id="34">
 		<jap>は</jap>
+		<eng>topic marker</eng>
 		<eng>tooth</eng>
 		<lvl>Easy</lvl>
 		<note></note>
@@ -213,6 +214,7 @@
 	<word id="35">
 		<jap>はな</jap>
 		<eng>nose</eng>
+		<eng>flower</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
@@ -541,548 +543,536 @@
 		<note></note>
 	</word>
 	<word id="90">
-		<jap>かえる</jap>
-		<eng>frog</eng>
-		<lvl>Easy</lvl>
-		<note></note>
-	</word>
-	<word id="91">
 		<jap>がま</jap>
 		<eng>toad</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="92">
+	<word id="91">
 		<jap>しし</jap>
 		<eng>lion</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="93">
+	<word id="92">
 		<jap>キリン</jap>
 		<eng>giraffe</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="94">
+	<word id="93">
 		<jap>ぞう</jap>
 		<eng>elephant</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="95">
+	<word id="94">
 		<jap>とり</jap>
 		<eng>bird</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="96">
+	<word id="95">
 		<jap>にわとり</jap>
 		<eng>chicken</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="97">
+	<word id="96">
 		<jap>すずめ</jap>
 		<eng>sparrow</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="98">
+	<word id="97">
 		<jap>わし</jap>
 		<eng>eagle</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="99">
+	<word id="98">
 		<jap>さかな</jap>
 		<eng>fish</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="100">
+	<word id="99">
 		<jap>いわし</jap>
 		<eng>sardine</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="101">
+	<word id="100">
 		<jap>まぐろ</jap>
 		<eng>tuna</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="102">
+	<word id="101">
 		<jap>かつお</jap>
 		<eng>bonito</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="103">
+	<word id="102">
 		<jap>さんま</jap>
 		<eng>pike</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="104">
+	<word id="103">
 		<jap>あじ</jap>
 		<eng>horse mackerel</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="105">
+	<word id="104">
 		<jap>さば</jap>
 		<eng>mackerel</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="106">
+	<word id="105">
 		<jap>イカ</jap>
 		<eng>squid</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="107">
+	<word id="106">
 		<jap>タコ</jap>
 		<eng>octopus</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="108">
+	<word id="107">
 		<jap>むし</jap>
 		<eng>insect</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="109">
+	<word id="108">
 		<jap>ちょう</jap>
 		<eng>butterfly</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="110">
+	<word id="109">
 		<jap>ガ</jap>
 		<eng>moth</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="111">
+	<word id="110">
 		<jap>せみ</jap>
 		<eng>cicada</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="112">
+	<word id="111">
 		<jap>トンボ</jap>
 		<eng>dragonfly</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="113">
+	<word id="112">
 		<jap>バッタ</jap>
 		<eng>grasshopper</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="114">
+	<word id="113">
 		<jap>クモ</jap>
 		<eng>spider</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="115">
+	<word id="114">
 		<jap>ホタル</jap>
 		<eng>firefly</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="116">
+	<word id="115">
 		<jap>ハエ</jap>
 		<eng>housefly</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="117">
+	<word id="116">
 		<jap>ゴキブリ</jap>
 		<eng>cockroach</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="118">
+	<word id="117">
 		<jap>カタツムリ</jap>
 		<eng>snail</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="119">
+	<word id="118">
 		<jap>ナメクジ</jap>
 		<eng>slug</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="120">
+	<word id="119">
 		<jap>ミミズ</jap>
 		<eng>earthworm</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="121">
+	<word id="120">
 		<jap>かい</jap>
 		<eng>shellfish</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="122">
+	<word id="121">
 		<jap>かいがら</jap>
 		<eng>shell</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="123">
+	<word id="122">
 		<jap>トカゲ</jap>
 		<eng>lizard</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="124">
+	<word id="123">
 		<jap>へび</jap>
 		<eng>snake</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="125">
+	<word id="124">
 		<jap>しょくぶつ</jap>
 		<eng>plants</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="126">
-		<jap>はな</jap>
-		<eng>flower</eng>
-		<lvl>Easy</lvl>
-		<note></note>
-	</word>
-	<word id="127">
+	<word id="125">
 		<jap>み</jap>
 		<eng>fruit</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="128">
+	<word id="126">
 		<jap>き</jap>
 		<eng>tree</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="129">
+	<word id="127">
 		<jap>は、はっぱ</jap>
 		<eng>leaf</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="130">
+	<word id="128">
 		<jap>ね、ねっこ</jap>
 		<eng>root</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="131">
+	<word id="129">
 		<jap>くき</jap>
 		<eng>stem</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="132">
+	<word id="130">
 		<jap>きのこ</jap>
 		<eng>mushroom</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="133">
+	<word id="131">
 		<jap>きく</jap>
 		<eng>chrysanthemum</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="134">
+	<word id="132">
 		<jap>さくら</jap>
 		<eng>cherry blossom</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="135">
+	<word id="133">
 		<jap>やさい</jap>
 		<eng>vegetable</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="136">
+	<word id="134">
 		<jap>くだもの</jap>
 		<eng>fruit</eng>
 		<lvl>Easy</lvl>
 		<note>for eating</note>
 	</word>
-	<word id="137">
+	<word id="135">
 		<jap>だいこん</jap>
 		<eng>Japanese white radish</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="138">
+	<word id="136">
 		<jap>にんじん</jap>
 		<eng>carrot</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="139">
+	<word id="137">
 		<jap>リンゴ</jap>
 		<eng>apple</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="140">
+	<word id="138">
 		<jap>ミカン</jap>
 		<eng>mandarin orange</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="141">
+	<word id="139">
 		<jap>バナナ</jap>
 		<jap>かんしょう</jap>
 		<eng>banana</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="142">
+	<word id="140">
 		<jap>ナシ</jap>
 		<eng>pear</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="143">
+	<word id="141">
 		<jap>クリ</jap>
 		<eng>chestnut tree</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="144">
+	<word id="142">
 		<jap>モモ</jap>
 		<eng>peach</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="145">
+	<word id="143">
 		<jap>トマト</jap>
 		<jap>ばんか</jap>
 		<eng>tomato</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="146">
+	<word id="144">
 		<jap>スイカ</jap>
 		<eng>watermelon</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="147">
+	<word id="145">
 		<jap>たべもの</jap>
 		<eng>food</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="148">
+	<word id="146">
 		<jap>ひるごはん</jap>
 		<eng>lunch</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="149">
+	<word id="147">
 		<jap>ばんごはん</jap>
 		<eng>supper</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="150">
+	<word id="148">
 		<jap>ごはん</jap>
 		<eng>rice</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="151">
+	<word id="149">
 		<jap>みそ</jap>
 		<eng>miso</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="152">
+	<word id="150">
 		<jap>りょうり</jap>
 		<eng>cooking</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="153">
+	<word id="151">
 		<jap>サラダ</jap>
 		<eng>salad</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="154">
+	<word id="152">
 		<jap>デザート</jap>
 		<eng>dessert</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="155">
+	<word id="153">
 		<jap>パン</jap>
 		<eng>bread</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="156">
+	<word id="154">
 		<jap>サンドイッチ</jap>
 		<eng>sandwich</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="157">
+	<word id="155">
 		<jap>おやつ</jap>
 		<eng>snack</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="158">
+	<word id="156">
 		<jap>アイスクリーム</jap>
 		<eng>ice cream</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="159">
+	<word id="157">
 		<jap>ちゃ</jap>
 		<eng>tea</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="160">
+	<word id="158">
 		<jap>おちゃ</jap>
 		<eng>green tea</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="161">
+	<word id="159">
 		<jap>コーヒー</jap>
 		<eng>coffee</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="162">
+	<word id="160">
 		<jap>ぎゅうにゅう</jap>
 		<eng>milk</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="163">
+	<word id="161">
 		<jap>みず</jap>
 		<eng>water</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="164">
+	<word id="162">
 		<jap>ビール</jap>
 		<eng>beer</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="165">
+	<word id="163">
 		<jap>ワイン</jap>
 		<eng>wine</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="166">
+	<word id="164">
 		<jap>さとう</jap>
 		<eng>sugar</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="167">
+	<word id="165">
 		<jap>しお</jap>
 		<eng>salt</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="168">
+	<word id="166">
 		<jap>しょうゆ</jap>
 		<eng>soy sauce</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="169">
+	<word id="167">
 		<jap>じかん</jap>
 		<eng>time</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="170">
+	<word id="168">
 		<jap>とき</jap>
 		<jap>じ</jap>
 		<eng>~hours</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="171">
+	<word id="169">
 		<jap>こよみ</jap>
 		<jap>カレンダー</jap>
 		<eng>calendar</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="172">
+	<word id="170">
 		<jap>ふん</jap>
 		<eng>minute</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="173">
+	<word id="171">
 		<jap>びょう</jap>
 		<eng>second</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="174">
+	<word id="172">
 		<jap>ひ</jap>
 		<jap>にち</jap>
 		<eng>day</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="175">
+	<word id="173">
 		<jap>つき</jap>
 		<jap>がつ</jap>
 		<eng>month</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="176">
+	<word id="174">
 		<jap>とし</jap>
 		<jap>ねん</jap>
 		<eng>year</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="177">
+	<word id="175">
 		<jap>きのう</jap>
 		<jap>さくじつ</jap>
 		<eng>yesterday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="178">
+	<word id="176">
 		<jap>きょう</jap>
 		<eng>today</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="179">
+	<word id="177">
 		<jap>あした</jap>
 		<jap>あす</jap>
 		<jap>みょうにち</jap>
@@ -1090,416 +1080,416 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="180">
+	<word id="178">
 		<jap>あさ</jap>
 		<eng>morning</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="181">
+	<word id="179">
 		<jap>ひる</jap>
 		<eng>afternoon</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="182">
+	<word id="180">
 		<jap>ゆうがた</jap>
 		<eng>evening</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="183">
+	<word id="181">
 		<jap>ばん</jap>
 		<eng>evening</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="184">
+	<word id="182">
 		<jap>ようび</jap>
 		<eng>~day</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="185">
+	<word id="183">
 		<jap>しゅう</jap>
 		<eng>week</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="186">
+	<word id="184">
 		<jap>いっしゅうかん</jap>
 		<eng>one week</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="187">
+	<word id="185">
 		<jap>にちようび</jap>
 		<eng>Sunday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="188">
+	<word id="186">
 		<jap>げつようび</jap>
 		<eng>Monday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="189">
+	<word id="187">
 		<jap>かようび</jap>
 		<eng>Tuesday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="190">
+	<word id="188">
 		<jap>すいようび</jap>
 		<eng>Wednesday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="191">
+	<word id="189">
 		<jap>もくようび</jap>
 		<eng>Thursday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="192">
+	<word id="190">
 		<jap>きんようび</jap>
 		<eng>Friday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="193">
+	<word id="191">
 		<jap>どようび</jap>
 		<eng>Saturday</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="194">
+	<word id="192">
 		<jap>たいよう</jap>
 		<eng>sun</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="195">
+	<word id="193">
 		<jap>つき</jap>
 		<eng>moon</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="196">
+	<word id="194">
 		<jap>ほし</jap>
 		<eng>star</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="197">
+	<word id="195">
 		<jap>てんき</jap>
 		<eng>weather</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="198">
+	<word id="196">
 		<jap>はれ</jap>
 		<eng>clear weather</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="199">
+	<word id="197">
 		<jap>あめ</jap>
 		<eng>rain</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="200">
+	<word id="198">
 		<jap>くもり</jap>
 		<eng>cloudy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="201">
+	<word id="199">
 		<jap>ゆき</jap>
 		<eng>snow</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="202">
+	<word id="200">
 		<jap>かぜ</jap>
 		<eng>wind</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="203">
+	<word id="201">
 		<jap>たいふう</jap>
 		<eng>typhoon</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="204">
+	<word id="202">
 		<jap>あらし</jap>
 		<eng>storm</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="205">
+	<word id="203">
 		<jap>そら</jap>
 		<eng>sky</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="206">
+	<word id="204">
 		<jap>きた</jap>
 		<eng>north</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="207">
+	<word id="205">
 		<jap>ひがし</jap>
 		<eng>east</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="208">
+	<word id="206">
 		<jap>みなみ</jap>
 		<eng>south</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="209">
+	<word id="207">
 		<jap>にし</jap>
 		<eng>west</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="210">
+	<word id="208">
 		<jap>ここ</jap>
 		<eng>here</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="211">
+	<word id="209">
 		<jap>そこ</jap>
 		<eng>there</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="212">
+	<word id="210">
 		<jap>あそこ</jap>
 		<eng>over there</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="213">
+	<word id="211">
 		<jap>みぎ</jap>
 		<eng>right</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="214">
+	<word id="212">
 		<jap>ひだり</jap>
 		<eng>left</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="215">
+	<word id="213">
 		<jap>まえ</jap>
 		<eng>front</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="216">
+	<word id="214">
 		<jap>うしろ</jap>
 		<eng>behind</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="217">
+	<word id="215">
 		<jap>ななめ</jap>
 		<eng>diagonal</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="218">
+	<word id="216">
 		<jap>とおい</jap>
 		<eng>far</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="219">
+	<word id="217">
 		<jap>ゆ</jap>
 		<eng>hot water</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="220">
+	<word id="218">
 		<jap>こおり</jap>
 		<eng>ice</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="221">
+	<word id="219">
 		<jap>ゆげ</jap>
 		<eng>steam</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="222">
+	<word id="220">
 		<jap>ひ</jap>
 		<eng>fire</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="223">
+	<word id="221">
 		<jap>ガス</jap>
 		<eng>gas</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="224">
+	<word id="222">
 		<jap>メートル</jap>
 		<eng>meter</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="225">
+	<word id="223">
 		<jap>リットル</jap>
 		<eng>litre</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="226">
+	<word id="224">
 		<jap>グラム</jap>
 		<eng>gram</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="227">
+	<word id="225">
 		<jap>キロ</jap>
 		<eng>kilo</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="228">
+	<word id="226">
 		<jap>ミリ</jap>
 		<eng>milli</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="229">
+	<word id="227">
 		<jap>インチ</jap>
 		<eng>inch</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="230">
+	<word id="228">
 		<jap>しゃかい</jap>
 		<eng>society</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="231">
+	<word id="229">
 		<jap>かいしゃ</jap>
 		<eng>company</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="232">
+	<word id="230">
 		<jap>かいぎ</jap>
 		<eng>meeting</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="233">
+	<word id="231">
 		<jap>がっこう</jap>
 		<eng>school</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="234">
+	<word id="232">
 		<jap>やくしょ</jap>
 		<eng>local government office</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="235">
+	<word id="233">
 		<jap>みせ</jap>
 		<eng>store</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="236">
+	<word id="234">
 		<jap>ホテル</jap>
 		<eng>hotel</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="237">
+	<word id="235">
 		<jap>こうじょう</jap>
 		<eng>factory</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="238">
+	<word id="236">
 		<jap>こぜに</jap>
 		<eng>small change</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="239">
+	<word id="237">
 		<jap>つりせん</jap>
 		<jap>おつり</jap>
 		<eng>change</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="240">
+	<word id="238">
 		<jap>きって</jap>
 		<eng>stamp</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="241">
+	<word id="239">
 		<jap>つくえ</jap>
 		<eng>desk</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="242">
+	<word id="240">
 		<jap>たたみ</jap>
 		<eng>tatami mat</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="243">
+	<word id="241">
 		<jap>とびら</jap>
 		<eng>door panel</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="244">
+	<word id="242">
 		<jap>ドア</jap>
 		<eng>door</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="245">
+	<word id="243">
 		<jap>まど</jap>
 		<eng>window</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="246">
+	<word id="244">
 		<jap>ふとん</jap>
 		<eng>futon</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="247">
+	<word id="245">
 		<jap>げんかん</jap>
 		<eng>entrance</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="248">
+	<word id="246">
 		<jap>エスカレーター</jap>
 		<jap>エレベーター</jap>
 		<eng>elevator</eng>
@@ -1507,1601 +1497,1595 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="249">
+	<word id="247">
 		<jap>でんき</jap>
 		<eng>electricity</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="250">
+	<word id="248">
 		<jap>かばん</jap>
 		<eng>leather bag</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="251">
+	<word id="249">
 		<jap>ぶんぼうぐ</jap>
 		<eng>quill</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="252">
+	<word id="250">
 		<jap>インク</jap>
 		<eng>ink</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="253">
+	<word id="251">
 		<jap>ペン</jap>
 		<eng>pen</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="254">
+	<word id="252">
 		<jap>ボールペン</jap>
 		<eng>ball-point pen</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="255">
+	<word id="253">
 		<jap>まんねんひつ</jap>
 		<eng>fountain pen</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="256">
+	<word id="254">
 		<jap>えんぴつ</jap>
 		<eng>pencil</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="257">
+	<word id="255">
 		<jap>チョーク</jap>
 		<eng>chalk</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="258">
+	<word id="256">
 		<jap>けしゴム</jap>
 		<eng>eraser</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="259">
+	<word id="257">
 		<jap>えんぴつけずり</jap>
 		<eng>pencil sharpener</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="260">
+	<word id="258">
 		<jap>じょうぎ</jap>
 		<eng>ruler</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="261">
+	<word id="259">
 		<jap>ノート</jap>
 		<eng>notebook</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="262">
+	<word id="260">
 		<jap>にっき</jap>
 		<eng>diary</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="263">
+	<word id="261">
 		<jap>カバー</jap>
 		<eng>book cover</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="264">
+	<word id="262">
 		<jap>ふうとう</jap>
 		<eng>envelope</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="265">
+	<word id="263">
 		<jap>はさみ</jap>
 		<eng>scissors</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="266">
+	<word id="264">
 		<jap>ホッチキス</jap>
 		<eng>stapler</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="267">
+	<word id="265">
 		<jap>ふく</jap>
 		<eng>clothes</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="268">
+	<word id="266">
 		<jap>ようふく</jap>
 		<eng>western clothing</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="269">
+	<word id="267">
 		<jap>きもの</jap>
 		<eng>kimono</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="270">
+	<word id="268">
 		<jap>わふく</jap>
 		<eng>Japanese clothing</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="271">
+	<word id="269">
 		<jap>そで</jap>
 		<eng>sleeve</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="272">
+	<word id="270">
 		<jap>ボタン</jap>
 		<eng>button</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="273">
+	<word id="271">
 		<jap>くつ</jap>
 		<eng>shoe</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="274">
+	<word id="272">
 		<jap>くつした</jap>
 		<eng>sock</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="275">
+	<word id="273">
 		<jap>めがね</jap>
 		<eng>glasses</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="276">
+	<word id="274">
 		<jap>てつどう</jap>
 		<eng>railway</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="277">
+	<word id="275">
 		<jap>えき</jap>
 		<eng>station</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="278">
+	<word id="276">
 		<jap>ひこうき</jap>
 		<eng>airplane</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="279">
+	<word id="277">
 		<jap>くうこう</jap>
 		<jap>ひこうじょう</jap>
 		<eng>airport</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="280">
+	<word id="278">
 		<jap>ベルト</jap>
 		<eng>belt</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="281">
+	<word id="279">
 		<jap>どうろ</jap>
 		<eng>road</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="282">
+	<word id="280">
 		<jap>バスてい</jap>
 		<eng>bus-stop</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="283">
+	<word id="281">
 		<jap>とおり</jap>
 		<eng>avenue</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="284">
+	<word id="282">
 		<jap>でんしゃ</jap>
 		<eng>train</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="285">
+	<word id="283">
 		<jap>くるま</jap>
 		<jap>じどうしゃ</jap>
 		<eng>car</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="286">
+	<word id="284">
 		<jap>ひらがな</jap>
 		<eng>hiragana</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="287">
+	<word id="285">
 		<jap>カタカナ</jap>
 		<eng>katakana</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="288">
+	<word id="286">
 		<jap>すうじ</jap>
 		<eng>numbers</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="289">
+	<word id="287">
 		<jap>がいこくご</jap>
 		<eng>foreign language</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="290">
+	<word id="288">
 		<jap>ほん</jap>
 		<eng>book</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="291">
+	<word id="289">
 		<jap>かみ</jap>
 		<eng>paper</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="292">
+	<word id="290">
 		<jap>てがみ</jap>
 		<eng>letter</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="293">
+	<word id="291">
 		<jap>しんぶん</jap>
 		<eng>newspaper</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="294">
+	<word id="292">
 		<jap>じしょ</jap>
 		<eng>dictionary</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="295">
+	<word id="293">
 		<jap>パソコン</jap>
 		<eng>personal computer</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="296">
+	<word id="294">
 		<jap>あか</jap>
 		<eng>red</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="297">
+	<word id="295">
 		<jap>きいろ</jap>
 		<eng>yellow</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="298">
+	<word id="296">
 		<jap>みどり</jap>
 		<eng>green</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="299">
+	<word id="297">
 		<jap>あお</jap>
 		<eng>blue</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="300">
+	<word id="298">
 		<jap>しろ</jap>
 		<eng>white</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="301">
+	<word id="299">
 		<jap>くろ</jap>
 		<eng>black</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="302">
+	<word id="300">
 		<jap>ピンク</jap>
 		<eng>pink</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="303">
+	<word id="301">
 		<jap>ちゃいろ</jap>
 		<eng>brown</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="304">
+	<word id="302">
 		<jap>はいいろ</jap>
 		<jap>ねずみいろ</jap>
 		<eng>grey</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="305">
+	<word id="303">
 		<jap>オレンジ</jap>
 		<eng>orange</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="306">
+	<word id="304">
 		<jap>え</jap>
 		<eng>picture</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="307">
+	<word id="305">
 		<jap>おんがく</jap>
 		<eng>music</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="308">
+	<word id="306">
 		<jap>りか</jap>
 		<eng>science</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="309">
+	<word id="307">
 		<jap>さんすう</jap>
 		<eng>arithmetic</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="310">
+	<word id="308">
 		<jap>れきし</jap>
 		<eng>history</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="311">
+	<word id="309">
 		<jap>ちり</jap>
 		<eng>geography</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="312">
+	<word id="310">
 		<jap>たいいく</jap>
 		<eng>physical education</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="313">
+	<word id="311">
 		<jap>スポーツ</jap>
 		<eng>sport</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="314">
+	<word id="312">
 		<jap>システム</jap>
 		<eng>system</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="315">
+	<word id="313">
 		<jap>ひつよう</jap>
 		<eng>necessity</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="316">
+	<word id="314">
 		<jap>べんきょう</jap>
 		<eng>study</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="317">
+	<word id="315">
 		<jap>いらい</jap>
 		<eng>request</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="318">
+	<word id="316">
 		<jap>れい</jap>
 		<jap>ゼロ</jap>
 		<eng>zero</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="319">
+	<word id="317">
 		<jap>いち</jap>
 		<eng>one</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="320">
+	<word id="318">
 		<jap>に</jap>
 		<eng>two</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="321">
+	<word id="319">
 		<jap>さん</jap>
 		<eng>three</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="322">
+	<word id="320">
 		<jap>よん</jap>
 		<jap>し</jap>
 		<eng>four</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="323">
+	<word id="321">
 		<jap>ご</jap>
 		<eng>five</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="324">
+	<word id="322">
 		<jap>ろく</jap>
 		<eng>six</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="325">
+	<word id="323">
 		<jap>なな</jap>
 		<jap>しち</jap>
 		<eng>seven</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="326">
+	<word id="324">
 		<jap>はち</jap>
 		<eng>eight</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="327">
+	<word id="325">
 		<jap>きゅう</jap>
 		<jap>く</jap>
 		<eng>nine</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="328">
+	<word id="326">
 		<jap>じゅう</jap>
 		<eng>ten</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="329">
+	<word id="327">
 		<jap>ひゃく</jap>
 		<eng>hundred</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="330">
+	<word id="328">
 		<jap>せん</jap>
 		<eng>thousand</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="331">
+	<word id="329">
 		<jap>まん</jap>
 		<eng>ten thousand</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="332">
+	<word id="330">
 		<jap>おく</jap>
 		<eng>one hundred million</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="333">
+	<word id="331">
 		<jap>それ</jap>
 		<eng>that</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="334">
+	<word id="332">
 		<jap>あれ</jap>
 		<eng>that over there</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="335">
+	<word id="333">
 		<jap>どれ</jap>
 		<eng>which</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="336">
+	<word id="334">
 		<jap>ひみつ</jap>
 		<eng>secret</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="337">
+	<word id="335">
 		<jap>じどう</jap>
 		<eng>automatic</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="338">
+	<word id="336">
 		<jap>ないよう</jap>
 		<eng>content</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="339">
+	<word id="337">
 		<jap>せいしき</jap>
 		<eng>formality</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="340">
+	<word id="338">
 		<jap>けっこん</jap>
 		<eng>marriage</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="341">
+	<word id="339">
 		<jap>いま</jap>
 		<jap>げんざい</jap>
 		<eng>now</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="342">
+	<word id="340">
 		<jap>かこ</jap>
 		<eng>past</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="343">
+	<word id="341">
 		<jap>みらい</jap>
 		<eng>future</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="344">
+	<word id="342">
 		<jap>いい</jap>
 		<jap>よい</jap>
 		<eng>good</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="345">
+	<word id="343">
 		<jap>すごい</jap>
 		<eng>amazing</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="346">
+	<word id="344">
 		<jap>すばらしい</jap>
 		<eng>wonderful</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="347">
+	<word id="345">
 		<jap>ひくい</jap>
 		<eng>low</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="348">
+	<word id="346">
 		<jap>やすい</jap>
 		<eng>cheap</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="349">
+	<word id="347">
 		<jap>おおきい</jap>
 		<eng>big</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="350">
+	<word id="348">
 		<jap>ちいさい</jap>
 		<eng>small</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="351">
+	<word id="349">
 		<jap>ほそい</jap>
 		<eng>thin</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="352">
+	<word id="350">
 		<jap>ふとい</jap>
 		<eng>thick</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="353">
+	<word id="351">
 		<jap>ふるい</jap>
 		<eng>old</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="354">
+	<word id="352">
 		<jap>あたらしい</jap>
 		<eng>new</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="355">
+	<word id="353">
 		<jap>わかい</jap>
 		<eng>young</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="356">
+	<word id="354">
 		<jap>おもい</jap>
 		<eng>heavy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="357">
+	<word id="355">
 		<jap>むずかしい</jap>
 		<eng>difficult</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="358">
+	<word id="356">
 		<jap>やわらかい</jap>
 		<eng>soft</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="359">
+	<word id="357">
 		<jap>かたい</jap>
 		<eng>hard</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="360">
+	<word id="358">
 		<jap>あつい</jap>
 		<eng>hot</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="361">
+	<word id="359">
 		<jap>つめたい–</jap>
 		<eng>cold</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="362">
+	<word id="360">
 		<jap>さむい</jap>
 		<eng>cold</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="363">
+	<word id="361">
 		<jap>おいしい</jap>
 		<eng>delicious</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="364">
+	<word id="362">
 		<jap>まずい</jap>
 		<eng>tastes awful</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="365">
+	<word id="363">
 		<jap>あまい</jap>
 		<eng>sweet</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="366">
+	<word id="364">
 		<jap>しょっぱい</jap>
 		<eng>salty</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="367">
+	<word id="365">
 		<jap>にがい</jap>
 		<eng>bitter</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="368">
+	<word id="366">
 		<jap>うつくしい</jap>
 		<eng>beautiful</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="369">
+	<word id="367">
 		<jap>うれしい</jap>
 		<eng>happy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="370">
+	<word id="368">
 		<jap>たのしい</jap>
 		<eng>fun</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="371">
+	<word id="369">
 		<jap>かなしい</jap>
 		<eng>sad</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="372">
+	<word id="370">
 		<jap>さびしい</jap>
 		<eng>lonely</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="373">
+	<word id="371">
 		<jap>こわい</jap>
 		<eng>scary</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="374">
+	<word id="372">
 		<jap>いたい</jap>
 		<eng>painful</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="375">
+	<word id="373">
 		<jap>かゆい</jap>
 		<eng>itchy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="376">
+	<word id="374">
 		<jap>くさい</jap>
 		<eng>stinky</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="377">
+	<word id="375">
 		<jap>する</jap>
 		<eng>to do</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="378">
+	<word id="376">
 		<jap>やる</jap>
 		<eng>to do</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="379">
+	<word id="377">
 		<jap>なる</jap>
 		<eng>to become</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="380">
+	<word id="378">
 		<jap>おこる</jap>
 		<eng>to occur</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="381">
+	<word id="379">
 		<jap>あらわれる</jap>
 		<eng>to appear</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="382">
+	<word id="380">
 		<jap>いきる</jap>
 		<eng>to live</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="383">
+	<word id="381">
 		<jap>うむ</jap>
 		<eng>to give birth</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="384">
+	<word id="382">
 		<jap>しぬ</jap>
 		<eng>to die</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="385">
+	<word id="383">
 		<jap>こわれる</jap>
 		<eng>to break</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="386">
+	<word id="384">
 		<jap>いく</jap>
 		<eng>to go</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="387">
+	<word id="385">
 		<jap>くる</jap>
 		<eng>to come</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="388">
-		<jap>かえる</jap>
-		<eng>to return</eng>
-		<lvl>Easy</lvl>
-		<note></note>
-	</word>
-	<word id="389">
+	<word id="386">
 		<jap>あるく</jap>
 		<eng>to walk</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="390">
+	<word id="387">
 		<jap>およぐ</jap>
 		<eng>to swim</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="391">
+	<word id="388">
 		<jap>うごく</jap>
 		<eng>to move</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="392">
+	<word id="389">
 		<jap>おどる</jap>
 		<eng>to dance</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="393">
+	<word id="390">
 		<jap>ねる</jap>
 		<eng>to sleep</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="394">
+	<word id="391">
 		<jap>うたう</jap>
 		<eng>to sing</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="395">
+	<word id="392">
 		<jap>かむ</jap>
 		<eng>to bite</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="396">
+	<word id="393">
 		<jap>たべる</jap>
 		<eng>to eat</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="397">
+	<word id="394">
 		<jap>のむ</jap>
 		<eng>to drink</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="398">
+	<word id="395">
 		<jap>さわる</jap>
 		<eng>to touch</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="399">
+	<word id="396">
 		<jap>なげる</jap>
 		<eng>to throw</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="400">
+	<word id="397">
 		<jap>もつ</jap>
 		<eng>to hold</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="401">
+	<word id="398">
 		<jap>ける</jap>
 		<eng>to kick</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="402">
+	<word id="399">
 		<jap>すわる</jap>
 		<eng>to sit</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="403">
+	<word id="400">
 		<jap>たつ</jap>
 		<eng>to stand</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="404">
+	<word id="401">
 		<jap>はしる</jap>
 		<eng>to run</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="405">
+	<word id="402">
 		<jap>あく</jap>
 		<eng>to become unoccupied</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="406">
+	<word id="403">
 		<jap>こむ</jap>
 		<eng>to be crowded</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="407">
+	<word id="404">
 		<jap>いる</jap>
 		<eng>to need</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="408">
+	<word id="405">
 		<jap>かわく</jap>
 		<eng>to become dry</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="409">
+	<word id="406">
 		<jap>そなわる</jap>
 		<eng>to be furnished with</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="410">
+	<word id="407">
 		<jap>へる</jap>
 		<eng>to decrease</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="411">
+	<word id="408">
 		<jap>ふとる</jap>
 		<eng>to grow fat</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="412">
+	<word id="409">
 		<jap>はじまる</jap>
 		<eng>to begin</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="413">
+	<word id="410">
 		<jap>きめる</jap>
 		<eng>to decide</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="414">
+	<word id="411">
 		<jap>みる</jap>
 		<eng>to see</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="415">
+	<word id="412">
 		<jap>かぐ</jap>
 		<eng>to smell</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="416">
+	<word id="413">
 		<jap>いう</jap>
 		<eng>to say</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="417">
+	<word id="414">
 		<jap>はなす</jap>
 		<eng>to speak</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="418">
+	<word id="415">
 		<jap>かたる</jap>
 		<eng>to tell</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="419">
+	<word id="416">
 		<jap>かく</jap>
 		<eng>to write</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="420">
+	<word id="417">
 		<jap>よむ</jap>
 		<eng>to read</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="421">
+	<word id="418">
 		<jap>つかう</jap>
 		<eng>to use</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="422">
+	<word id="419">
 		<jap>つくる</jap>
 		<eng>to make</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="423">
+	<word id="420">
 		<jap>とる</jap>
 		<eng>to take</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="424">
+	<word id="421">
 		<jap>おく</jap>
 		<eng>to put</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="425">
+	<word id="422">
 		<jap>かなしむ</jap>
 		<eng>to be sad</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="426">
+	<word id="423">
 		<jap>なく</jap>
 		<eng>to cry</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="427">
+	<word id="424">
 		<jap>わらう</jap>
 		<eng>to laugh</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="428">
+	<word id="425">
 		<jap>おこる</jap>
 		<eng>to be angry</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="429">
+	<word id="426">
 		<jap>ほめる</jap>
 		<eng>to encourage</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="430">
+	<word id="427">
 		<jap>しかる</jap>
 		<eng>to scold</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="431">
+	<word id="428">
 		<jap>あそぶ</jap>
 		<eng>to play</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="432">
+	<word id="429">
 		<jap>あつまる</jap>
 		<eng>to gather</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="433">
+	<word id="430">
 		<jap>うる</jap>
 		<eng>to sell</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="434">
+	<word id="431">
 		<jap>かう</jap>
 		<eng>to buy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="435">
+	<word id="432">
 		<jap>きる</jap>
 		<eng>to cut</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="436">
+	<word id="433">
 		<jap>しる</jap>
 		<eng>to know</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="437">
+	<word id="434">
 		<jap>つかれる</jap>
 		<eng>to get tired</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="438">
+	<word id="435">
 		<jap>はなす</jap>
 		<eng>to let go of</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="439">
+	<word id="436">
 		<jap>もう</jap>
 		<eng>already</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="440">
+	<word id="437">
 		<jap>ずっと</jap>
 		<eng>always</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="441">
+	<word id="438">
 		<jap>とても</jap>
 		<eng>very</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="442">
+	<word id="439">
 		<jap>こう</jap>
 		<eng>like this</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="443">
+	<word id="440">
 		<jap>そう</jap>
 		<eng>like that</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="444">
+	<word id="441">
 		<jap>ああ</jap>
 		<eng>in that other way</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="445">
+	<word id="442">
 		<jap>どう</jap>
 		<eng>how</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="446">
+	<word id="443">
 		<jap>しばしば</jap>
 		<eng>often</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="447">
+	<word id="444">
 		<jap>この</jap>
 		<eng>this</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="448">
+	<word id="445">
 		<jap>その</jap>
 		<eng>that</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="449">
+	<word id="446">
 		<jap>あの</jap>
 		<eng>that</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="450">
+	<word id="447">
 		<jap>どの</jap>
 		<eng>which</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="451">
+	<word id="448">
 		<jap>はい</jap>
 		<eng>yes</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="452">
+	<word id="449">
 		<jap>いいえ</jap>
 		<eng>no</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="453">
+	<word id="450">
 		<jap>でも</jap>
 		<eng>but</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="454">
+	<word id="451">
 		<jap>それに</jap>
 		<eng>besides</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="455">
+	<word id="452">
 		<jap>まで</jap>
 		<eng>to</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="456">
+	<word id="453">
 		<jap>から</jap>
 		<eng>from</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="457">
+	<word id="454">
 		<jap>より</jap>
 		<eng>than</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="458">
+	<word id="455">
 		<jap>か</jap>
 		<eng>whether</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="459">
+	<word id="456">
 		<jap>そして</jap>
 		<eng>and then</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="460">
+	<word id="457">
 		<jap>それとも</jap>
 		<eng>or</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="461">
+	<word id="458">
 		<jap>ならびに</jap>
 		<eng>as well as</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="462">
+	<word id="459">
 		<jap>なり</jap>
 		<eng>whether or not</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="463">
+	<word id="460">
 		<jap>の</jap>
 		<eng>possession</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="464">
+	<word id="461">
 		<jap>ので</jap>
 		<eng>so</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="465">
+	<word id="462">
 		<jap>や</jap>
 		<eng>and</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="466">
+	<word id="463">
 		<jap>かしら</jap>
 		<eng>I wonder</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="467">
+	<word id="464">
 		<jap>さ</jap>
 		<eng>ness</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="468">
+	<word id="465">
 		<jap>こそ</jap>
 		<eng>emphasis</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="469">
+	<word id="466">
 		<jap>しか</jap>
 		<eng>only</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="470">
+	<word id="467">
 		<jap>すら</jap>
 		<jap>さえ</jap>
 		<eng>even</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="471">
+	<word id="468">
 		<jap>だって</jap>
 		<eng>however</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="472">
+	<word id="469">
 		<jap>など</jap>
 		<eng>for example</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="473">
+	<word id="470">
 		<jap>まで</jap>
 		<eng>until</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="474">
+	<word id="471">
 		<jap>わかもの</jap>
 		<eng>youth</eng>
 		<eng>young person</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="475">
+	<word id="472">
 		<jap>でかける</jap>
 		<eng>to go out</eng>
 		<eng>to depart</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="476">
+	<word id="473">
 		<jap>わたくし</jap>
 		<eng>I</eng>
 		<eng>myself</eng>
 		<lvl>Easy</lvl>
 		<note>most formal</note>
 	</word>
-	<word id="477">
+	<word id="474">
 		<jap>わたし</jap>
 		<eng>I</eng>
 		<eng>myself</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="478">
+	<word id="475">
 		<jap>ぼく</jap>
 		<eng>I</eng>
 		<eng>myself</eng>
 		<lvl>Easy</lvl>
 		<note>mainly used by males</note>
 	</word>
-	<word id="479">
+	<word id="476">
 		<jap>おれ</jap>
 		<eng>I</eng>
 		<eng>myself</eng>
 		<lvl>Medium</lvl>
 		<note>mainly used by males [informal]</note>
 	</word>
-	<word id="480">
+	<word id="477">
 		<jap>あたし</jap>
 		<eng>I</eng>
 		<eng>myself</eng>
 		<lvl>Easy</lvl>
 		<note>mainly used by females [softer sounding]</note>
 	</word>
-	<word id="481">
+	<word id="478">
 		<jap>える</jap>
 		<eng>to obtain</eng>
 		<lvl>Medium</lvl>
 		<note>some benefit or knowledge</note>
 	</word>
-	<word id="482">
+	<word id="479">
 		<jap>おる</jap>
 		<eng>to break</eng>
 		<eng>to fold</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="483">
+	<word id="480">
 		<jap>あし</jap>
 		<eng>foot</eng>
 		<eng>leg</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="484">
+	<word id="481">
 		<jap>きる</jap>
 		<eng>to wear</eng>
 		<lvl>Easy</lvl>
 		<note>on the upper body</note>
 	</word>
-	<word id="485">
+	<word id="482">
 		<jap>はく</jap>
 		<eng>to wear</eng>
 		<lvl>Easy</lvl>
 		<note>on the lower body</note>
 	</word>
-	<word id="486">
+	<word id="483">
 		<jap>ひげ</jap>
 		<eng>moustache</eng>
 		<eng>beard</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="487">
+	<word id="484">
 		<jap>ゆび</jap>
 		<eng>finger</eng>
 		<eng>toe</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="488">
+	<word id="485">
 		<jap>こころ</jap>
 		<eng>heart</eng>
 		<lvl>Easy</lvl>
 		<note>as in feelings</note>
 	</word>
-	<word id="489">
+	<word id="486">
 		<jap>こし</jap>
 		<eng>waist</eng>
 		<eng>hip</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="490">
+	<word id="487">
 		<jap>かぜ</jap>
 		<eng>cold</eng>
 		<lvl>Easy</lvl>
 		<note>illness</note>
 	</word>
-	<word id="491">
+	<word id="488">
 		<jap>こども</jap>
 		<eng>children</eng>
 		<eng>child</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="492">
+	<word id="489">
 		<jap>ちち</jap>
 		<eng>father</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="493">
+	<word id="490">
 		<jap>はは</jap>
 		<eng>mother</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="494">
+	<word id="491">
 		<jap>あに</jap>
 		<eng>older brother</eng>
 		<lvl>Easy</lvl>
 		<note>onī-san</note>
 	</word>
-	<word id="495">
+	<word id="492">
 		<jap>あね</jap>
 		<eng>older sister</eng>
 		<lvl>Easy</lvl>
 		<note>onē-san</note>
 	</word>
-	<word id="496">
+	<word id="493">
 		<jap>きょうだい</jap>
 		<eng>brothers</eng>
 		<eng>siblings</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="497">
+	<word id="494">
 		<jap>そふ</jap>
 		<eng>grandfather</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="498">
+	<word id="495">
 		<jap>そぼ</jap>
 		<eng>grandmother</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="499">
+	<word id="496">
 		<jap>おじ</jap>
 		<eng>uncle</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="500">
+	<word id="497">
 		<jap>おば</jap>
 		<eng>aunt</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="501">
+	<word id="498">
 		<jap>ねずみ</jap>
 		<eng>mouse</eng>
 		<lvl>Easy</lvl>
 		<note>rat</note>
 	</word>
-	<word id="502">
+	<word id="499">
 		<jap>からす</jap>
 		<eng>crow</eng>
 		<eng>raven</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="503">
+	<word id="500">
 		<jap>たか</jap>
 		<eng>hawk</eng>
 		<eng>falcon</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="504">
+	<word id="501">
 		<jap>たい</jap>
 		<eng>red snapper</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="505">
+	<word id="502">
 		<jap>えび</jap>
 		<eng>shrimp</eng>
 		<eng>lobster</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="506">
+	<word id="503">
 		<jap>カ</jap>
 		<eng>mosquito</eng>
 		<eng>gnat</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="507">
+	<word id="504">
 		<jap>くさ</jap>
 		<eng>grass</eng>
 		<lvl>Easy</lvl>
 		<note>Shibafu</note>
 	</word>
-	<word id="508">
+	<word id="505">
 		<jap>こめ</jap>
 		<eng>rice</eng>
 		<lvl>Easy</lvl>
 		<note>uncooked</note>
 	</word>
-	<word id="509">
+	<word id="506">
 		<jap>いね</jap>
 		<eng>rice</eng>
 		<lvl>Easy</lvl>
 		<note>growing in a field</note>
 	</word>
-	<word id="510">
+	<word id="507">
 		<jap>むぎ</jap>
 		<eng>wheat</eng>
 		<eng>barley</eng>
@@ -3109,7 +3093,7 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="511">
+	<word id="508">
 		<jap>いも</jap>
 		<eng>yam</eng>
 		<eng>potato</eng>
@@ -3117,97 +3101,97 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="512">
+	<word id="509">
 		<jap>まめ</jap>
 		<eng>beans</eng>
 		<eng>peas</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="513">
+	<word id="510">
 		<jap>ちょうしょく</jap>
 		<eng>breakfast</eng>
 		<lvl>Easy</lvl>
 		<note>asagohan</note>
 	</word>
-	<word id="514">
+	<word id="511">
 		<jap>のみもの</jap>
 		<eng>drink</eng>
 		<eng>beverage</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="515">
+	<word id="512">
 		<jap>よる</jap>
 		<eng>evening</eng>
 		<eng>night</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="516">
+	<word id="513">
 		<jap>かみなり</jap>
 		<eng>thunder</eng>
 		<eng>lightning</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="517">
+	<word id="514">
 		<jap>うえ</jap>
 		<eng>above</eng>
 		<eng>up</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="518">
+	<word id="515">
 		<jap>した</jap>
 		<eng>below</eng>
 		<eng>down</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="519">
+	<word id="516">
 		<jap>むこう</jap>
 		<eng>the other side</eng>
 		<eng>opposite side</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="520">
+	<word id="517">
 		<jap>てまえ</jap>
 		<eng>nearer</eng>
 		<eng>more in front</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="521">
+	<word id="518">
 		<jap>ちかい</jap>
 		<eng>near</eng>
 		<eng>close</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="522">
+	<word id="519">
 		<jap>くうき</jap>
 		<eng>air</eng>
 		<eng>atmosphere</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="523">
+	<word id="520">
 		<jap>つち</jap>
 		<eng>earth</eng>
 		<eng>ground</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="524">
+	<word id="521">
 		<jap>きんぞく</jap>
 		<eng>metal</eng>
 		<eng>metallic</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="525">
+	<word id="522">
 		<jap>どろ</jap>
 		<eng>mud</eng>
 		<eng>mire</eng>
@@ -3216,7 +3200,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="526">
+	<word id="523">
 		<jap>けむり</jap>
 		<eng>smoke</eng>
 		<eng>tobacco</eng>
@@ -3224,166 +3208,166 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="527">
+	<word id="524">
 		<jap>てつ</jap>
 		<eng>iron</eng>
 		<lvl>Easy</lvl>
 		<note>Fe</note>
 	</word>
-	<word id="528">
+	<word id="525">
 		<jap>どう</jap>
 		<eng>copper</eng>
 		<lvl>Easy</lvl>
 		<note>Cu</note>
 	</word>
-	<word id="529">
+	<word id="526">
 		<jap>きん</jap>
 		<eng>gold</eng>
 		<eng>money</eng>
 		<lvl>Easy</lvl>
 		<note>Au</note>
 	</word>
-	<word id="530">
+	<word id="527">
 		<jap>ぎん</jap>
 		<eng>silver</eng>
 		<eng>wealth</eng>
 		<lvl>Easy</lvl>
 		<note>Ag</note>
 	</word>
-	<word id="531">
+	<word id="528">
 		<jap>なまり</jap>
 		<eng>lead</eng>
 		<lvl>Easy</lvl>
 		<note>Pb</note>
 	</word>
-	<word id="532">
+	<word id="529">
 		<jap>しお</jap>
 		<eng>salt</eng>
 		<lvl>Easy</lvl>
 		<note>NaCl</note>
 	</word>
-	<word id="533">
+	<word id="530">
 		<jap>センチメートル</jap>
 		<jap>センチ</jap>
 		<eng>centimeter</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="534">
+	<word id="531">
 		<jap>けいざい</jap>
 		<eng>economy</eng>
 		<eng>economics</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="535">
+	<word id="532">
 		<jap>かね</jap>
 		<eng>money</eng>
 		<lvl>Easy</lvl>
 		<note>most commonly o-kane</note>
 	</word>
-	<word id="536">
+	<word id="533">
 		<jap>さつ</jap>
 		<eng>bill</eng>
 		<lvl>Easy</lvl>
 		<note>of money, e.g., a thousand-yen bill</note>
 	</word>
-	<word id="537">
+	<word id="534">
 		<jap>じどうはんばいき</jap>
 		<eng>vending machine</eng>
 		<eng>slot machine</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="538">
+	<word id="535">
 		<jap>きっぷ</jap>
 		<eng>ticket</eng>
 		<lvl>Easy</lvl>
 		<note>public transport, fine</note>
 	</word>
-	<word id="539">
+	<word id="536">
 		<jap>いす</jap>
 		<eng>chair</eng>
 		<lvl>Easy</lvl>
 		<note>position</note>
 	</word>
-	<word id="540">
+	<word id="537">
 		<jap>と</jap>
 		<eng>door</eng>
 		<eng>family</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="541">
+	<word id="538">
 		<jap>いえ</jap>
 		<eng>house</eng>
 		<eng>home</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="542">
+	<word id="539">
 		<jap>くぎ</jap>
 		<eng>nail</eng>
 		<eng>spike</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="543">
+	<word id="540">
 		<jap>ひも</jap>
 		<eng>string</eng>
 		<eng>cord</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="544">
+	<word id="541">
 		<jap>なわ</jap>
 		<eng>rope</eng>
 		<eng>string</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="545">
+	<word id="542">
 		<jap>ふくろ</jap>
 		<eng>pocket</eng>
 		<eng>bag</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="546">
+	<word id="543">
 		<jap>かさ</jap>
 		<eng>umbrella</eng>
 		<eng>parasol</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="547">
+	<word id="544">
 		<jap>かぎ</jap>
 		<eng>door bolt</eng>
 		<eng>key</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="548">
+	<word id="545">
 		<jap>ちょうこく</jap>
 		<eng>sculpture</eng>
 		<eng>engraving</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="549">
+	<word id="546">
 		<jap>ふで</jap>
 		<eng>brush</eng>
 		<lvl>Easy</lvl>
 		<note>for writing or painting</note>
 	</word>
-	<word id="550">
+	<word id="547">
 		<jap>えり</jap>
 		<eng>lapel</eng>
 		<eng>collar</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="551">
+	<word id="548">
 		<jap>チャック</jap>
 		<jap>ファスナー</jap>
 		<jap>ジッパー</jap>
@@ -3392,7 +3376,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="552">
+	<word id="549">
 		<jap>みち</jap>
 		<eng>street</eng>
 		<eng>way</eng>
@@ -3400,7 +3384,7 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="553">
+	<word id="550">
 		<jap>もじ</jap>
 		<eng>letter</eng>
 		<eng>character</eng>
@@ -3408,51 +3392,51 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="554">
+	<word id="551">
 		<jap>じ</jap>
 		<eng>letter</eng>
 		<eng>character</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="555">
+	<word id="552">
 		<jap>にほんご</jap>
 		<jap>こくご</jap>
 		<eng>Japanese</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="556">
+	<word id="553">
 		<jap>えいご</jap>
 		<eng>English</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="557">
+	<word id="554">
 		<jap>ちゅうごくご</jap>
 		<eng>Chinese</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="558">
+	<word id="555">
 		<jap>どいつご</jap>
 		<eng>German</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="559">
+	<word id="556">
 		<jap>すぺいんご</jap>
 		<eng>Spanish</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="560">
+	<word id="557">
 		<jap>ふらんすご</jap>
 		<eng>French</eng>
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="561">
+	<word id="558">
 		<jap>ちょうせんご</jap>
 		<jap>かんこくご</jap>
 		<eng>Korean</eng>
@@ -3460,131 +3444,131 @@
 		<lvl>Easy</lvl>
 		<note>language</note>
 	</word>
-	<word id="562">
+	<word id="559">
 		<jap>いろ</jap>
 		<eng>color</eng>
 		<lvl>Easy</lvl>
 		<note>shikisai</note>
 	</word>
-	<word id="563">
+	<word id="560">
 		<jap>むらさき</jap>
 		<eng>purple</eng>
 		<lvl>Easy</lvl>
 		<note>murasakiiro</note>
 	</word>
-	<word id="564">
+	<word id="561">
 		<jap>じょうほう</jap>
 		<eng>information</eng>
 		<eng>news</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="565">
+	<word id="562">
 		<jap>ひとつ</jap>
 		<eng>one</eng>
 		<eng>one thing</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="566">
+	<word id="563">
 		<jap>ふたつ</jap>
 		<eng>two</eng>
 		<eng>two things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="567">
+	<word id="564">
 		<jap>みっつ</jap>
 		<eng>three</eng>
 		<eng>three things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="568">
+	<word id="565">
 		<jap>よっつ</jap>
 		<eng>four</eng>
 		<eng>four things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="569">
+	<word id="566">
 		<jap>いつつ</jap>
 		<eng>five</eng>
 		<eng>five things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="570">
+	<word id="567">
 		<jap>むっつ</jap>
 		<eng>six</eng>
 		<eng>six things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="571">
+	<word id="568">
 		<jap>ななつ</jap>
 		<eng>seven</eng>
 		<eng>seven things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="572">
+	<word id="569">
 		<jap>やっつ</jap>
 		<eng>eight</eng>
 		<eng>eight things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="573">
+	<word id="570">
 		<jap>ここのつ</jap>
 		<eng>nine</eng>
 		<eng>nine things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="574">
+	<word id="571">
 		<jap>とお</jap>
 		<eng>ten</eng>
 		<eng>ten things</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="575">
+	<word id="572">
 		<jap>これ</jap>
 		<eng>this</eng>
 		<eng>it</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="576">
+	<word id="573">
 		<jap>こちら</jap>
 		<jap>こっち</jap>
 		<eng>this</eng>
 		<lvl>Easy</lvl>
 		<note>[direction, thing, person, or place]</note>
 	</word>
-	<word id="577">
+	<word id="574">
 		<jap>そちら</jap>
 		<jap>そっち</jap>
 		<eng>that</eng>
 		<lvl>Easy</lvl>
 		<note>[direction, thing, person, or place]</note>
 	</word>
-	<word id="578">
+	<word id="575">
 		<jap>あちら</jap>
 		<jap>あっち</jap>
 		<eng>that</eng>
 		<lvl>Easy</lvl>
 		<note>direction, thing, person, or place over there</note>
 	</word>
-	<word id="579">
+	<word id="576">
 		<jap>どちら</jap>
 		<jap>どっち</jap>
 		<eng>which</eng>
 		<lvl>Easy</lvl>
 		<note>direction, thing, person, or place</note>
 	</word>
-	<word id="580">
+	<word id="577">
 		<jap>はば</jap>
 		<eng>hem</eng>
 		<eng>piece</eng>
@@ -3592,15 +3576,17 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="581">
+	<word id="578">
 		<jap>わるい</jap>
 		<eng>bad</eng>
 		<eng>inferior</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="582">
+	<word id="579">
 		<jap>かえる</jap>
+		<eng>frog</eng>
+		<eng>to return</eng>
 		<eng>to change</eng>
 		<eng>to exchange</eng>
 		<eng>to substitute</eng>
@@ -3608,62 +3594,62 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="583">
+	<word id="580">
 		<jap>たかい</jap>
 		<eng>expensive</eng>
 		<eng>high</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="584">
+	<word id="581">
 		<jap>かるい</jap>
 		<eng>light</eng>
 		<eng>easy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="585">
+	<word id="582">
 		<jap>やさしい</jap>
 		<eng>easy</eng>
 		<eng>simple</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="586">
+	<word id="583">
 		<jap>うまい</jap>
 		<eng>delicious</eng>
 		<eng>appetizing</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="587">
+	<word id="584">
 		<jap>からい</jap>
 		<eng>hot</eng>
 		<eng>spicy</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="588">
+	<word id="585">
 		<jap>さみしい</jap>
 		<eng>sad</eng>
 		<eng>lonely</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="589">
+	<word id="586">
 		<jap>つらい</jap>
 		<eng>painful</eng>
 		<eng>heart-breaking</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="590">
+	<word id="587">
 		<jap>はたらく</jap>
 		<eng>to work</eng>
 		<lvl>Easy</lvl>
 		<note>e.g., at a job</note>
 	</word>
-	<word id="591">
+	<word id="588">
 		<jap>やすむ</jap>
 		<eng>to rest</eng>
 		<eng>to take a break</eng>
@@ -3671,7 +3657,7 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="592">
+	<word id="589">
 		<jap>わかれる</jap>
 		<eng>to split into</eng>
 		<eng>to be divided</eng>
@@ -3681,83 +3667,83 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="593">
+	<word id="590">
 		<jap>まだ</jap>
 		<eng>still</eng>
 		<eng>yet</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="594">
+	<word id="591">
 		<jap>しかし</jap>
 		<eng>but</eng>
 		<eng>however</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="595">
+	<word id="592">
 		<jap>そして</jap>
 		<eng>and then</eng>
 		<eng>Then…</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="596">
+	<word id="593">
 		<jap>なぜなら</jap>
 		<eng>that is because</eng>
 		<eng>being because</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="597">
+	<word id="594">
 		<jap>が</jap>
 		<eng>subject marker</eng>
 		<eng>but</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="598">
+	<word id="595">
 		<jap>で</jap>
 		<eng>at</eng>
 		<eng>by</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="599">
+	<word id="596">
 		<jap>と</jap>
 		<eng>and</eng>
 		<eng>with</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="600">
+	<word id="597">
 		<jap>の</jap>
 		<eng>possession marker</eng>
 		<eng>of</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="601">
+	<word id="598">
 		<jap>へ</jap>
 		<eng>to</eng>
 		<lvl>Easy</lvl>
 		<note>へ is normally read "he", but when used as this particle its reading changes to "e"</note>
 	</word>
-	<word id="602">
+	<word id="599">
 		<jap>および</jap>
 		<eng>and</eng>
 		<eng>as well as</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="603">
+	<word id="600">
 		<jap>かも</jap>
 		<eng>might be</eng>
 		<eng>possible that</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="604">
+	<word id="601">
 		<jap>だの</jap>
 		<eng>things like (list of things)</eng>
 		<eng>including</eng>
@@ -3765,7 +3751,7 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="605">
+	<word id="602">
 		<jap>と</jap>
 		<eng>when</eng>
 		<eng>if</eng>
@@ -3773,7 +3759,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="606">
+	<word id="603">
 		<jap>ながら</jap>
 		<eng>while</eng>
 		<eng>though</eng>
@@ -3781,27 +3767,27 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="607">
+	<word id="604">
 		<jap>また</jap>
 		<eng>also</eng>
 		<eng>again</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="608">
+	<word id="605">
 		<jap>または</jap>
 		<eng>or alternatively</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="609">
+	<word id="606">
 		<jap>も</jap>
 		<eng>also</eng>
 		<eng>too</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="610">
+	<word id="607">
 		<jap>くらい</jap>
 		<jap>ぐらい</jap>
 		<eng>approximately</eng>
@@ -3809,28 +3795,28 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="611">
+	<word id="608">
 		<jap>だけ</jap>
 		<eng>only</eng>
 		<eng>as much as</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="612">
+	<word id="609">
 		<jap>でも</jap>
 		<eng>also</eng>
 		<eng>or</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="613">
+	<word id="610">
 		<jap>なら</jap>
 		<eng>if</eng>
 		<eng>subject marker</eng>
 		<lvl>Hard</lvl>
 		<note>"if" for verbs, "subject marker" for nouns</note>
 	</word>
-	<word id="614">
+	<word id="611">
 		<jap>なんか</jap>
 		<jap>なんて</jap>
 		<eng>casual undervalue</eng>
@@ -3839,13 +3825,7 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="615">
-		<jap>は</jap>
-		<eng>topic marker</eng>
-		<lvl>Medium</lvl>
-		<note>pronunciation: "wa"</note>
-	</word>
-	<word id="616">
+	<word id="612">
 		<jap>ばかり</jap>
 		<jap>ばっかり</jap>
 		<eng>just</eng>
@@ -3854,47 +3834,47 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="617">
+	<word id="613">
 		<jap>も</jap>
 		<eng>too</eng>
 		<eng>also</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="618">
+	<word id="614">
 		<jap>いる</jap>
 		<eng>to exist</eng>
 		<lvl>Medium</lvl>
 		<note>for animate objects</note>
 	</word>
-	<word id="619">
+	<word id="615">
 		<jap>ある</jap>
 		<eng>to exist</eng>
 		<lvl>Medium</lvl>
 		<note>for inanimate objects</note>
 	</word>
-	<word id="620">
+	<word id="616">
 		<jap>とぶ</jap>
 		<eng>to jump</eng>
 		<eng>to fly</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="621">
+	<word id="617">
 		<jap>うつ</jap>
 		<eng>to hit</eng>
 		<eng>to strike</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="622">
+	<word id="618">
 		<jap>なぐる</jap>
 		<eng>to hit</eng>
 		<eng>to strike</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="623">
+	<word id="619">
 		<jap>さす</jap>
 		<eng>to point</eng>
 		<eng>to stab</eng>
@@ -3903,35 +3883,35 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="624">
+	<word id="620">
 		<jap>みだす</jap>
 		<eng>to disturb</eng>
 		<eng>to disarrange</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="625">
+	<word id="621">
 		<jap>みだれる</jap>
 		<eng>to be disturbed</eng>
 		<eng>to become confused</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="626">
+	<word id="622">
 		<jap>つかえる</jap>
 		<eng>to serve</eng>
 		<eng>to work for</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="627">
+	<word id="623">
 		<jap>すぐれる</jap>
 		<eng>to excel</eng>
 		<eng>to surpass</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="628">
+	<word id="624">
 		<jap>しめる</jap>
 		<eng>to close</eng>
 		<eng>to tie</eng>
@@ -3941,7 +3921,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="629">
+	<word id="625">
 		<jap>ひえる</jap>
 		<eng>to grow cold</eng>
 		<eng>to get chilly</eng>
@@ -3949,7 +3929,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="630">
+	<word id="626">
 		<jap>さめる</jap>
 		<eng>to wake</eng>
 		<eng>to become sober</eng>
@@ -3958,21 +3938,21 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="631">
+	<word id="627">
 		<jap>むく</jap>
 		<eng>to face</eng>
 		<eng>to turn toward</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="632">
+	<word id="628">
 		<jap>たおれる</jap>
 		<eng>to fall</eng>
 		<eng>to collapse</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="633">
+	<word id="629">
 		<jap>かたまる</jap>
 		<eng>to harden</eng>
 		<eng>to solidify</eng>
@@ -3980,7 +3960,7 @@
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="634">
+	<word id="630">
 		<jap>うまる</jap>
 		<eng>to be filled</eng>
 		<eng>to be surrounded</eng>
@@ -3988,63 +3968,63 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="635">
+	<word id="631">
 		<jap>うもれる</jap>
 		<eng>to be buried</eng>
 		<eng>to be covered</eng>
 		<lvl>Hard</lvl>
 		<note></note>
 	</word>
-	<word id="636">
+	<word id="632">
 		<jap>ます</jap>
 		<eng>to increase</eng>
 		<eng>to grow</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="637">
+	<word id="633">
 		<jap>ふえる</jap>
 		<eng>to increase</eng>
 		<eng>to multiply</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="638">
+	<word id="634">
 		<jap>おわる</jap>
 		<eng>to finish</eng>
 		<eng>to close</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="639">
+	<word id="635">
 		<jap>きく</jap>
 		<eng>to hear</eng>
 		<eng>to listen</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="640">
+	<word id="636">
 		<jap>さわる</jap>
 		<eng>to touch</eng>
 		<eng>to feel</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="641">
+	<word id="637">
 		<jap>なおす</jap>
 		<eng>to fix</eng>
 		<eng>repair</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="642">
+	<word id="638">
 		<jap>すてる</jap>
 		<eng>to discard</eng>
 		<eng>throw away</eng>
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="643">
+	<word id="639">
 		<jap>よろこぶ</jap>
 		<eng>to celebrate</eng>
 		<eng>to be jubilant</eng>
@@ -4054,7 +4034,7 @@
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="644">
+	<word id="640">
 		<jap>よろこび</jap>
 		<eng>joy</eng>
 		<eng>delight</eng>
@@ -4062,7 +4042,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="645">
+	<word id="641">
 		<jap>なぐさめる</jap>
 		<eng>to console</eng>
 		<eng>to consolate</eng>
@@ -4070,7 +4050,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="646">
+	<word id="642">
 		<jap>あきる</jap>
 		<eng>to be disinterested</eng>
 		<eng>to be bored</eng>
@@ -4079,7 +4059,7 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="647">
+	<word id="643">
 		<jap>おどろく</jap>
 		<eng>to be astonished</eng>
 		<eng>to be surprised</eng>
@@ -4087,14 +4067,14 @@
 		<lvl>Medium</lvl>
 		<note></note>
 	</word>
-	<word id="648">
+	<word id="644">
 		<jap>あう</jap>
 		<eng>to meet</eng>
 		<eng>to interview</eng>
 		<lvl>Easy</lvl>
 		<note></note>
 	</word>
-	<word id="649">
+	<word id="645">
 		<jap>あける</jap>
 		<eng>to open</eng>
 		<eng>to unwrap</eng>

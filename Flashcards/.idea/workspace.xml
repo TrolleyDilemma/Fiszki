@@ -237,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545489285699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545914345884" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -284,6 +284,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Flashcards" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Flashcards" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Flashcards" />
       <extension name="coverage">
@@ -294,20 +302,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
       <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.AppTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CorrectWordLoadTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Flashcards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.trolleydilemma.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.trolleydilemma" />
-      <option name="MAIN_CLASS_NAME" value="com.github.trolleydilemma.CorrectWordLoadTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -343,17 +337,17 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.AppTest" />
-      <item itemvalue="JUnit.CorrectWordLoadTest" />
       <item itemvalue="JUnit.FileUtilityTest" />
       <item itemvalue="JUnit.VocabularyTest" />
+      <item itemvalue="JUnit.All in Flashcards" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Flashcards" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.FileUtilityTest" />
         <item itemvalue="JUnit.VocabularyTest" />
         <item itemvalue="JUnit.AppTest" />
-        <item itemvalue="JUnit.CorrectWordLoadTest" />
       </list>
     </recent_temporary>
   </component>
