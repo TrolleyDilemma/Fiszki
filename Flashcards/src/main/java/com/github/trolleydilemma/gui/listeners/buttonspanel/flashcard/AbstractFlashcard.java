@@ -26,5 +26,7 @@ public abstract class AbstractFlashcard {
         buttonsPanel.setMainPanel(mainPanel);
         buttonsPanel.add(mainPanel);
         buttonsPanel.repaint();
+
+        App.getWindow().getStatusBar().setText("Opened: Vocabulary " + type.toString().toLowerCase());
     }
 }
