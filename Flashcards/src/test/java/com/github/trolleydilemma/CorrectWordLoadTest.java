@@ -21,7 +21,7 @@ public class CorrectWordLoadTest {
     @Test
     public void correctNumberOfElementsTest(){
         List<Word> list = XMLUtility.loadWords(getClass().getResourceAsStream(XMLPath));
-        Assert.assertEquals("Created incorrect number of elements",680,list.size());
+        Assert.assertEquals("Created incorrect number of elements",646,list.size());
     }
     /**
      * idExistanceInEveryWordTest check if every loaded word contains id.

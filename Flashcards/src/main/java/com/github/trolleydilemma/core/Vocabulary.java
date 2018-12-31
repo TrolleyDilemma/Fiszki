@@ -220,55 +220,38 @@ public class Vocabulary {
      * @exception OutOfWordsException thrown when list is too small to draw all needed vocabulary
      */
     public TestData drawForInputTest(VocabularyType type, int amountOfWords) throws OutOfWordsException {
+        switch(type) {
+            case ALL: return drawForInputTest(allVocabulary, amountOfWords);
+            case KNOWN: return drawForInputTest(knownVocabulary, amountOfWords);
+            case UNKNOWN: return drawForInputTest(unknownVocabulary, amountOfWords);
+            default: return null;
+        }
+    }
+
+    /**
+     * Method responsible for getting random Words from specified list of Words.
+     * @param listOfWords list from which words will be drawn
+     * @param amountOfWords amounts of words to draw
+     * @return TestData containing words for test
+     * @throws OutOfWordsException thrown when list is too small to draw all needed vocabulary
+     */
+    private TestData drawForInputTest(List<Word> listOfWords, int amountOfWords) throws OutOfWordsException {
         List<Word> toDraw = new ArrayList<>();
         List<Word> list = new ArrayList<>();
         Word next;
 
-        switch(type) {
-            case ALL: {
-                Collections.addAll(toDraw, allVocabulary.toArray(new Word[0]));
+        Collections.addAll(toDraw, listOfWords.toArray(new Word[0]));
 
-                for (int i=0; i<amountOfWords; i++) {
-                    try {
-                        next = toDraw.remove(random.nextInt(toDraw.size()));
-                        list.add(next);
-                    } catch (IllegalArgumentException e) {
-                        throw new OutOfWordsException();
-                    }
-                }
-
-                return new TestData(list,0);
+        for (int i=0; i<amountOfWords; i++) {
+            try {
+                next = toDraw.remove(random.nextInt(toDraw.size()));
+                list.add(next);
+            } catch (IllegalArgumentException e) {
+                throw new OutOfWordsException();
             }
-            case KNOWN: {
-                Collections.addAll(toDraw, knownVocabulary.toArray(new Word[0]));
-
-                for(int i=0; i<amountOfWords; i++) {
-                    try {
-                        next = toDraw.remove(random.nextInt(toDraw.size()));
-                        list.add(next);
-                    } catch (IllegalArgumentException e) {
-                        throw new OutOfWordsException();
-                    }
-                }
-
-                return new TestData(list,0);
-            }
-            case UNKNOWN: {
-                Collections.addAll(toDraw, unknownVocabulary.toArray(new Word[0]));
-
-                for(int i=0; i<amountOfWords; i++) {
-                    try {
-                        next = toDraw.remove(random.nextInt(toDraw.size()));
-                        list.add(next);
-                    } catch (IllegalArgumentException e) {
-                        throw new OutOfWordsException();
-                    }
-                }
-
-                return new TestData(list,0);
-            }
-            default: return null;
         }
+
+        return new TestData(list,0);
     }
 
     /**

@@ -1,4 +1,4 @@
-package com.github.trolleydilemma.gui.listeners.buttonspanel;
+package com.github.trolleydilemma.gui.listeners.buttonspanel.test;
 
 import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.core.datastructures.TestData;
@@ -9,9 +9,11 @@ import com.github.trolleydilemma.gui.ChooseOneTest;
 import com.github.trolleydilemma.gui.MainPanel;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.reflect.InvocationTargetException;
+import java.util.List;
 
 /**
  * ActionListener for ChooseOneTest MenuItem. It loads ChooseOneTest Panel to main window.
@@ -46,21 +48,21 @@ public class ChooseOneTestActionListener implements ActionListener {
 
                         switch (testData.getMainWordId()) {
                             case 0:
-                                //TODO: set text field to: testData.getWords().get(0).getJapanese().get(0)
-                                System.out.println(testData.getWords().get(0).getJapanese().get(0));
+                                displayWord(0);
                                 break;
                             case 1:
-                                //TODO: set text field to: testData.getWords().get(1).getJapanese().get(0)
-                                System.out.println(testData.getWords().get(1).getJapanese().get(0));
+                                displayWord(1);
                                 break;
                             case 2:
-                                //TODO: set text field to: testData.getWords().get(2).getJapanese().get(0)
-                                System.out.println(testData.getWords().get(2).getJapanese().get(0));
+                                displayWord(2);
                                 break;
                             case 3:
-                                //TODO: set text field to: testData.getWords().get(3).getJapanese().get(0)
-                                System.out.println(testData.getWords().get(3).getJapanese().get(0));
+                                displayWord(3);
+                                break;
+                            default: throw new UnsupportedOperationException();
                         }
+
+                        App.getWindow().getStatusBar().setText("Opened: Choose One Test");
 
                     });
                 } catch (InterruptedException | InvocationTargetException ex) {
@@ -73,6 +75,40 @@ public class ChooseOneTestActionListener implements ActionListener {
         } else {
             SwingUtilities.invokeLater(() -> JOptionPane.showMessageDialog(App.getWindow(),
                     "You don't have any known vocabulary to draw from.", "No vocabulary", JOptionPane.INFORMATION_MESSAGE));
+        }
+    }
+
+    /**
+     * Display japanese word(s) on TextPane in ChooseOneTest panel.
+     * @param id id of the word to display in the testData
+     */
+    private void displayWord(int id) {
+        List<String> japanese = testData.getWords().get(id).getJapanese();
+        StringBuilder sb = new StringBuilder();
+
+        japanese.forEach(jap -> {
+            sb.append(jap);
+            sb.append('\n');
+        });
+
+        chooseOneTest.getText().setText(sb.toString());
+        chooseOneTest.getText().setFont(new Font("Thoma", Font.BOLD, getFontSize(id)));
+    }
+
+    /**
+     * Get font size depending on size of japanese vocabulary List in main Word.
+     * @return font size for the main TextPane
+     */
+    private int getFontSize(int mainWordId) {
+        int count = testData.getWords().get(mainWordId).getJapanese().size();
+
+        switch(count) {
+            case 1: return 64;
+            case 2: return 48;
+            case 3: return 32;
+            case 4: return 28;
+            case 5: return 24;
+            default: return 22;
         }
     }
 

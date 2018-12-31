@@ -1,7 +1,7 @@
 package com.github.trolleydilemma.gui;
 
 import com.github.trolleydilemma.core.datastructures.TestData;
-import com.github.trolleydilemma.gui.listeners.buttonspanel.ChooseOneTestActionListener;
+import com.github.trolleydilemma.gui.listeners.buttonspanel.test.ChooseOneTestActionListener;
 import com.github.trolleydilemma.gui.listeners.chooseonetest.AnswerButtonActionListener;
 
 import javax.swing.*;
@@ -31,8 +31,6 @@ public class ChooseOneTest extends MainPanel {
         text.setFont(new Font("Thoma", Font.PLAIN, 15));
         text.setBounds(5,20, 590,180);
         text.setEnabled(false);
-        //text.setText("test raz dwa trzy");
-        //text.setBorder(BorderFactory.createLineBorder(Color.black));
         StyledDocument doc = text.getStyledDocument();
         SimpleAttributeSet center = new SimpleAttributeSet();
         StyleConstants.setAlignment(center, StyleConstants.ALIGN_CENTER);
@@ -84,13 +82,8 @@ public class ChooseOneTest extends MainPanel {
     public JButton getAnswerC() { return answerC; }
     public JButton getAnswerD() { return answerD; }
 
-    public void setAnswerA(JButton arg) { answerA = arg; }
-    public void setAnswerB(JButton arg) { answerB = arg; }
-    public void setAnswerC(JButton arg) { answerC = arg; }
-    public void setAnswerD(JButton arg) { answerD = arg; }
-
     public JPanel getWord() { return word; }
-    public JButton getNext() { return answerA; }
+    public JTextPane getText() { return text; }
 
     public TestData getTestData() { return testData; }
     public void setTestData(TestData arg) { testData = arg; }

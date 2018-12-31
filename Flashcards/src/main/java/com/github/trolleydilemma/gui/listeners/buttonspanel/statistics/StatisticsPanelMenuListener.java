@@ -1,4 +1,4 @@
-package com.github.trolleydilemma.gui.listeners.buttonspanel;
+package com.github.trolleydilemma.gui.listeners.buttonspanel.statistics;
 
 import com.github.trolleydilemma.core.App;
 import com.github.trolleydilemma.gui.ButtonsPanel;
@@ -25,6 +25,8 @@ public class StatisticsPanelMenuListener implements MenuListener {
         buttonsPanel.setMainPanel(mainPanel);
         buttonsPanel.add(mainPanel);
         buttonsPanel.repaint();
+
+        App.getWindow().getStatusBar().setText("Opened: Statistics");
     }
 
     @Override
