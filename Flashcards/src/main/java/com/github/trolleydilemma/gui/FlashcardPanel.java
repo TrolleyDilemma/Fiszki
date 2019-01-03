@@ -39,14 +39,14 @@ public class FlashcardPanel extends MainPanel {
 
 
     /**
-     * Initialize component
+     * Method creating and places all containers and buttons in the right spots
      */
     private void init(){
 
         setLayout(null);
 
         back = new JButton("Back");
-        back.setFont(new Font("Thoma", Font.BOLD, 18));
+        back.setFont(new Font("Arial", Font.BOLD, 18));
         back.setBounds(190,380,120,45);
         back.setFocusable(false);
         back.setIcon(new ImageIcon(getClass().getResource("/images/Back.png")));
@@ -56,7 +56,7 @@ public class FlashcardPanel extends MainPanel {
         add(back);
 
         roll = new JButton("Roll");
-        roll.setFont(new Font("Thoma", Font.BOLD, 18));
+        roll.setFont(new Font("Arial", Font.BOLD, 18));
         roll.setBounds(340,380,120,45);
         roll.setFocusable(false);
         roll.setIcon(new ImageIcon(getClass().getResource("/images/Roll.png")));
@@ -65,7 +65,7 @@ public class FlashcardPanel extends MainPanel {
         add(roll);
 
         next = new JButton("Next");
-        next.setFont(new Font("Thoma", Font.BOLD, 18));
+        next.setFont(new Font("Arial", Font.BOLD, 18));
         next.setBounds(490,380,120,45);
         next.setFocusable(false);
         next.setHorizontalTextPosition(SwingConstants.LEFT);
@@ -89,7 +89,6 @@ public class FlashcardPanel extends MainPanel {
         check = new JButtonBox(false);
         check.setLocation(665, 385);
         check.setSize(35,35);
-        //check.setOpaque(false);
         check.setFocusable(false);
         add(check);
 
@@ -116,6 +115,7 @@ public class FlashcardPanel extends MainPanel {
             check.setChecked(w.isLearned());
         }
         add(flashcard);
+
     }
 
     /**
@@ -156,6 +156,9 @@ public class FlashcardPanel extends MainPanel {
     private JButtonBox check;
     private Flashcard flashcard;
 
+    /**
+     * Inside class "JButtonBox" allow to add icon to button and some other features which we use above in our main class "FlashcardPanel"
+     */
     private class JButtonBox extends JButton {
 
         private BufferedImage checkBox;
@@ -183,12 +186,10 @@ public class FlashcardPanel extends MainPanel {
                 g2.drawImage(checkBox, 0,0,this.getWidth(),this.getHeight(),this);
 
             }
-
         }
 
         public boolean isChecked(){return isChecked;}
         public void setChecked(boolean isChecked){this.isChecked = isChecked;}
 
     }
-
 }
