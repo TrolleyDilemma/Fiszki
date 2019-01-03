@@ -8,6 +8,10 @@ import com.github.trolleydilemma.gui.listeners.inputtest.RevealButtonActionListe
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Class creating "InputTest", sets up panel with input answers
+ * @author Blazej Zurawik
+ */
 public class InputTest extends MainPanel {
 
     public InputTest (){
@@ -17,6 +21,9 @@ public class InputTest extends MainPanel {
 
     }
 
+    /**
+     * Method creating and places all containers and buttons in the right spots
+     */
     private void init(){
 
         firstWord = new JTextField();
@@ -54,40 +61,38 @@ public class InputTest extends MainPanel {
         fifthWord.setEditable(false);
         add(fifthWord);
 
-            firstAnswer = new JTextField();
-            firstAnswer.setBounds(500,30,200,50);
-            firstAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-            firstAnswer.setHorizontalAlignment(JTextField.CENTER);
-            add(firstAnswer);
+        firstAnswer = new JTextField();
+        firstAnswer.setBounds(500,30,200,50);
+        firstAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+        firstAnswer.setHorizontalAlignment(JTextField.CENTER);
+        add(firstAnswer);
 
-            secondAnswer = new JTextField();
-            secondAnswer.setBounds(500,100,200,50);
-            secondAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-            secondAnswer.setHorizontalAlignment(JTextField.CENTER);
-            add(secondAnswer);
+        secondAnswer = new JTextField();
+        secondAnswer.setBounds(500,100,200,50);
+        secondAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+        secondAnswer.setHorizontalAlignment(JTextField.CENTER);
+        add(secondAnswer);
 
-            thirdAnswer = new JTextField();
-            thirdAnswer.setBounds(500,170,200,50);
-            thirdAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-            thirdAnswer.setHorizontalAlignment(JTextField.CENTER);
-            add(thirdAnswer);
+        thirdAnswer = new JTextField();
+        thirdAnswer.setBounds(500,170,200,50);
+        thirdAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+        thirdAnswer.setHorizontalAlignment(JTextField.CENTER);
+        add(thirdAnswer);
 
-            fourthAnswer = new JTextField();
-            fourthAnswer.setBounds(500,240,200,50);
-            fourthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-            fourthAnswer.setHorizontalAlignment(JTextField.CENTER);
-            add(fourthAnswer);
+        fourthAnswer = new JTextField();
+        fourthAnswer.setBounds(500,240,200,50);
+        fourthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+        fourthAnswer.setHorizontalAlignment(JTextField.CENTER);
+        add(fourthAnswer);
 
-            fifthAnswer = new JTextField();
-            fifthAnswer.setBounds(500,310,200,50);
-            fifthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-            fifthAnswer.setHorizontalAlignment(JTextField.CENTER);
-            add(fifthAnswer);
-
-
+        fifthAnswer = new JTextField();
+        fifthAnswer.setBounds(500,310,200,50);
+        fifthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
+        fifthAnswer.setHorizontalAlignment(JTextField.CENTER);
+        add(fifthAnswer);
 
         next = new JButton("Next");
-        next.setFont(new Font("Thoma", Font.BOLD, 18));
+        next.setFont(new Font("Arial", Font.BOLD, 18));
         next.setBounds(660,415,120,45);
         next.setFocusable(false);
         next.setHorizontalTextPosition(SwingConstants.LEFT);
@@ -98,7 +103,7 @@ public class InputTest extends MainPanel {
 
 
         check = new JButton("Check");
-        check.setFont(new Font("Thoma", Font.BOLD, 18));
+        check.setFont(new Font("Arial", Font.BOLD, 18));
         check.setBounds(325,135,150,50);
         check.setFocusable(false);
         check.setHorizontalTextPosition(SwingConstants.LEFT);
@@ -107,7 +112,7 @@ public class InputTest extends MainPanel {
 
 
         reveal = new JButton("Reveal");
-        reveal.setFont(new Font("Thoma", Font.BOLD, 18));
+        reveal.setFont(new Font("Arial", Font.BOLD, 18));
         reveal.setBounds(325,205,150,50);
         reveal.setFocusable(false);
         reveal.setHorizontalTextPosition(SwingConstants.LEFT);

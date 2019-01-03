@@ -3,10 +3,12 @@ package com.github.trolleydilemma.gui;
 import com.github.trolleydilemma.gui.listeners.MainWindowAdapter;
 
 import javax.swing.*;
-import javax.swing.border.EmptyBorder;
 import java.awt.*;
-import java.io.IOException;
 
+/**
+ * Class creating "Window" which is main window of application
+ * @author Blazej Zurawik
+ */
 public class Window extends JFrame {
 
     private JPanel contentPane_1;
@@ -19,6 +21,10 @@ public class Window extends JFrame {
 
     }
 
+
+    /**
+     * Method creating and places all containers in the right spots
+     */
     private void init() {
 
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);

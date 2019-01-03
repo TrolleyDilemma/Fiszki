@@ -16,6 +16,9 @@ public abstract class MainPanel extends JPanel {
 
     }
 
+    /**
+     * Method creating and places container in the right spot
+     */
     private void init(){
 
         setLayout(null);

@@ -3,7 +3,6 @@ package com.github.trolleydilemma.gui;
 import com.github.trolleydilemma.core.datastructures.Word;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.text.SimpleAttributeSet;
 import javax.swing.text.StyleConstants;
 import javax.swing.text.StyledDocument;
@@ -16,6 +15,7 @@ import java.awt.event.MouseListener;
  * @author Blazej Zurawik, Michal Glogowski
  */
 public class Flashcard extends JPanel {
+
     /**
      * Constructor that takes in Word which will Flashcard represent
      * @param word Word which will Flashcard represent
@@ -27,9 +27,10 @@ public class Flashcard extends JPanel {
     }
 
     /**
-     * Initialize component
+     * Method creating and places all containers in the right spots
      */
     private void init() {
+
         setBounds(100, 50, 600, 315);
         setLayout(null);
         setBorder(BorderFactory.createLineBorder(Color.black));
@@ -37,7 +38,7 @@ public class Flashcard extends JPanel {
         createWordTextPane();
 
         note = new JTextPane();
-        note.setFont(new Font("Thoma", Font.PLAIN, 15));
+        note.setFont(new Font("Arial", Font.PLAIN, 15));
         note.setBounds(100,240, 400,50);
         note.setEnabled(false);
         note.addMouseListener(myMouseListener);
@@ -50,7 +51,7 @@ public class Flashcard extends JPanel {
 
         indexLevel = new JTextField();
         indexLevel.setBounds(555, 270, 40,20);
-        indexLevel.setFont(new Font("Thoma", Font.PLAIN, 15));
+        indexLevel.setFont(new Font("Arial", Font.PLAIN, 15));
         indexLevel.setEnabled(false);
         indexLevel.setBorder(null);
         indexLevel.setHorizontalAlignment(JTextField.CENTER);
@@ -60,7 +61,7 @@ public class Flashcard extends JPanel {
 
         indexNum = new JTextField();
         indexNum.setBounds(555, 290, 40,20);
-        indexNum.setFont(new Font("Thoma", Font.PLAIN, 15));
+        indexNum.setFont(new Font("Arial", Font.PLAIN, 15));
         indexNum.setEnabled(false);
         indexNum.setBorder(null);
         indexNum.setHorizontalAlignment(JTextField.CENTER);
@@ -69,6 +70,7 @@ public class Flashcard extends JPanel {
         add(indexNum);
 
         addMouseListener(myMouseListener);
+
     }
 
     private Word word;
@@ -86,12 +88,12 @@ public class Flashcard extends JPanel {
      */
     private void createWordTextPane() {
         if(wordTextPane != null)
-            remove(wordTextPane);   //remove component from JPanel
+            remove(wordTextPane);
 
         isEnglish = !isEnglish;
 
         wordTextPane = new JTextPane();
-        wordTextPane.setFont(new Font("Thoma", Font.BOLD, getFontSize()));
+        wordTextPane.setFont(new Font("Arial", Font.BOLD, getFontSize()));
         wordTextPane.setBounds(3,40,594,180);
         wordTextPane.setEnabled(false);
         wordTextPane.addMouseListener(myMouseListener);

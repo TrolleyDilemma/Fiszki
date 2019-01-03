@@ -7,6 +7,10 @@ import javax.swing.*;
 import java.awt.*;
 import java.text.DecimalFormat;
 
+/**
+ * Class creating "StatisticPanel, sets up panel with all statistics from learning
+ * @author Blazej Zurawik
+ */
 public class StatisticsPanel extends MainPanel {
 
     public  StatisticsPanel(){
@@ -16,9 +20,10 @@ public class StatisticsPanel extends MainPanel {
 
     }
 
+    /**
+     * Method creating and places all containers in the right spots
+     */
     private void init(){
-
-        //TODO: czy da sie zeobic napis Vertical?
 
         progressE = new JProgressBar(JProgressBar.VERTICAL);
         progressE.setBounds(200, 52, 50, 320);
@@ -31,7 +36,7 @@ public class StatisticsPanel extends MainPanel {
         add(progressE);
 
         valueEasy = new JTextField();
-        valueEasy.setFont(new Font("Thoma", Font.PLAIN, 18));
+        valueEasy.setFont(new Font("Arial", Font.PLAIN, 18));
         valueEasy.setBounds(175,20,100,30);
         valueEasy.setEditable(false);
         valueEasy.setOpaque(false);
@@ -40,7 +45,7 @@ public class StatisticsPanel extends MainPanel {
         add(valueEasy);
 
         JTextArea easy = new JTextArea("Easy");
-        easy.setFont(new Font("Thoma", Font.BOLD, 18));
+        easy.setFont(new Font("Arial", Font.BOLD, 18));
         easy.setBounds(201,375,65,30);
         easy.setEditable(false);
         easy.setOpaque(false);
@@ -57,7 +62,7 @@ public class StatisticsPanel extends MainPanel {
         add(progressM);
 
         valueMedium = new JTextField();
-        valueMedium.setFont(new Font("Thoma", Font.PLAIN, 18));
+        valueMedium.setFont(new Font("Arial", Font.PLAIN, 18));
         valueMedium.setBounds(350,20,100,30);
         valueMedium.setEditable(false);
         valueMedium.setOpaque(false);
@@ -66,7 +71,7 @@ public class StatisticsPanel extends MainPanel {
         add(valueMedium);
 
         JTextArea medium = new JTextArea("Medium");
-        medium.setFont(new Font("Thoma", Font.BOLD, 18));
+        medium.setFont(new Font("Arial", Font.BOLD, 18));
         medium.setBounds(364,375,70,30);
         medium.setEditable(false);
         medium.setOpaque(false);
@@ -83,7 +88,7 @@ public class StatisticsPanel extends MainPanel {
         add(progressH);
 
         valueHard = new JTextField();
-        valueHard.setFont(new Font("Thoma", Font.PLAIN, 18));
+        valueHard.setFont(new Font("Arial", Font.PLAIN, 18));
         valueHard.setBounds(525,20,100,30);
         valueHard.setEditable(false);
         valueHard.setOpaque(false);
@@ -92,7 +97,7 @@ public class StatisticsPanel extends MainPanel {
         add(valueHard);
 
         JTextArea hard = new JTextArea("Hard");
-        hard.setFont(new Font("Thoma", Font.BOLD, 18));
+        hard.setFont(new Font("Arial", Font.BOLD, 18));
         hard.setBounds(553,375,65,30);
         hard.setEditable(false);
         hard.setOpaque(false);
@@ -112,7 +117,11 @@ public class StatisticsPanel extends MainPanel {
 
     }
 
+    /**
+     * Method updated progress bar
+     */
     private void updateProgressBar() {
+
         progressAll.setValue((int) App.getVocabulary().getProgress());
         progressE.setValue((int) App.getVocabulary().getProgress(VocabularyLevel.EASY));
         progressM.setValue((int) App.getVocabulary().getProgress(VocabularyLevel.MEDIUM));
@@ -122,14 +131,17 @@ public class StatisticsPanel extends MainPanel {
         valueMedium.setText(progressM.getValue() + "/" + progressM.getMaximum());
         valueHard.setText(progressH.getValue() + "/" + progressH.getMaximum());
         setTextForMainProgressBar();
+
     }
 
     /**
      * Method responsible for changing text on main progress bar with after decimal precision.
      */
     private void setTextForMainProgressBar() {
+
         double percentage = (double)progressAll.getValue() / progressAll.getMaximum();
         progressAll.setString(formatter.format(percentage));
+
     }
 
     private DecimalFormat formatter = new DecimalFormat("#.#%");
