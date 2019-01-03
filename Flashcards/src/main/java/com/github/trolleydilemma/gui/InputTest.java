@@ -14,7 +14,7 @@ import java.awt.*;
  */
 public class InputTest extends MainPanel {
 
-    public InputTest (){
+    public InputTest(){
 
         super();
         init();
@@ -26,70 +26,18 @@ public class InputTest extends MainPanel {
      */
     private void init(){
 
-        firstWord = new JTextField();
-        firstWord.setBounds(100,30,200,50);
-        firstWord.setFont(new Font("Tehoma", Font.BOLD, 18));
-        firstWord.setHorizontalAlignment(JTextField.CENTER);
-        firstWord.setEditable(false);
-        add(firstWord);
+        firstWord = createTextField(100,30,false);
+        secondWord = createTextField(100,100,false);
+        thirdWord = createTextField(100,170,false);
+        fourthWord = createTextField(100,240,false);
+        fifthWord = createTextField(100,310,false);
 
-        secondWord = new JTextField();
-        secondWord.setBounds(100,100,200,50);
-        secondWord.setFont(new Font("Tehoma", Font.BOLD, 18));
-        secondWord.setHorizontalAlignment(JTextField.CENTER);
-        secondWord.setEditable(false);
-        add(secondWord);
+        firstAnswer = createTextField(500,30,true);
+        secondAnswer = createTextField(500,100,true);
+        thirdAnswer = createTextField(500,170,true);
+        fourthAnswer = createTextField(500,240,true);
+        fifthAnswer = createTextField(500,310,true);
 
-        thirdWord = new JTextField();
-        thirdWord.setBounds(100,170,200,50);
-        thirdWord.setFont(new Font("Tehoma", Font.BOLD, 18));
-        thirdWord.setHorizontalAlignment(JTextField.CENTER);
-        thirdWord.setEditable(false);
-        add(thirdWord);
-
-        fourthWord = new JTextField();
-        fourthWord.setBounds(100,240,200,50);
-        fourthWord.setFont(new Font("Tehoma", Font.BOLD, 18));
-        fourthWord.setHorizontalAlignment(JTextField.CENTER);
-        fourthWord.setEditable(false);
-        add(fourthWord);
-
-        fifthWord = new JTextField();
-        fifthWord.setBounds(100,310,200,50);
-        fifthWord.setFont(new Font("Tehoma", Font.BOLD, 18));
-        fifthWord.setHorizontalAlignment(JTextField.CENTER);
-        fifthWord.setEditable(false);
-        add(fifthWord);
-
-        firstAnswer = new JTextField();
-        firstAnswer.setBounds(500,30,200,50);
-        firstAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-        firstAnswer.setHorizontalAlignment(JTextField.CENTER);
-        add(firstAnswer);
-
-        secondAnswer = new JTextField();
-        secondAnswer.setBounds(500,100,200,50);
-        secondAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-        secondAnswer.setHorizontalAlignment(JTextField.CENTER);
-        add(secondAnswer);
-
-        thirdAnswer = new JTextField();
-        thirdAnswer.setBounds(500,170,200,50);
-        thirdAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-        thirdAnswer.setHorizontalAlignment(JTextField.CENTER);
-        add(thirdAnswer);
-
-        fourthAnswer = new JTextField();
-        fourthAnswer.setBounds(500,240,200,50);
-        fourthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-        fourthAnswer.setHorizontalAlignment(JTextField.CENTER);
-        add(fourthAnswer);
-
-        fifthAnswer = new JTextField();
-        fifthAnswer.setBounds(500,310,200,50);
-        fifthAnswer.setFont(new Font("Tehoma", Font.BOLD, 18));
-        fifthAnswer.setHorizontalAlignment(JTextField.CENTER);
-        add(fifthAnswer);
 
         next = new JButton("Next");
         next.setFont(new Font("Arial", Font.BOLD, 18));
@@ -118,6 +66,25 @@ public class InputTest extends MainPanel {
         reveal.setHorizontalTextPosition(SwingConstants.LEFT);
         reveal.addActionListener(new RevealButtonActionListener());
         add(reveal);
+
+    }
+
+    /**
+     * Method creating JTextField in the right place
+     * @param x x coordinate of text field
+     * @param y y coordinate of text field
+     * @param editable variable indicating if the text field is editable
+     * @return text field in specific coordinates
+     */
+    private JTextField createTextField(int x, int y, boolean editable){
+
+        JTextField textField = new JTextField();
+        textField.setBounds(x,y,200,50);
+        textField.setFont(new Font("Tehoma", Font.BOLD, 18));
+        textField.setHorizontalAlignment(JTextField.CENTER);
+        textField.setEditable(editable);
+        add(textField);
+        return textField;
 
     }
 

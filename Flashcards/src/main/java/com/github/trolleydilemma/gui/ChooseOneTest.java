@@ -44,33 +44,10 @@ public class ChooseOneTest extends MainPanel {
         doc.setParagraphAttributes(0, doc.getLength(), center, false);
         word.add(text);
 
-        answerA = new JButton();
-        answerA.setFont(new Font("Arial", Font.BOLD, 18));
-        answerA.setBounds(140,265,240,60);
-        answerA.setFocusable(false);
-        answerA.addActionListener(new AnswerButtonActionListener());
-        add(answerA);
-
-        answerB = new JButton();
-        answerB.setFont(new Font("Arial", Font.BOLD, 18));
-        answerB.setBounds(140,345,240,60);
-        answerB.setFocusable(false);
-        answerB.addActionListener(new AnswerButtonActionListener());
-        add(answerB);
-
-        answerC = new JButton();
-        answerC.setFont(new Font("Arial", Font.BOLD, 18));
-        answerC.setBounds(420,265,240,60);
-        answerC.setFocusable(false);
-        answerC.addActionListener(new AnswerButtonActionListener());
-        add(answerC);
-
-        answerD = new JButton();
-        answerD.setFont(new Font("Arial", Font.BOLD, 18));
-        answerD.setBounds(420,345,240,60);
-        answerD.setFocusable(false);
-        answerD.addActionListener(new AnswerButtonActionListener());
-        add(answerD);
+        answerA = createAnswerButton(140,265);
+        answerB = createAnswerButton(140,345);
+        answerC = createAnswerButton(420,265);
+        answerD = createAnswerButton(420,345);
 
         next = new JButton("Next");
         next.setFont(new Font("Arial", Font.BOLD, 18));
@@ -81,6 +58,24 @@ public class ChooseOneTest extends MainPanel {
         next.setIconTextGap(10);
         next.addActionListener(new ChooseOneTestActionListener());
         add(next);
+
+    }
+
+    /**
+     * Method creating answer button in the right place
+     * @param x x coordinate of button
+     * @param y y coordinate of button
+     * @return answer button in specific coordinates
+     */
+    private JButton createAnswerButton(int x, int y){
+
+        JButton button = new JButton();
+        button.setFont(new Font("Arial", Font.BOLD, 18));
+        button.setBounds(x,y,240,60);
+        button.setFocusable(false);
+        button.addActionListener(new AnswerButtonActionListener());
+        add(button);
+        return button;
 
     }
 

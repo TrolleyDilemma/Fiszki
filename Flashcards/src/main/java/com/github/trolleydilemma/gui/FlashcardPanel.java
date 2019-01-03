@@ -89,7 +89,6 @@ public class FlashcardPanel extends MainPanel {
         check = new JButtonBox(false);
         check.setLocation(665, 385);
         check.setSize(35,35);
-        //check.setOpaque(false);
         check.setFocusable(false);
         add(check);
 
@@ -157,6 +156,9 @@ public class FlashcardPanel extends MainPanel {
     private JButtonBox check;
     private Flashcard flashcard;
 
+    /**
+     * Inside class "JButtonBox" allow to add icon to button and some other features which we use above in our main class "FlashcardPanel"
+     */
     private class JButtonBox extends JButton {
 
         private BufferedImage checkBox;

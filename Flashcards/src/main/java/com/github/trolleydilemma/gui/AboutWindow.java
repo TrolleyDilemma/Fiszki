@@ -43,39 +43,14 @@ public class AboutWindow extends JDialog {
         name.setBounds(125, 130, 300,50);
         add(name);
 
-        JLabel cpr = new JLabel("Coppyright: © 2019");
-        cpr.setFont(new Font("Arial", Font.PLAIN, 14));
-        cpr.setBounds(130, 180, 300,50);
-        add(cpr);
+        createLabel("Coppyright: © 2019",180);
+        createLabel("Alicja Gronkiewicz",210);
+        createLabel("Michał Głogowski", 230);
+        createLabel("Błażej Żurawik",250);
+        createLabel("Krzysztof Berda",270);
+        createLabel("Bartosz Pietruszyński",290);
+        JLabel git = createLabel("GitHub: TrolleyDilemma",330);
 
-        JLabel first = new JLabel("Alicja Gronkiewicz");
-        first.setFont(new Font("Arial", Font.PLAIN, 14));
-        first.setBounds(130, 210, 300,50);
-        add(first);
-
-        JLabel second = new JLabel("Michał Głogowski");
-        second.setFont(new Font("Arial", Font.PLAIN, 14));
-        second.setBounds(130, 230, 300,50);
-        add(second);
-
-        JLabel third = new JLabel("Błażej Żurawik");
-        third.setFont(new Font("Arial", Font.PLAIN, 14));
-        third.setBounds(130, 250, 300,50);
-        add(third);
-
-        JLabel fourth = new JLabel("Krzysztof Berda");
-        fourth.setFont(new Font("Arial", Font.PLAIN, 14));
-        fourth.setBounds(130, 270, 300,50);
-        add(fourth);
-
-        JLabel fifth = new JLabel("Bartosz Pietruszyński");
-        fifth.setFont(new Font("Arial", Font.PLAIN, 14));
-        fifth.setBounds(130, 290, 300,50);
-        add(fifth);
-
-        JLabel git = new JLabel("GitHub: TrolleyDilemma");
-        git.setFont(new Font("Arial", Font.PLAIN, 14));
-        git.setBounds(130, 330, 300,30);
         git.setCursor(new Cursor(Cursor.HAND_CURSOR));
         git.addMouseListener(new MouseAdapter() {
             @Override
@@ -86,12 +61,8 @@ public class AboutWindow extends JDialog {
                 } catch (URISyntaxException | IOException ex) {}
             }
         });
-        add(git);
 
-        JLabel license = new JLabel("License: MIT");
-        license.setFont(new Font("Arial", Font.PLAIN, 14));
-        license.setBounds(130, 340, 300,50);
-        add(license);
+        createLabel("License: MIT",350);
 
         JButton ok = new JButton("Ok");
         ok.setFont(new Font("Arial", Font.PLAIN, 14));
@@ -101,6 +72,22 @@ public class AboutWindow extends JDialog {
 
         this.setModal(true);
         this.setVisible(true);
+
+    }
+
+    /**
+     * Create label with unified font and add it to the Dialog
+     * @param text text visible on the label
+     * @param y y coordinate of the label
+     * @return label in specific coordinates
+     */
+    private JLabel createLabel(String text, int y) {
+
+        JLabel label = new JLabel(text);
+        label.setFont(new Font("Arial", Font.PLAIN, 14));
+        label.setBounds(130, y, 150,50);
+        add(label);
+        return label;
 
     }
 }

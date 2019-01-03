@@ -114,6 +114,13 @@ public class ButtonsPanel extends JPanel {
      */
     public void deselectMenuStatistics() { menuStatistics.setSelected(false); }
 
+    /**
+     * Method that allow us to create JMenuItem just by induction this function
+     * @param title title of JmenuItem
+     * @param al ActionListener reacts to mouse click
+     * @param iconPath path to icon
+     * @return
+     */
     private JMenuItem createJMenuItem(String title,  ActionListener al, String iconPath) {
         JMenuItem jMenuItem;
         jMenuItem = new JMenuItem(title);
@@ -122,6 +129,9 @@ public class ButtonsPanel extends JPanel {
         return jMenuItem;
     }
 
+    /**
+     * Inside class "PaintMenu" allow to change background color to JMenu
+     */
     private class PaintMenu extends JMenu {
         public PaintMenu(String label, Color bgColor) {
             super(label);
