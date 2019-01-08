@@ -65,7 +65,7 @@ public class Vocabulary {
     }
 
     /**
-     * Method responsible for getting random Word from selected type of collection.
+     * Method responsible for getting a random Word from selected type of collection.
      * Used when drawing for "flashcard" panel due to save of additional information (history of draw).
      * @param type type of vocabulary (ALL, KNOWN, UNKNOWN)
      * @return random Word from selected type of collection
@@ -82,11 +82,10 @@ public class Vocabulary {
 
     /**
      * Draw from vocabulary list, add selected object to drawnVocabulary List and increment iterator
-     * (eventually delete all next elements on list after current iterator position)
      * @param vocabulary List from which will be drawn element
-     * @param drawnVocabulary List to which element will be added
+     * @param drawnVocabulary List to which the element will be added
      * @param iterator iterator attached to drawnVocabulary List
-     * @return randomly selected Word from vocabulary without drawnVocabulary collection
+     * @return randomly selected Word from vocabulary excluding drawnVocabulary collection
      * @exception OutOfWordsException thrown when list is empty
      */
     private Word internalDraw(List<Word> vocabulary, List<Word> drawnVocabulary, MyListIterator iterator) throws OutOfWordsException {
@@ -215,7 +214,7 @@ public class Vocabulary {
      * Method responsible for getting random Words from selected type of collection.
      * Used when drawing for InputTest panel.
      * @param type type of vocabulary (ALL, KNOWN, UNKNOWN)
-     * @param amountOfWords amounts of words to draw
+     * @param amountOfWords amount of words to draw
      * @return TestData containing words for test
      * @exception OutOfWordsException thrown when list is too small to draw all needed vocabulary
      */
@@ -231,7 +230,7 @@ public class Vocabulary {
     /**
      * Method responsible for getting random Words from specified list of Words.
      * @param listOfWords list from which words will be drawn
-     * @param amountOfWords amounts of words to draw
+     * @param amountOfWords amount of words to draw
      * @return TestData containing words for test
      * @throws OutOfWordsException thrown when list is too small to draw all needed vocabulary
      */
@@ -272,7 +271,7 @@ public class Vocabulary {
     }
 
     /**
-     * Save information about learning state of vocabulary
+     * Save information about the progress of learning the vocabulary
      */
     public void saveProgress() {
         JSONStringer stringer = new JSONStringer();
@@ -291,24 +290,24 @@ public class Vocabulary {
     }
 
     /**
-     * Get amount of known vocabulary of entire collection.
+     * Get amount of known vocabulary from the entire collection.
      * Recommended purpose of use: progress bar.
      * @return amount of known vocabulary
      */
     public long getProgress() { return allVocabulary.stream().filter(word -> word.isLearned()).count(); }
 
     /**
-     * Get amount of entire vocabulary.
+     * Get quantity of the entire vocabulary.
      * Recommended purpose of use: progress bar.
      * @return amount of entire vocabulary
      */
     public long getQuantity() { return allVocabulary.size(); }
 
     /**
-     * Get amount of known vocabulary of certain level.
+     * Get quantity of known vocabulary of certain level.
      * Recommended purpose of use: progress bar.
      * @param lvl level of vocabulary (EASY, MEDIUM, HARD)
-     * @return amount of known vocabulary
+     * @return quantity of known vocabulary
      */
     public long getProgress(VocabularyLevel lvl) {
         switch(lvl) {
@@ -320,10 +319,10 @@ public class Vocabulary {
     }
 
     /**
-     * Get amount of entire vocabulary of certain level.
+     * Get quantity of entire vocabulary of certain level.
      * Recommended purpose of use: progress bar.
      * @param lvl level of vocabulary (EASY, MEDIUM, HARD)
-     * @return amount of entire vocabulary
+     * @return quantity of entire vocabulary
      */
     public long getQuantity(VocabularyLevel lvl) {
         switch(lvl) {

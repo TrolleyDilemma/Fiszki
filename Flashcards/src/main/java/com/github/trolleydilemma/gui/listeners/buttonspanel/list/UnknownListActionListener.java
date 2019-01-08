@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * ActionListener for Unknown List MenuItem. It loads List Panel to main window and initialize it with unknown vocabulary.
+ * ActionListener for Unknown List MenuItem. It loads List Panel to main window and initializes it with unknown vocabulary.
  * @author Michal Glogowski
  */
 public class UnknownListActionListener extends AbstractList implements ActionListener {

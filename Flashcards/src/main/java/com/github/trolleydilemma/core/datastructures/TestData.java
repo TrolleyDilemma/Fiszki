@@ -4,13 +4,13 @@ import java.util.List;
 
 /**
  * Storage class for test data. It contains 4 words in List and id of main Word.
- * Main Word means Word that is displayed in test module, and user is asked for correct info about it.
+ * Main Word means Word that is displayed in test module, and user is supposed to write an answer
  * @author Michal Glogowski
  */
 public class TestData {
     /**
      * Constructor for TestData class
-     * @param words List full of words. One of them is mainWord. It is pointed by second argument.
+     * @param words List containing the words. One of them is mainWord. It is pointed by second argument.
      * @param mainWordId "Pointer" to mainWord
      */
     public TestData(List<Word> words, int mainWordId) {

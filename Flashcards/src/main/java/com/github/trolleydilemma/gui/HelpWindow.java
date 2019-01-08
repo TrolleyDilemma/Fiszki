@@ -5,7 +5,7 @@ import java.awt.*;
 import java.net.URL;
 
 /**
- * Class creating "HelpWindow", containing description and instruction(how to use) for application
+ * Class creating "HelpWindow", containing description and instruction(how to use) of application
  * @author Blazej Zurawik
  */
 public class HelpWindow extends JDialog {
@@ -17,8 +17,8 @@ public class HelpWindow extends JDialog {
 
     }
     /**
-     * Method creating and places all containers and buttons in the right spots
-     * @param window used in order to start position dialo
+     * Method creating and placing all containers and buttons in the right spots
+     * @param window used in order to start position dialog
      */
     private void init(JFrame window){
 

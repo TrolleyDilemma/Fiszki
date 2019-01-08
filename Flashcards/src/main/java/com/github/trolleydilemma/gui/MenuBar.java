@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 
 /**
- * Class creating "MenuBar", sets up Bar with "File" and "Help" menu
+ * Class creating "MenuBar", setting up Bar with "File" and "Help" menu
  * @author Blazej Zurawik
  */
 public class MenuBar extends JMenuBar {

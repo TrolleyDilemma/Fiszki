@@ -8,7 +8,7 @@ import java.awt.*;
 import java.text.DecimalFormat;
 
 /**
- * Class creating "StatisticPanel, sets up panel with all statistics from learning
+ * Class creating "StatisticPanel, setting up panel with all statistics from learning
  * @author Blazej Zurawik
  */
 public class StatisticsPanel extends MainPanel {
@@ -21,7 +21,7 @@ public class StatisticsPanel extends MainPanel {
     }
 
     /**
-     * Method creating and places all containers in the right spots
+     * Method creating and placing all containers in the right spots
      */
     private void init(){
 
@@ -118,7 +118,7 @@ public class StatisticsPanel extends MainPanel {
     }
 
     /**
-     * Method updated progress bar
+     * Method updating progress bar
      */
     private void updateProgressBar() {
 
@@ -135,7 +135,7 @@ public class StatisticsPanel extends MainPanel {
     }
 
     /**
-     * Method responsible for changing text on main progress bar with after decimal precision.
+     * Method responsible for changing text on main progress bar with one digit of precision
      */
     private void setTextForMainProgressBar() {
 

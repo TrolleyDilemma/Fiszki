@@ -10,10 +10,10 @@ import java.util.List;
 public class Word {
     /**
      * Constructor for Word class
-     * @param id unique id number for identifying word
+     * @param id unique id number for identifying words
      * @param eng list with english meanings
-     * @param jap list with japanese words
-     * @param lvl level of advance
+     * @param jap list with japanese meanings
+     * @param lvl level of advancement
      */
     public Word(int id, List<String> eng, List<String> jap, String lvl) { this(id,eng,jap,lvl,""); }
 
@@ -21,9 +21,9 @@ public class Word {
      * Constructor for Word class
      * @param id unique id number for identifying word
      * @param eng list with english meanings
-     * @param jap list with japanese words
-     * @param lvl level of advance
-     * @param note additional information about vocabulary
+     * @param jap list with japanese meanings
+     * @param lvl level of advancement
+     * @param note additional information about the meaning
      */
     public Word(int id, List<String> eng, List<String> jap, String lvl, String note) {
         this.id = id;

@@ -9,7 +9,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Class creating "InputTest", sets up panel with input answers
+ * Class creating "InputTest", setting up panel with input answers
  * @author Blazej Zurawik
  */
 public class InputTest extends MainPanel {
@@ -73,7 +73,7 @@ public class InputTest extends MainPanel {
      * Method creating JTextField in the right place
      * @param x x coordinate of text field
      * @param y y coordinate of text field
-     * @param editable variable indicating if the text field is editable
+     * @param editable variable indicating whether the text field is editable
      * @return text field in specific coordinates
      */
     private JTextField createTextField(int x, int y, boolean editable){

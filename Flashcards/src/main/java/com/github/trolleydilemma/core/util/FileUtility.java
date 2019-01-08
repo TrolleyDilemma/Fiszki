@@ -11,7 +11,7 @@ public class FileUtility {
 
     /**
      * Saves text file
-     * @param path path of a file to save
+     * @param path path of the file to save
      * @param content content of file to save
      * @param charsetName encoding of a file
      * @throws FileNotFoundException
@@ -37,8 +37,8 @@ public class FileUtility {
 
     /**
      * Saves text file
-     * @param path path of a file to save
-     * @param lines List to save; every position in list is write to separate line in file
+     * @param path path of the file to save
+     * @param lines List to save; every position in list is written to separate lines in file
      * @param charsetName encoding of a file
      * @throws FileNotFoundException
      * @throws UnsupportedEncodingException when encoding is incorrect
@@ -50,7 +50,7 @@ public class FileUtility {
     /**
      * Saves text file
      * @param file file to save
-     * @param lines List to save; every position in list is write to separate line in file
+     * @param lines List to save; every position in list is written to separate lines in file
      * @param charsetName encoding of a file
      * @throws FileNotFoundException
      * @throws UnsupportedEncodingException when encoding is incorrect
@@ -66,7 +66,7 @@ public class FileUtility {
 
     /**
      * Saves text file with UTF-8 encoding
-     * @param path path of a file to save
+     * @param path path of the file to save
      * @param content content of file to save
      * @throws FileNotFoundException
      */
@@ -91,7 +91,7 @@ public class FileUtility {
     /**
      * Saves text file with UTF-8 encoding
      * @param path path of a file to save
-     * @param lines List to save; every position in list is write to separate line in file
+     * @param lines List to save; every position in list is written to separate lines in file
      * @throws FileNotFoundException
      */
     public static void saveTextFile(String path, List<?> lines) throws FileNotFoundException {
@@ -103,7 +103,7 @@ public class FileUtility {
     /**
      * Saves text file with UTF-8 encoding
      * @param file file to save
-     * @param lines List to save; every position in list is write to separate line in file
+     * @param lines List to save; every position in list is written to separate lines in file
      * @throws FileNotFoundException
      */
     public static void saveTextFile(File file, List<?> lines) throws FileNotFoundException {

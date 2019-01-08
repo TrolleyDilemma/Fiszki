@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Class creating "Window" which is main window of application
+ * Class creating "Window" which is the main window of application
  * @author Blazej Zurawik
  */
 public class Window extends JFrame {
@@ -23,7 +23,7 @@ public class Window extends JFrame {
 
 
     /**
-     * Method creating and places all containers in the right spots
+     * Method creating and placing all containers in the right spots
      */
     private void init() {
 

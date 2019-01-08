@@ -11,14 +11,14 @@ import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 
 /**
- * Class representing Flashcard
+ * Class representing the Flashcard
  * @author Blazej Zurawik, Michal Glogowski
  */
 public class Flashcard extends JPanel {
 
     /**
-     * Constructor that takes in Word which will Flashcard represent
-     * @param word Word which will Flashcard represent
+     * Constructor that takes in Word which will be represented by Flashcard
+     * @param word Word which will be represented by Flashcard
      */
     public Flashcard(Word word) {
         super();
@@ -27,7 +27,7 @@ public class Flashcard extends JPanel {
     }
 
     /**
-     * Method creating and places all containers in the right spots
+     * Method creating and placing all containers in the right spots
      */
     private void init() {
 

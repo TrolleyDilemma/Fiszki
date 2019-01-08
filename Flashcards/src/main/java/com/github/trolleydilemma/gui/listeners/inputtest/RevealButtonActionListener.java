@@ -7,7 +7,7 @@ import java.awt.event.ActionEvent;
 
 /**
  * ActionListener for "Reveal" Button in ChooseOneTest panel.
- * When action is performed it changes backgrounds of JTextFields with answers accordingly to correctness of answers.
+ * When action is performed it changes backgrounds of JTextFields with answers appropriately to correctness of answers.
  * Additionally it sets correct answer in text fields if user was wrong also disabling "Check" and "Reveal" Buttons.
  * @author Michal Glogowski
  */

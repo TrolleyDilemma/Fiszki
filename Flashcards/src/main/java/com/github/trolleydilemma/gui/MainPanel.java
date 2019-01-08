@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Abstract class which we use instead "JPanel" when extends class.
- * MainPanel allow us to induce prepared JPanel with expected layout, size, background colour and border
+ * Abstract class which we use instead of "JPanel" when extending class.
+ * MainPanel allows us to initiate prepared JPanel with expected layout, size, background colour and border
  * @author Blazej Zurawik
  */
 public abstract class MainPanel extends JPanel {
@@ -18,7 +18,7 @@ public abstract class MainPanel extends JPanel {
     }
 
     /**
-     * Method creating and places container in the right spot
+     * Method creating and placing container in the right spot
      */
     private void init(){
 

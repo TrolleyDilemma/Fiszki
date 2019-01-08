@@ -28,7 +28,7 @@ public class FlashcardPanel extends MainPanel {
     private int progressInit = (int)App.getVocabulary().getProgress();
 
     /**
-     * Constructor that takes in type of Vocabulary that this Panel represents
+     * Constructor that takes in the type of Vocabulary that this Panel represents
      * @param vocabularyType type of Vocabulary that this Panel represents
      */
     public FlashcardPanel(VocabularyType vocabularyType){
@@ -39,7 +39,7 @@ public class FlashcardPanel extends MainPanel {
 
 
     /**
-     * Method creating and places all containers and buttons in the right spots
+     * Method creating and placing all containers and buttons in the right spots
      */
     private void init(){
 
@@ -127,7 +127,7 @@ public class FlashcardPanel extends MainPanel {
     }
 
     /**
-     * Method responsible for changing text on progress bar with after decimal precision.
+     * Method responsible for changing text on progress bar with one digit precision
      * It needs to be used after each progress bar update.
      */
     private void setTextForProgressBar() {
@@ -157,7 +157,7 @@ public class FlashcardPanel extends MainPanel {
     private Flashcard flashcard;
 
     /**
-     * Inside class "JButtonBox" allow to add icon to button and some other features which we use above in our main class "FlashcardPanel"
+     * Inner class of "JButtonBox" allowed to add icons to buttons and some other features which we use above in our main class "FlashcardPanel"
      */
     private class JButtonBox extends JButton {
 

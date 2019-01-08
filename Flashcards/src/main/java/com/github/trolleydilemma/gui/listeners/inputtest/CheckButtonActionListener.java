@@ -12,7 +12,7 @@ import java.util.List;
 
 /**
  * ActionListener for "Check" Button in ChooseOneTest panel.
- * When action is performed it changes backgrounds of JTextFields with answers accordingly to correctness of answers.
+ * When action is performed it changes backgrounds of JTextFields with answers appropriately to correctness of answers.
  * @author Michal Glogowski
  */
 public class CheckButtonActionListener implements ActionListener {
@@ -28,7 +28,7 @@ public class CheckButtonActionListener implements ActionListener {
     }
 
     /**
-     * Method responsible for checking and changing answerField accordingly to correctness of assigned Word.
+     * Method responsible for checking and changing answerField appropriately to correctness of assigned Word.
      * @param answerField JTextField which frame color will change and also will be used as a source of text to base on.
      * @param word Word object containing correct answers
      */

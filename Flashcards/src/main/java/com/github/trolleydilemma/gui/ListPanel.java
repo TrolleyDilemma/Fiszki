@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * Class creating "ListPanel", sets up panel with dictionary
+ * Class creating "ListPanel", setting up panel with dictionary
  * @author Blazej Zurawik
  */
 public class ListPanel extends MainPanel {
@@ -17,7 +17,7 @@ public class ListPanel extends MainPanel {
     }
 
     /**
-     * Method creating and places container in the right spot
+     * Method creating and placing container in the right spot
      */
     private void init(){
 

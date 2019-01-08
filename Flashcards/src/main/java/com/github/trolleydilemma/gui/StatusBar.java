@@ -5,7 +5,7 @@ import javax.swing.border.EmptyBorder;
 import java.awt.*;
 
 /**
- * Class creating "StatusBar", representing on real time where you are in application
+ * Class creating "StatusBar", representing in real time where you are in application
  * @author Blazej Zurawik
  */
 public class StatusBar extends JPanel {
@@ -18,7 +18,7 @@ public class StatusBar extends JPanel {
     }
 
     /**
-     * Method creating and places all containers in the right spots
+     * Method creating and placing all containers in the right spots
      */
     private void init() {
 

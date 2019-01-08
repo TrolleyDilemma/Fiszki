@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * ActionListener for All List MenuItem. It loads List Panel to main window and initialize it with entire vocabulary.
+ * ActionListener for All List MenuItem. It loads List Panel to main window and initializes it with entire vocabulary.
  * @author Michal Glogowski
  */
 public class AllListActionListener extends AbstractList implements ActionListener {
